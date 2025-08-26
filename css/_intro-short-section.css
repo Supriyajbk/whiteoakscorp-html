@@ -1,0 +1,10 @@
+.intro-short-section{position: relative; width: 100%; clear: both; z-index: 1;}
+.intro-short-wrap{padding: 5px 0 40px ;}
+.intro-short-main{text-align: center; max-width: 1040px; margin: 0 auto ;  }
+.intro-short-main p{font-size: 20px; font-weight: 400; line-height: 1.5;}
+.intro-short-main h2{margin-bottom: 25px;}
+.intro-thumb{position: absolute; right: 52px; bottom: 74px; width: 196px; display: block; z-index: -1; left: auto;}
+
+
+
+.intro-short-section.no-media {padding: 60px  0 0;}

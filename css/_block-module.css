@@ -1,0 +1,14 @@
+.block-module {width: 100%; z-index: 1; position: relative; clear: both; overflow: hidden; margin:62px 0; background: var(--deep-moss);  padding:  26px 32px 32px; color: var(--white); border-top: 3px solid var(--signal)}
+.block-inner {width: 100%; align-items: center; gap:24px; }
+.block-inner .block-lt { margin-top: -10px;}
+
+.block-inner .block-rt  {flex:1; position: relative}
+.block-inner .block-rt h4 {width: 550px; margin-bottom:0; line-height: 1.2;color: var(--white); font-weight:700;}
+.block-inner .block-rt svg{position: absolute; z-index: -1; display: block; top: -110px; left: 0; width: 551px; height: 284px;}
+
+
+
+/*-- media starts here --*/
+@media only screen and (max-width: 767px) and (min-width: 200px){
+	.block-inner {align-items: flex-start; flex-direction: column;}
+}

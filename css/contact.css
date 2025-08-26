@@ -1,0 +1,82 @@
+@import url("_locations-module.css");
+@import url("_signup-module.css");
+
+
+.contact-section {clear: both; color: var(--white);  width: 100%; padding: 38px 0 80px; position: relative; z-index: 1; background: var(--theme-bg);}
+.contact-main {gap: 6.21%;position: relative;  padding: 120px 0 0 0;}
+.contact-main h1 {margin: 0 0 32px 0; font-size: 2.5rem; line-height: 1.2; letter-spacing: -1.2px; color: var(--white);}
+.contact-main .contact-left {width: 350px;}
+.contact-main .contact-left:only-child {flex-grow: 1;}
+.contact-main .contact-left .optional-text { margin: 0 0 25px 0;}
+
+
+ .contact-links {clear: both; width: 100%; margin:0; padding: 0 }
+ .contact-links li{margin-bottom: 8px;}
+ .contact-links li a {  letter-spacing: -0.48px; font-weight: 700; line-height: 0.75;  color: var(--cd-a); display: inline-flex; gap: 8px; align-items: center;}
+ .contact-links li a span{color: var(--signal)}
+ .contact-links li::before{display: none;}
+ .contact-links li a svg{border: 1px solid var(--canopy); font-size: 1.25rem; width: 48px; height: 48px; position: relative; z-index: 1; line-height: 1; border-radius: 50%; padding: 11px }
+ .contact-right {flex: 1; padding: 40px ;}
+ .contact-links li:nth-child(2) a{ font-weight: 600;}
+.contact-links li a:hover{color: var(--signal);}
+.contact-links li a:hover svg{background-color: var(--signal); transition: 0.5s ease-in-out; transform: rotateY(360deg);}
+.contact-links li a:hover svg path{fill: var(--canopy);}
+
+.frm_forms.with_frm_style .frm_checkbox label span a{color: var(--signal);}
+.frm_forms.with_frm_style .frm_checkbox label span a:hover{color: var(--canopy)}
+
+.customer-support-section{position: relative; display: block; width: 100%; clear: both; background-color: var(--theme-bg);}
+.customer-support-main{gap: 32px; padding: 40px 0; z-index: 11; position: relative;}
+.customer-support-list h2{font-weight: 700; color: var(--white); letter-spacing: -0.48px; line-height: 1.5;}
+.customer-support-list p{color: var(--white); font-weight: 400; line-height: 1.7; font-size: 1rem; margin-bottom: 34px;}
+.customer-support-list-3 { flex:0 0 calc(33.333% - 22px) }
+.customer-support-list-2 { flex:0 0 calc(50% - 39px) }
+.customer-support-list-2 p{width: inherit}
+
+
+.waveform-con{position: absolute; z-index: -1; display: block; left: -464px; right: auto; top: 370px; opacity: 0.3; width: 873px}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width:1280px) {
+    .customer-support-list p{ width: 336px;}
+    .contact-links li a { font-size: 2rem;}
+    .contact-links li:nth-child(2) a{font-size: 1.5rem;}
+
+}
+
+@media only screen and (max-width:1279px) and  (min-width: 1024px) {
+    .contact-main {gap:2.25%;}
+    .contact-main .contact-right{padding: 30px;}
+    .contact-links li a { font-size: 1.5rem;}
+    .contact-links li:nth-child(2) a { font-size: 1.25rem;} }
+
+    .customer-support-main { gap: 28px;}
+
+@media only screen and (max-width: 1023px) and (min-width:200px){
+    .contact-section {padding: 40px 0;}
+    .contact-main .contact-left {width: 100%; margin-bottom: 20px;}
+    .contact-main .contact-right {width: 100%; padding: 0;}
+    
+     .contact-links li a { font-size: 2rem;}
+    .contact-links li:nth-child(2) a { font-size: 1.25rem;} 
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .customer-support-list-3 { flex: 0 0 calc(50% - 14px);} 
+       
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){ 
+    .contact-main{display: block;}
+    .contact-main .contact-left {font-size: 1rem; line-height: 1.5; margin-bottom: 14px;}
+    .contact-main h1 { font-size: 2.25rem; letter-spacing: -1.08px; line-height: 1.2; width: 320px; }
+    
+    .contact-main .contact-right {margin: 16px 0 0 0;}
+
+    .waveform-con{left: -482px; right: auto; top: 306px;}
+   
+    .customer-support-main{display: block; padding: 40px 0 20px;}
+    .customer-support-list{border-bottom: 1px solid var(--canopy); padding: 22px 0 8px;}
+    .customer-support-list:last-child{border-bottom: none;}
+}

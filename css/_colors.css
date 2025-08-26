@@ -1,0 +1,100 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+	--white-15: rgb(255 255 255 / 15%);
+    --white-20: rgb(255 255 255 / 20%);
+    --white-50: rgb(255 255 255 / 50%);
+    --white-75: rgb(255 255 255 / 75%);
+    --white-80: rgb(255 255 255 / 80%);
+    --body-text: #152022;
+    --body-color: #F3F3F1;
+	--heading: #152022; 
+    --optionaltxt: #00644f;
+    --anchor: #152022;
+    --anchor-hover: #00644f;
+    --theme : #E7FF25;
+    --signal : #E7FF25;
+    --beach :#F3F3F1;
+    --dark-mist:#D7D7D7;
+    --mist: #EFEFEF;
+    --canopy: #00644f;
+    --dark-forest: #152022;
+    --sherwood-green: #003D30;
+    --deep-moss: #00513f;
+    --light-blue: rgba(154, 186, 195, 0.25);
+
+    /* --play-bg: #D9D9D9;
+    --ad: rgb(145 145 145 / 40%);
+    --bill-ad: #272727; */
+
+    --btn-txt : #152022;
+    --btn-txt-hover : #ffffff;
+    --btn-bg : #E7FF25;
+    --btn-bg-hover: #00644f;
+
+    --signup-placeholder:#ffffff;
+    --signup-btn-txt: #000000;
+    --signup-btn-bg :  #E7FF25;
+    --signup-btnbg-hover : #ffffff;
+    --signup-btnbg-hover-txt: #00644f;
+    --signup-optional-txt: #E7FF25;
+    
+    --placeholder: #ffffff;
+    --readmore : #ffffff;
+    --readmore-hover: #00644f; 
+    
+   
+    --banner-shadow: rgba(21, 32, 34, 0.0);
+     --banner-shadow-20: rgba(21, 32, 34, 0.2);
+     --banner-shadow-100: rgba(21, 32, 34, 1);
+    --ul-bullets:#ffffff;
+
+    --slick-arrow: #ffffff;
+        
+    --cta-shadow: rgba(0, 0, 0, 0.00);
+    --cta-shadow-50: rgba(0, 0, 0, 0.50);
+    --cta-shadow-100: #000000;
+
+    --accordion-border: rgba(255, 255, 255, 0.25);
+    --accordion-aborder:rgba(255, 255, 255);
+    --accordion-a: #ffffff;
+    --accordion-icon: #000000;
+    
+    /* --sharebtn-bg: #ffffff; */
+    --sharebtn-hoverbg:#E7FF25;
+    --sharebtn-txt: #00513f;
+    
+    --eventbx-bg:#ffffff;
+    --eventbx-anchor:#000000;
+    --dashed-border:#b7b7b7;
+    
+    --filter-border:rgba(0, 8, 117, 0.25);
+    --filter-atxt:#000000;
+    
+    --input:#152022;
+    --optional-grey: rgb(255 255 255 / 50%);
+    --frm-txt: #ffffff;
+    --input-txt:#ffffff;
+    --frm-btn-hover:#ffffff;
+    
+    --cd-txt:#ffffff;
+    --cd-a:#ffffff;
+    --cd-ahover:#E7FF25;
+    
+    --theme-bg:#003D30; 
+    --recent-banner-bg :  #000000;
+
+    --black-bg: #000000; 
+    --menu-line: #f50000;
+    --menu-hover-bg: rgb(255 255 255 / 25%);
+
+    --ft-play-hover-bg:  #f50000;
+    
+    --ft-sticky-bg: #000000;
+    --ft-sticky-txt: #fffffff;
+
+    --cookie-bg: #151515;
+
+    --header-shadow: rgb(255 255 255 / 25%);
+    
+}

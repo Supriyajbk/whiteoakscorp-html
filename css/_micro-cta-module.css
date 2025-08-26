@@ -1,0 +1,28 @@
+.micro-cta-module {width: 100%; z-index: 1; position: relative; clear: both; overflow: hidden; margin:39px 0 64px; background: var(--light-blue);  background-color: var(--sherwood-green);}
+.micro-cta-main {margin: 0 auto; width: 100%; flex-direction: row-reverse;}
+
+.micro-cta-main .micro-cta-text {clear: both; padding:46px 40px 40px; position: relative; flex:1; font-size: 1rem;}
+.micro-cta-main .micro-cta-text .optional-text {font-size:14px; letter-spacing: normal;  font-weight: normal;  margin: 0 0 25px 0;}
+.micro-cta-main .micro-cta-text .btn-wrap .button {gap: 16px;}
+.micro-cta-thumb {width: 260px;}
+.micro-cta-text .h3{color: var(--white); line-height: 1.2;}
+.micro-cta-main .micro-cta-text .btn-wrap .readmore{color: var(--white); border: 2px solid var(--signal); border-radius: 50px; padding: 6px 11px 6px 22px; font-size: 1rem; font-weight: 600; gap: 8px; line-height: 1.5; letter-spacing: -0.32px;}
+.micro-cta-main .micro-cta-text .btn-wrap .readmore:after{ background-image: url("data:image/svg+xml,%3Csvg width='13' height='13' viewBox='0 0 13 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.499992 10.7872L8.36519 2.92213H0.5V0.5H12.5V12.5H10.0779V4.63485L2.21284 12.5L0.499992 10.7872Z' fill='%23E7FF25'/%3E%3C/svg%3E")}
+.micro-cta-text .h3 span{color: var(--signal);}
+
+.micro-cta-main .micro-cta-text .btn-wrap .readmore:hover{ background: var(--signal); color: var(--dark-forest) !important; }
+.micro-cta-main .micro-cta-text .btn-wrap .readmore:hover:after{background-image: url("data:image/svg+xml,%3Csvg width='13' height='13' viewBox='0 0 13 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.499992 10.7872L8.36519 2.92213H0.5V0.5H12.5V12.5H10.0779V4.63485L2.21284 12.5L0.499992 10.7872Z' fill='%23152022'/%3E%3C/svg%3E"); background-repeat: no-repeat;}
+
+
+
+/*-- media starts here --*/
+@media only screen and (max-width:1023px) and (min-width:768px){
+.micro-cta-main .micro-cta-text {padding:46px 30px 40px;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+	.micro-cta-thumb {width: 100%;}
+	.micro-cta-thumb img {border-radius: 20px 20px 0 0;}
+	.micro-cta-main .micro-cta-text {padding: 36px 20px 40px;}
+	.micro-cta-main .micro-cta-text .btn-wrap {margin-top: 30px;}
+}

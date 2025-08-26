@@ -1,0 +1,24 @@
+.accordion-module {clear: both; width: 100%; padding:32px 0 26px;}
+.accordion-main .accordion { margin:0 0 8px 0; background-color: var(--white);}
+.accordion-main .accordion:last-child {margin: 0;}
+
+.accordion-item .accordion-heading { display: block; line-height:1.5; font-size: 1.25rem; color: var(--dark-forest); text-decoration: none; font-weight:700; padding:26px 22px 24px 22px; position: relative; background-color: var(--brandbook-gray-light); letter-spacing: normal; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; border-bottom: 1px solid var(--dark-mist);}
+.accordion-item.active .accordion-heading {background: var(--white); padding: 26px 22px 28px 22px; border-bottom-left-radius: 0; border-bottom-right-radius: 0; color: var(--canopy); border-bottom: none;}
+
+.accordion-item .accordion-heading::after { content: "\f078"; font-family: "Font Awesome 6 Sharp"; font-style: normal; font-weight: 900; font-size: 16px; line-height: 32px; color: var(--dark-forest); right: 26px; top: 0; position: absolute; transition: all 0.8s ease-in-out; -webkit-transition: all 0.8s ease-in-out; -moz-transition: all 0.8s ease-in-out; bottom: 0; background: var(--signal); width: 48px; height: 48px; border-radius: 50px; align-items: center; display: flex; justify-content: center; position: absolute; top: 50%; transform: translate(0, -50%);}
+.accordion-item.active .accordion-heading::after {background-color: var(--canopy); color: var(--signal); content: "\f077";}
+.accordion-item {position: relative; align-content: center;}
+.accordion-item .content { display: none; padding:4px 20px 15px 20px; font-size: 0.875rem; background: var(--white); border-bottom-left-radius:10px; border-bottom-right-radius: 10px; opacity: 0.75; line-height: 1.57; color: var(--dark-forest);} 
+.accordion-item .content p {margin-bottom: 21px;}
+.accordion-item .content p:last-child {margin-bottom: 0;}
+
+/*-- media starts here --*/
+@media only screen and (max-width: 767px) and (min-width: 200px){
+	.accordion-module {padding: 17px 0 23px;}
+	.accordion-main .accordion { margin:0 0 15px 0;}
+	.accordion-item .accordion-heading {font-size: 0.938rem; line-height: 1.47; font-weight: 700; padding: 10px 60px 10px 20px;}
+	.accordion-item .accordion-heading::after {right: 23px;}
+	.accordion-item.active .accordion-heading {padding: 84px 40px 14px 20px;}
+	.accordion-item.active .accordion-heading::after {display: inline-block; top: 21px; transition: all 0.8s ease-in-out; -webkit-transition: all 0.8s ease-in-out; -moz-transition: all 0.8s ease-in-out;}
+	.accordion-item .content {padding: 1px 20px 13px 20px;}
+}

@@ -1,0 +1,36 @@
+@import url("_default-banner-section.css");
+@import url("_media-section.css");
+@import url("_intro-short-section.css");
+@import url("_featured-section.css");
+@import url("_repeater-section.css");
+@import url("_sec-wrap-section.css");
+@import url("slick.css");
+@import url("_request-section.css");
+@import url("_micro-cta-module.css");
+@import url("_block-module.css");
+@import url("_single-cta-section.css");
+@import url("_accordion-module.css");
+@import url("_single-testimonial-module.css");
+@import url("_media-download-section.css");
+
+
+.general-default-inner{padding-bottom: 80px;}
+.wave-def{position: absolute; width: 837px; z-index: -1; opacity: 0.4; height: 431px;}
+.wave-one { top: -38px; left: -431.5px; }
+
+.wave-two{top: 1700px; left: auto; right: -431px;}
+.wave-three{top: 2830px; left: -431.5px;;}
+.wave-four{bottom: -145px;left: auto; right: -431px;}
+
+/* Default Thumb */
+.default-thumb {margin-top:62px; margin-bottom: 65px; position: relative; clear: both; width: 100%;}
+.default-thumb figure img{height: 525px;}
+.default-thumb .fluid-width-wrapper {height: 100%;}
+.default-thumb-two {margin-top:62px; margin-bottom: 65px; position: relative; clear: both; width: 100%; min-height: 361px; display: flex; flex-wrap: wrap;}
+.default-thumb-two .fluid-width-wrapper {display: flex; flex-wrap: nowrap; gap:8px; align-items: stretch;}
+.default-thumb-two .default-thumb-flex {flex: 1; height: 100%;}
+.default-thumb-two figure img{height:361px;}
+
+.default-lt hr{margin: 0 0 21px;}
+.default-thumb + p{margin-bottom: 35px;}
+.default-lt h3{margin-bottom: 20px;}

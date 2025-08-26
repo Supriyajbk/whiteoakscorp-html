@@ -1,0 +1,8 @@
+.featured-section{position: relative; width: 100% ; clear: both; display: block;}
+.featured-main{padding: 40px 0;}
+
+.featured-lists{gap: 32px}
+.featured-list{flex: 0 0 calc(25% - 24px);}
+.feature-icon{width: 48px; height: 48px; margin-bottom: 16px;}
+.featured-list h2{color: var(--deep-moss); letter-spacing: -0.48px; margin-bottom: 16px; line-height: 1.5;}
+.featured-list p{font-size: 16px; font-weight: 400; line-height: 1.7; margin-bottom: 31px;}

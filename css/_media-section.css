@@ -1,0 +1,22 @@
+.media-section{position: relative; width: 100%; clear: both; z-index: 1; display: block; top: -55px;}
+.media-main{gap: 40px; background-color: var(--white);}
+.media-left{flex:0 0 249.5px}
+.media-mid{flex: 0 0 249.5px}
+.media-right ul.media-links{gap: 24px; padding: 0 40px;}
+
+.media-mid .optional-text { margin-bottom: 13px; }
+.media-mid h2{line-height: 0.87; margin-bottom: 2px;}
+.media-mid span.position{font-size: 0.825rem; color: var(--canopy); line-height: 1.48; letter-spacing: -0.28px;}
+
+.media-right {flex: 1; }
+.media-links {clear: both; width: 100%; margin:0; padding: 0 }
+.media-links li{margin-bottom: 0;}
+.media-links li::before{display: none;}
+.media-links li a span sup{font-size: 0.7rem; bottom: 5px;}
+.media-links li a {  letter-spacing: -0.48px; font-size: 1rem; font-weight: 600; line-height: 0.75;  color: var(--dark-forest); display: inline-flex; gap: 6px; align-items: center;}
+.media-links li a span{color: var(--canopy)}
+.media-links li a svg{background-color: var(--signal); font-size: 1.25rem; width: 36px; height: 36px; position: relative; z-index: 1; line-height: 1; border-radius: 50%; padding: 9px }
+.media-links li a svg path{fill: var(--dark-forest)}
+.media-links li a:hover svg{background-color: var(--canopy); transition: 0.5s ease-in-out; transform: rotateY(360deg);}
+.media-links li a:hover svg path{fill: var(--signal);}
+.media-links li:nth-child(2) a{ font-weight: 600;}

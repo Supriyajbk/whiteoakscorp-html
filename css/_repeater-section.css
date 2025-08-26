@@ -1,0 +1,38 @@
+.repeater-section{clear: both; width: 100%; overflow: hidden;}
+.repeater-main{padding: 40px 0 40px 0; display: flex; flex-wrap:wrap; gap:80px;}
+.repeater-list {justify-content: space-between; gap:6.25%; line-height: 1.5; font-size: 1rem; align-items: center; position: relative;}
+.repeater-list:nth-child(2n) {flex-direction: row-reverse;}
+
+.repeater-text{width: 51%; flex-grow: 1; color: var(--dark-forest);}
+.repeater-text .optional-text {text-transform: uppercase; margin-bottom: 15px;}
+.repeater-text .h3 {margin-bottom: 24px;}
+.repeater-text ul, .repeater-text ol {margin:-7px 0 17px 21px;}
+.repeater-text ul > li:before {display: none;}
+.repeater-text ul > li:after{left: -17px; color: var(--canopy); font-weight: 700; font-family: "Font Awesome 6 Sharp"; content: "\f054"; right: auto; position: absolute; top: 5px; width: 10px; height: 10px; font-size: 9px}
+.repeater-text p{opacity: 0.8; line-height: 1.7; margin-bottom: 30px;}
+
+.repeater-text .btn {padding:5px 0 0 0;}
+.repeater-img{width: 40.6%;flex-grow: 1; max-height: 400px; height: 100%; position: relative;}
+
+.repeater-line-thumb{ position: absolute; left: -60px; top: -32px; width: 196px; display: block; z-index: -1; right: auto;}
+.repeater-list:nth-child(2n) .repeater-line-thumb{position: absolute; left: auto; top: -40px; width: 196px; display: block; z-index: -1; right: 363px;}
+  
+.page-template-default .repeater-main{padding: 40px 0 80px;}
+
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+    .repeater-main {gap:64px;}
+    .repeater-list {gap:30px;}
+    .repeater-img {width: 100%; height: 57.178vw;}
+    .repeater-text {width: 100%;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+    .repeater-main {gap:78px; padding:47px 0 47px;}
+	.repeater-img figure img {border-radius: 20px;}
+	.repeater-text .h2 {font-size: 2rem; margin-bottom: 27px;}
+	.repeater-text .optional-text {margin: 0 0 21px 0;}
+	.repeater-text .btn {padding: 8px 0 0 0;}
+	.repeater-text .btn .button {width: 100%;}
+	.repeater-text ul, .repeater-text ol {margin: 0px 0 17px 24px;}
+	
+}
