@@ -13,6 +13,7 @@
 @import url("_single-testimonial-module.css");
 @import url("_media-download-section.css");
 @import url("_cta-module.css");
+@import url("more-news-section.css");
 
 .general-default-inner{padding-bottom: 80px;}
 .wave-def{position: absolute; width: 837px; z-index: -1; opacity: 0.4; height: 431px;}
