@@ -11,14 +11,20 @@
 .default-banner-main .default-banner-text .cat-wrap ul li a:hover {color: var(--yellow);}
 .default-banner-main .default-banner-text .cat-date {font-size: 0.75rem; color: var(--white); font-weight: 500; letter-spacing: normal; padding: 0 0 0 19px;}
 .default-banner-main .default-banner-text .cat-date:before {content: "\f133"; font-family: "Font Awesome 6 Sharp"; font-weight: normal; position:absolute; left: 0; top: 0; display: block; font-weight: 900;}
-.default-banner-main .banner-wave{position: absolute; right: -516px; left: auto; bottom: 70px;}
+.default-banner-main .banner-wave{position: absolute; right: -516px; left: auto; bottom: 70px; z-index: -1;}
 
 
 
 
 /*-- media starts here --*/
 
+
+
 @media only screen and (max-width: 767px) and (min-width: 200px){
-	.default-banner-main {min-height:576px; align-items: flex-end; padding: 56px 0;}
-	.default-banner-main .default-banner-text p {font-weight: normal!important; font-size: 1.25rem; line-height: 1.4; padding-right: 31px;}
+	.default-banner-main {min-height:576px; align-items: flex-end; padding: 56px 0 115px;}
+	.default-banner-main .default-banner-text p {font-weight: normal!important; font-size: 1.25rem; line-height: 1.4; }
+	.default-banner-main .banner-wave {display: none;}
+	.default-banner-main .default-banner-text {text-align: center;}
+    .default-banner-main .default-banner-text h1 {font-size: 3rem;}
+
 }

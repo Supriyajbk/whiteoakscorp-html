@@ -37,6 +37,8 @@ body {font-family: "Inter", sans-serif; color:var(--body-text); font-size:1.125r
 
 hr.small{width: 48px; height: 3px; background-color: var(--canopy); margin: 0 auto 24px;}
 
+.container .container { padding: 0; }
+
 @keyframes bounceAlpha {
   0%   { opacity: 1; transform: translate(0, 0) scale(1); }
   25%  { opacity: 0; transform: translate(5px, -5px) scale(1); }
@@ -440,14 +442,13 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     
     .btn-full .btn-wrap {justify-content: center; gap: 28px;}
     .btn-center {padding: 0 16px;}
-
-    #mainContent {padding: 80px 0 0;}
     
 }
 
 
 @media only screen and (max-width:767px) and (min-width:200px) {
   .container{padding: 0 16px;}
+  .container-md{padding:0 16px}
     blockquote {padding: 32px 24px;}
     blockquote::before {right: 24px; bottom: 48px; top: inherit;}
     blockquote p {font-size: 1.625rem; line-height: 1.23; letter-spacing: -0.52px;}
@@ -460,7 +461,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     h5 {font-size: 1.313rem; letter-spacing: -0.42px; line-height: 1.1;}
     .h4 {font-size: 1.625rem; letter-spacing: -0.52px; line-height: 1.23;}
     .h5 {font-size: 1.313rem; letter-spacing: -0.42px; line-height: 1.1;}
-
+   hr.small {margin: 0 auto 20px;}
     
     
     .optional-text {margin: 0 0 8px 0;}

@@ -17,6 +17,10 @@
 }
 
 @media only screen and (max-width:1023px) and (min-width:768px) {
+.single-testimonial-lt { width: 62.6%; position: relative; padding: 24px 24px; }
+.single-testimonial-lt p { font-size: 1.5rem;} 
+.single-testimonial-rt { flex: 0 0 calc(100% - 62.6%);}
+
 
 }
 

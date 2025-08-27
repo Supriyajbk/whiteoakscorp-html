@@ -8,7 +8,7 @@
 .media-mid h2{line-height: 0.87; margin-bottom: 2px;}
 .media-mid span.position{font-size: 0.825rem; color: var(--canopy); line-height: 1.48; letter-spacing: -0.28px;}
 
-.media-right {flex: 1; }
+.media-right {flex: 1; padding: 10px 0;}
 .media-links {clear: both; width: 100%; margin:0; padding: 0 }
 .media-links li{margin-bottom: 0;}
 .media-links li::before{display: none;}
@@ -21,13 +21,10 @@
 .media-links li a:hover svg path{fill: var(--signal);}
 .media-links li:nth-child(2) a{ font-weight: 600;}
 
-
+.media-mid-wrap{padding: 10px 0; }
 
 @media only screen and (max-width: 1350px) and (min-width:1151px){
 .media-right ul.media-links {padding: 10px}
-
-
-
 }
 
 
@@ -37,5 +34,19 @@
 .media-left { flex: 0 0 200.5px; }
 .media-mid { flex: 0 0 240.5px; }
 .media-right ul.media-links {padding: 10px 0}
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+.media-main{display: block;}
+.media-section{top: -65px;}
+.media-left { flex: 100% }
+.media-mid{padding: 20px 24px 10px 24px;}
+.media-mid-wrap{padding: 0;}
+.media-right{padding: 0;}
+.media-right ul.media-links {padding: 10px 24px 34px 24px; gap: 20px 24px}
+
+
+
 
 }

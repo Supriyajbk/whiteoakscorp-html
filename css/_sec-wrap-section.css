@@ -26,7 +26,7 @@
 .sec-wrap .sf-nav .sf-list.slick-current.slick-active p {color: var(--dark);}
 .sec-wrap .sf-nav .sf-list.slick-current.slick-active h4 {color: var(--deep-moss);}
 
-.sec-wave{position: absolute; z-index: -1; left: -207px; right: auto; top: 0; opacity: 0.4;}
+.sec-wave{position: absolute; z-index: -1; left: -207px; right: auto; top: -80px; opacity: 0.4;}
 
 
 /* Responsive */
@@ -38,11 +38,9 @@
 
 
 @media only screen and (max-width: 767px) and (min-width:200px){
-    .default-banner-main {min-height: 655px; align-items: flex-end;}
     .sec-wrap {padding: 34px 0;}
     .sec-wrap .sf-head {margin: 0 auto 16px auto;}
-    .sec-wrap .sf-head p {font-size: 1rem; line-height: 1.5;}
-    .sec-wrap .sf-head h2 {font-size: 2rem;line-height: 0.94; padding: 0 40px;}
+    .sec-wrap .sf-head p {font-size: 1.25rem; line-height: 1.5;}
     .img-based .sf-section-wrap {position: relative; width: calc(100% + 60px); left: -30px; gap:30px;}
     .img-based .sf-section-wrap .sf-video {width: 100%; left: 0;}
     .img-based .sf-section-wrap .sf-lists {padding: 0 30px;}
@@ -56,11 +54,11 @@
     
     .sec-wrap .request-section {margin: 34px 0 0 0;}
 
-
+     .sec-wrap .sf-head .h2 {font-size: 2.25rem; margin-bottom: 21px;}
 
 }
 
 
 @media only screen and (max-width:390px) and (min-width:200px){
-    .sec-wrap .slider-based .sf-nav .sf-list {max-width:315px;}
+    .sec-wrap  .sf-list {max-width:311px;}
 }

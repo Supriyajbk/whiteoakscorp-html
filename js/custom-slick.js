@@ -117,6 +117,8 @@ jQuery(document).ready(function () {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          arrows: true,
+          dots: true,
         },
       },
     ],
