@@ -16,6 +16,8 @@ h2.canopy span{color: var(--canopy);}
     .more-news-title{flex: 1;}
     .more-news-slider .slick-list{overflow: inherit;}
     .more-news-slider .more-news-slide:not(.slick-active){opacity: 0.4;}
+    .more-news-image img{min-height: 380px;}
+
     .more-news-slider .slick-arrow{display: none !important;}
     .more-news-slider ul.slick-dots{display: none !important;}
 }
