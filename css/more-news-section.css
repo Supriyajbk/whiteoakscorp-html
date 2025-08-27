@@ -1,0 +1,48 @@
+
+h2.canopy span{color: var(--canopy);}
+.more-news-text h2{}
+.more-news-text h2 a{}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px) {
+    .more-news-main{padding: 80px 0 0;}
+    .more-news-slider .more-news-slide{width: 600px; margin-right: 40px;}
+    .more-news-text{max-width: 450px; padding: 32px; transform: translateX(29px); margin-top: -60px; border-top: 4px solid var(--Signal); background: var(--beach); }
+    .more-news-text h2{font-size: 32px; font-weight: 700; line-height: 140%; letter-spacing: -1.6px; }
+}
+@media only screen and (min-width: 768px) {
+    .more-news-head{padding-bottom: 40px;}
+    .more-news-title{flex: 1;}
+    .more-news-slider .slick-list{overflow: inherit;}
+    .more-news-slider .more-news-slide:not(.slick-active){opacity: 0.4;}
+    .more-news-slider .slick-arrow{display: none !important;}
+    .more-news-slider ul.slick-dots{display: none !important;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .more-news-main{padding: 80px 0 0;}
+    .more-news-slider .more-news-slide{width: 400px; margin-right: 40px;}
+    .more-news-text{max-width: 340px; padding: 32px; transform: translateX(29px); margin-top: -60px; border-top: 4px solid var(--Signal); background: var(--beach); }
+    .more-news-text h2{ font-size: 28px; font-weight: 700; line-height: 140%; letter-spacing: -1.6px; }
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .more-news-main{padding: 40px 0 0;}
+    .more-news-head{display: block; padding-bottom: 42px;}
+    .more-news-image img{min-height: 380px;}
+    .more-news-text{width: calc(100% - 32px); transform: translateX(16px); padding: 32px; margin-top: -60px; border-top: 4px solid var(--Signal); background: var(--beach); }
+    .more-news-slider ul.slick-dots{position: static;}
+    .more-news-slider ul.slick-dots li{background: var(--dark-mist);}
+    .more-news-slider ul.slick-dots li.slick-active{background: var(--sherwood-green);}
+    .more-news-slider ul.slick-dots li button{display: none;}
+    .more-news-slider .slick-arrow{top: 168px; bottom: auto;}
+    .more-news-slider .slick-arrow.slick-prev{left: -16px;}
+    .more-news-slider .slick-arrow.slick-next{right: -16px;}
+}   
+
+
+
+
+
+
+
+

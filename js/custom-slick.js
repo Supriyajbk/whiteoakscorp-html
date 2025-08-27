@@ -81,8 +81,7 @@ jQuery(document).ready(function () {
     initializeSlider();
   });
 
-
- jQuery('.sf-slider-for').slick({
+  jQuery(".sf-slider-for").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: false,
@@ -90,14 +89,14 @@ jQuery(document).ready(function () {
     speed: 1000,
     arrows: false,
     focusOnSelect: true,
-    asNavFor: '.sf-slider-nav',
+    asNavFor: ".sf-slider-nav",
     fade: true,
     draggable: true,
     swipeToSlide: true,
     touchThreshold: 100,
   });
-  jQuery('.sf-slider-nav').slick({
-    slidesToShow: 1,
+  jQuery(".sf-slider-nav").slick({
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
     speed: 1000,
@@ -107,13 +106,21 @@ jQuery(document).ready(function () {
     draggable: true,
     swipeToSlide: true,
     touchThreshold: 100,
-    asNavFor: '.sf-slider-for',
-    prevArrow: '<div class="slick-arrow slick-prev flex flex-center" aria-label="Previous Arrow" role="button"><span><i class="fa-sharp fa-regular fa-arrow-left"></i></span></div>',
-    nextArrow: '<div class="slick-arrow slick-next flex flex-center" aria-label="Next Arrow" role="button"><span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></div>',
+    asNavFor: ".sf-slider-for",
+    prevArrow:
+      '<div class="slick-arrow slick-prev flex flex-center" aria-label="Previous Arrow" role="button"><span><i class="fa-sharp fa-regular fa-arrow-left"></i></span></div>',
+    nextArrow:
+      '<div class="slick-arrow slick-next flex flex-center" aria-label="Next Arrow" role="button"><span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></div>',
+    responsive: [
+      {
+        breakpoint: 1300,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   });
-
-
-
 
   /* home banner Slider */
   // jQuery(".home-banner-slide-main").slick({
@@ -274,5 +281,34 @@ jQuery(document).ready(function () {
     jQuery(window).on("resize", function () {
       initOrDestroyPodcastSlider();
     });
+  });
+
+  jQuery(".more-news-slider").slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    draggable: true,
+    swipeToSlide: true,
+    touchThreshold: 100,
+    speed: 1000,
+    dots: true,
+    arrows: true,
+    adaptiveHeight: true,
+    infinite: false,
+    variableWidth: true,
+    prevArrow:
+      '<div class="slick-arrow slick-prev flex flex-center" aria-label="Previous Arrow" role="button"><i class="fa-solid fa-circle-chevron-left"></i></div>',
+    nextArrow:
+      '<div class="slick-arrow slick-next flex flex-center" aria-label="Next Arrow" role="button"><i class="fa-solid fa-circle-chevron-right"></i></div>',
+
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          variableWidth: false,
+        },
+      },
+    ],
   });
 });
