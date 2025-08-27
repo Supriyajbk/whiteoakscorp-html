@@ -1,4 +1,4 @@
-.single-cta {width: 100%; z-index: 1; position: relative; clear: both; overflow: hidden; margin:64px 0;}
+.single-cta {width: 100%; z-index: 1; position: relative; clear: both;  margin:64px 0;}
 .single-cta-inner {width: 100%; align-items:center; border-left: solid 2px var(--canopy);}
 .single-cta-inner .h5 {margin-bottom:0; color: var(--canopy)}
 .single-cta-inner .h5 span:before {left:-22px; bottom:-5.75px; z-index: -1;}
