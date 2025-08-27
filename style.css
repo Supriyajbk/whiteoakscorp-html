@@ -421,6 +421,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
 @media only screen and (max-width:1400px) and (min-width: 768px) {
     .container {padding:0 40px; max-width:100%;}
+    .container-md { padding: 0 40px;}
 }
 
 

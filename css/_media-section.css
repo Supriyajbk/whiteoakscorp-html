@@ -2,7 +2,7 @@
 .media-main{gap: 40px; background-color: var(--white);}
 .media-left{flex:0 0 249.5px}
 .media-mid{flex: 0 0 249.5px}
-.media-right ul.media-links{gap: 24px; padding: 0 40px;}
+.media-right ul.media-links{gap: 12px 24px; padding: 0 40px;}
 
 .media-mid .optional-text { margin-bottom: 13px; }
 .media-mid h2{line-height: 0.87; margin-bottom: 2px;}
@@ -20,3 +20,22 @@
 .media-links li a:hover svg{background-color: var(--canopy); transition: 0.5s ease-in-out; transform: rotateY(360deg);}
 .media-links li a:hover svg path{fill: var(--signal);}
 .media-links li:nth-child(2) a{ font-weight: 600;}
+
+
+
+@media only screen and (max-width: 1350px) and (min-width:1151px){
+.media-right ul.media-links {padding: 10px}
+
+
+
+}
+
+
+@media only screen and (max-width: 1150px) and (min-width:1024px){
+
+.media-main { gap: 20px;}
+.media-left { flex: 0 0 200.5px; }
+.media-mid { flex: 0 0 240.5px; }
+.media-right ul.media-links {padding: 10px 0}
+
+}
