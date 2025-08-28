@@ -32,6 +32,7 @@ h2.canopy span{color: var(--canopy);}
     .more-news-head{display: block; padding-bottom: 42px;}
     .more-news-image img{min-height: 380px;}
     .more-news-text{width: calc(100% - 32px); transform: translateX(16px); padding: 32px; margin-top: -60px; border-top: 4px solid var(--Signal); background: var(--beach); }
+    .more-news-text h2{ font-size: 24px; font-weight: 700; line-height: 140%; letter-spacing: -1.2px; }
     .more-news-slider ul.slick-dots{position: static;}
     .more-news-slider ul.slick-dots li{background: var(--dark-mist);}
     .more-news-slider ul.slick-dots li.slick-active{background: var(--sherwood-green);}
