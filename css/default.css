@@ -40,8 +40,14 @@
 
 
 @media only screen and (max-width: 1120px) and (min-width: 768px) {
-  .fluid-width-wrapper {
-    padding: 0 30px;
-  }
+  .fluid-width-wrapper { padding: 0 30px; }
+
+}
+  @media only screen and (max-width: 767px) and (min-width: 200px) {
+  .default-thumb { margin-top: 42px; margin-bottom: 45px;}
+  .default-thumb-two { margin-top: 40px; margin-bottom: 40px;}
+  .wave-one,.wave-two,.wave-three,.wave-four{display: none;}
+ 
+  
 
 }

@@ -184,19 +184,19 @@ body .mfp-close:after {display: none;}
 
 
 /* Default Slick navigations */
-.slick-arrow{top:0; left: 0; right: 0; position: absolute; display: flex!important; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; line-height: normal; bottom: 0; margin: auto; width: 50px; height: 50px; background-color: var(--theme); border-radius: 50%; font-size: 20px; color: var(--slick-arrow);}
+.slick-arrow{top:-152px; left: 0; right: 0; position: absolute; display: flex!important; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; line-height: normal; bottom: auto; margin: auto; width: 50px; height: 50px; background-color: var(--theme); border-radius: 50%; font-size: 20px; color: var(--slick-arrow); transform: none;}
 .slick-arrow:hover{opacity: 0.7}
-.slick-arrow.slick-prev{right: auto; left: 0; }
-.slick-arrow.slick-next{right: 0; left: auto; }
+.slick-arrow.slick-prev{right: auto; left: -16px; }
+.slick-arrow.slick-next{right: -16px; left: auto; }
 .slick-arrow.slick-disabled {pointer-events:none; filter: grayscale(100%)}
+.slick-arrow span{color: var(--dark-forest)}
 
-
-ul.slick-dots {margin:0; padding-top:31px; padding-bottom: 15px; display:flex; justify-content:center; width: 100%; position: absolute; bottom: -20px;}
-ul.slick-dots li {margin: 0 4px 15px; display:inline-block; font-size:0; line-height:0; width: 8px; height: 8px; background-color: var(--white); border-radius: 50%;}
+ul.slick-dots {margin:0; padding-top:31px; padding-bottom: 15px; display:flex; justify-content:center; width: 100%; position: absolute; bottom: -66px;}
+ul.slick-dots li {margin: 0 4px 15px; display:inline-block; font-size:0; line-height:0; width: 8px; height: 8px; background-color: var(--dark-mist); border-radius: 50%;}
 ul.slick-dots li::before, ul.slick-dots li button:before, ul.slick-dots li button:after {display:none;}
 ul.slick-dots li button {width:5px; height:5px; min-width:0; padding:0; font-size:0; line-height:0; border:0 none; background:var(--text-violetblue); opacity:0.3;}
 ul.slick-dots li.slick-active button {opacity:1;}
-ul.slick-dots li.slick-active{background-color: var(--theme);}
+ul.slick-dots li.slick-active{background-color: var(--sherwood-green);}
 
 #blog_list{margin: 0;}
 
@@ -455,8 +455,8 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     .banner-bg::after {background: linear-gradient(260deg, var(--banner-shadow) 51.58%, var(--banner-shadow-100) 87.24%), linear-gradient(0deg, var(--banner-shadow-20) 0%, var(--banner-shadow-20) 100%);}
     
     h1 {font-size: 2.813rem; line-height: 1.11; margin-bottom: 9px; letter-spacing: -0.9px;}
-    h2 {font-size: 2rem; letter-spacing: -0.64px; line-height: 1.25;}
-    h3 {font-size: 2rem; letter-spacing: -0.64px; line-height: 1.19; margin-bottom: 19px;}
+    h2 {font-size: 2.25rem; letter-spacing: -0.64px; line-height: 1.25;}
+    h3 {font-size: 1.75rem; letter-spacing: -0.64px; line-height: 1.19; margin-bottom: 19px;}
     h4 {font-size: 1.625rem; letter-spacing: -0.52px; line-height: 1.23;}
     h5 {font-size: 1.313rem; letter-spacing: -0.42px; line-height: 1.1;}
     .h4 {font-size: 1.625rem; letter-spacing: -0.52px; line-height: 1.23;}
@@ -486,6 +486,8 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     .heading-rt {justify-content: flex-start; width: 100%;}
     .heading-rt .heading-form {width: 100%;}
 
+    .fixed-social-icons {display: none;}
+
     /* Divider */
     .icon {margin: 0 48px 0 48px;}
 
@@ -494,12 +496,14 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     .default-thumb {min-height: 30vw; margin: 40px 0 40px 0; width: 100% !important; left: 0;}  
     .default-thumb figure img {height: auto;}
     .default-thumb-two {margin: 40px 0 40px 0; width: 100% !important; left: 0;}
-    .default-thumb-two .fluid-width-wrapper {flex-wrap: wrap;}
-    .default-thumb-two .default-thumb-flex {flex: 100%; height: 58.65vw; width: 100%;}
+    .default-thumb-two .fluid-width-wrapper {flex-wrap: wrap!important;}
+    .default-thumb-two .default-thumb-flex {flex: 100%!important; height: 45.54vw!important; width: 100%;;}
     
     .fluid-width {width: 100%!important; left: 0; margin-left: 0;}
     .btn-full {width: 100%;}
     .btn-full button {width: 100%!important;}
+
+    
 }
 
 @media only screen and (max-width:576px) and (min-width:200px){  

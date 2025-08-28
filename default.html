@@ -460,8 +460,10 @@
                 egestas</p>
               <div class="default-thumb fluid-width">
                 <div class="fluid-width-wrapper">
-                  <figure class="object-fit" role="none"> <img decoding="async" src="images/big-post-thumb@2x.jpg"
-                      alt="default-thumb@2x"> </figure>
+                  <picture class="object-fit" role="none">
+                    <source srcset="images/big-post-thumb@2x.jpg" alt="thumb">
+                     <img decoding="async" src="images/big-post-thumb-mob@2x.jpg" alt="default-thumb@2x">
+                  </picture>
                 </div>
               </div>
 
@@ -481,8 +483,10 @@
                 <div class="container">
                   <div class="micro-cta-main flex">
                     <div class="micro-cta-thumb">
-                      <figure class="object-fit" role="none"> <img src="images/micro-cta@2x.jpg" alt="Micro CTA Thumb"
-                          title="Micro CTA Thumb"> </figure>
+                      <picture class="object-fit"> 
+                        <source srcset="images/micro-cta@2x.jpg" media="(min-width768px)">
+                        <img src="images/micro-cta-mob@2x.jpg" alt="Micro CTA Thumb" title="Micro CTA Thumb">
+                         </picture>
                     </div>
                     <div class="micro-cta-text"> <span class="signal optional-text">Micro CTA or Download Module</span>
                       <div class="h3">A concise headline fits here <span>driving conversions</span> from posts.</div>
@@ -514,12 +518,16 @@
               <div class="default-thumb-two fluid-width">
                 <div class="fluid-width-wrapper">
                   <div class="default-thumb-flex">
-                    <figure class="object-fit" role="none"> <img src="images/frame-thumb@2x.jpg" alt="Default Thumb"
-                        title="Default Thumb"> </figure>
+                    <picture class="object-fit" role="none">
+                    <source srcset="images/frame-thumb@2x.jpg" alt="thumb">
+                     <img decoding="async" src="images/frame-thumb-mob@2x.jpg" alt="default-thumb@2x">
+                  </picture>
                   </div>
                   <div class="default-thumb-flex">
-                    <figure class="object-fit" role="none"> <img src="images/frame-thumb2@2x.jpg" alt="Default Thumb"
-                        title="Default Thumb"> </figure>
+                   <picture class="object-fit" role="none">
+                    <source srcset="images/frame-thumb2@2x.jpg" alt="thumb">
+                     <img decoding="async" src="images/frame-thumb2-mob@2x.jpg" alt="default-thumb@2x">
+                  </picture>
                   </div>
                 </div>
               </div>

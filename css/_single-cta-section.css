@@ -10,7 +10,10 @@
 /*-- media starts here --*/
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .single-cta {margin: 40px 0;}
-    .single-cta-inner .h5 a {font-size: 1.313rem; letter-spacing: -0.42px; line-height: 1.1; padding: 0 51px 0px 17px;}
+    .single-cta-inner {height: 152px;}
+    .single-cta-inner .h5 a {font-size: 1.5rem; letter-spacing: -0.48px; line-height: 1.5; padding: 0 15px  0 0; }
     .single-cta-inner .h5 span::before {left: -6px;}
-    .single-cta-inner .h5 a.readmore::after {right: 10px;}
-}
+     .single-cta-inner .h5 a.readmore::after { right: 10px; margin: inherit; top: 121px; left: -23px; }
+    .single-line-thumb{top: -36px; width: 196px; display: block; z-index: -1; right: -160px;}
+
+    }
