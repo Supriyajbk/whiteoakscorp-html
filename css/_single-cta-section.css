@@ -9,7 +9,7 @@
 
 /*-- media starts here --*/
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .single-cta {margin: 40px 0;}
+    .single-cta {margin: 40px 0 50px;}
     .single-cta-inner {height: 152px;}
     .single-cta-inner .h5 a {font-size: 1.5rem; letter-spacing: -0.48px; line-height: 1.5; padding: 0 15px  0 0; }
     .single-cta-inner .h5 span::before {left: -6px;}
