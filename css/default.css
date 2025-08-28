@@ -38,12 +38,23 @@
 
 
 
-
+@media only screen and (max-width: 1359px) and (min-width: 1024px) {
+  .general-default-inner .default-lt{padding-right: 46px;}
+  .general-default-inner  aside.sidebar{right: 32px;}
+}
 @media only screen and (max-width: 1120px) and (min-width: 768px) {
   .fluid-width-wrapper { padding: 0 30px; }
 
 }
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+  .general-default-inner  aside.sidebar{position: static; width: 100%; flex: 0 0 100%; flex-direction: row;}
+  .general-default-inner .fixed-social-icons{margin: 0; padding-top: 56px; display: flex; justify-content: flex-start;}
+  .general-default-inner .sharethis-inline-share-buttons{flex-direction: row; gap: 12px; }
+  .general-default-inner .sharethis-inline-share-buttons .st-btn{margin: 0 !important;}
+}
   @media only screen and (max-width: 767px) and (min-width: 200px) {
+    .general-default-inner .fixed-social-icons{padding-top: 32px;}
+    
   .default-thumb { margin-top: 42px; margin-bottom: 45px;}
   .default-thumb-two { margin-top: 40px; margin-bottom: 40px;}
   .wave-one,.wave-two,.wave-three,.wave-four{display: none;}
