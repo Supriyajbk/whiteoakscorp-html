@@ -1,7 +1,6 @@
 
 h2.canopy span{color: var(--canopy);}
-.more-news-text h2{}
-.more-news-text h2 a{}
+.more-news-section{clear: both; position: relative; display: block;}
 
 
 /*-- media css starts here --*/
@@ -33,13 +32,14 @@ h2.canopy span{color: var(--canopy);}
     .more-news-image img{min-height: 380px;}
     .more-news-text{width: calc(100% - 32px); transform: translateX(16px); padding: 32px; margin-top: -60px; border-top: 4px solid var(--Signal); background: var(--beach); }
     .more-news-text h2{ font-size: 24px; font-weight: 700; line-height: 140%; letter-spacing: -1.2px; }
-    .more-news-slider ul.slick-dots{position: static;}
+    .more-news-slider ul.slick-dots{position: static; padding-top: 5px; padding-bottom: 25px;}
     .more-news-slider ul.slick-dots li{background: var(--dark-mist);}
     .more-news-slider ul.slick-dots li.slick-active{background: var(--sherwood-green);}
     .more-news-slider ul.slick-dots li button{display: none;}
     .more-news-slider .slick-arrow{top: 168px; bottom: auto;}
     .more-news-slider .slick-arrow.slick-prev{left: -16px;}
     .more-news-slider .slick-arrow.slick-next{right: -16px;}
+    h2.canopy span {display: block;}
 }   
 
 

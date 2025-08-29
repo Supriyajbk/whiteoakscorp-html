@@ -1,6 +1,6 @@
 .cta-module {width: 100%; z-index: 1; position: relative; clear: both; overflow: hidden; background-color: var(--sherwood-green);}
 .cta-main {margin: 0 auto; width: 100%; min-height: 443px; align-items:center; gap: 129px; padding:80px 0 80px;}
-.cta-main .h2 {margin-bottom: 19px; color: var(--white); font-size: 3rem;}
+.cta-main .h2 {margin-bottom: 10px; color: var(--white); font-size: 3rem;}
 
 .cta-bg {top:0; left:0; right:0; bottom:0; width:100%; height:100%; position:absolute; z-index:-1;}
 .cta-bg img {width:100%; height:100%; font-family:"object-fit:cover"; object-fit:cover; -o-object-fit:cover; object-position:50% 50%; -o-object-position:50% 50%;}
@@ -11,7 +11,9 @@
 
 .cta-img{flex: 0 0 calc(100% - 649px)}
 .cta-wave{position: absolute; z-index: -1; left: -80px; right: auto; top: 20px}
-.cta-line{position: absolute; z-index: -1; left: -100px; right: auto; bottom: -44px;}
+.cta-line{position: absolute; z-index: -1; left: -100px; right: auto; bottom: -44px; width: 196px; height: 103px;}
+.cta-text:only-child{flex-grow: 1;}
+.cta-img:only-child{flex-grow: 1;}
 
 /*-- media starts here --*/
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
@@ -29,7 +31,11 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
-	.cta-main .cta-text {width: calc(100% - 50px); font-size: 1.125rem; line-height: 1.44; padding:46px 0 50px;}
+	.cta-main{display: block;padding: 40px 0 40px;}
+	.cta-main .cta-text { line-height: 1.7; padding: 0 0 33px;}
 	.cta-main .cta-text p {margin-bottom: 26px;}
-	.cta-main .h1 {margin-bottom: 30px;}
+	.cta-main .h2 {margin-bottom: 15px; font-size: 2.5rem;}
+	.cta-line{top:40px; left:auto; right: 16px; }
+	.cta-text .h2 span{display: inline;}
+	.cta-wave { left: -106px; top: 181px; }
 }

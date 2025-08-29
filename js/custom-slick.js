@@ -153,11 +153,11 @@ jQuery(document).ready(function () {
 
   /* Featured News */
   if (jQuery(window).width() <= 767) {
-    jQuery(".fn-lists").slick({
+    jQuery(".featured-lists").slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       dots: true,
-      arrows: true,
+      arrows: false,
       variableWidth: true,
       draggable: true,
       touchThreshold: 200,

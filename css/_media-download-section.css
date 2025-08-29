@@ -16,5 +16,12 @@
 @media only screen and (max-width:1023px) and (min-width:200px) {
 .media-download-list { flex: 100%;}
 
+}
+@media only screen and (max-width:1023px) and (min-width:200px) {
+.media-image { flex: 0 0 120px; }
+.media-down-text { padding: 12px;}
+.media-down-text p { font-size: 0.8rem;}
+.media-download-main .heading-lt{flex: 0 0 50%}
+.media-download-main .heading-rt{flex: 0 0 50%; justify-content: flex-end;}
 
 }

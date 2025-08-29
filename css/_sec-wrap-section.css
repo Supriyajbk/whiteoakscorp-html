@@ -36,6 +36,10 @@
 
 }
 
+@media only screen and (max-width: 1023px) and (min-width:768px){
+.sec-wrap .request-section {padding: 80px  0 0;}
+
+}
 
 @media only screen and (max-width: 767px) and (min-width:200px){
     .sec-wrap {padding: 34px 0;}
@@ -50,11 +54,12 @@
     .sec-wrap .slider-based .sf-lists {padding: 0 0 0 30px;}
     .sec-wrap .slider-based .sf-nav .sf-list {max-width: 333px;}
     .sec-wrap .sf-list .sf-grid {padding: 32px 16px 22px;}
-    .sec-wrap .sf-list {width: 100%; margin-right: 44px;}
+    .sec-wrap .sf-list {width: 311px; margin-right: 44px;}
     .sec-wrap .sf-list.slick-current h4 { font-size: 1.5rem; margin-bottom: 16px;}
     .sec-wrap .request-section {margin: 94px 0 0 0;}
 
      .sec-wrap .sf-head .h2 {font-size: 2.25rem; margin-bottom: 21px;}
+     
 
 }
 

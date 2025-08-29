@@ -23,6 +23,7 @@
 .featured-main{padding: 0;}
 .featured-list { flex:  0 0 100% }
 .featured-list h2 {font-size: 1.5rem;}
+.featured-lists ul.slick-dots{padding-bottom: 10px;}
 
 
 

@@ -43,7 +43,7 @@ li > ul {margin: 25px 0 26px 40px;}
 ol {counter-reset: section; list-style: none; margin:0 0 20px 32px;}
 ol > li {counter-increment: li; position: relative; margin-bottom:8px; font-size: 16px; font-weight: 400;}
 ol > li:before {counter-increment: section; content: counter(section, decimal) "."; left: -32px; position: absolute;}
-ol > li:before{background-color: var(--canopy); font-size: 12px; font-weight: 700; border-radius: 50px; width: 24px; height: 24px; text-align: center; color: var(--white); display: flex; justify-content: center; align-items: center;}
+ol > li:before{background-color: var(--canopy); font-size: 12px; font-weight: 700; border-radius: 50px; width: 24px; height: 24px; text-align: center; color: var(--white); display: flex; justify-content: center; align-items: center; }
 li > ol {margin: 25px 0 26px 40px;}
 img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
 figure {margin: 0;}
@@ -101,6 +101,10 @@ button, .button  {display: inline-flex; font-size: 1rem; font-weight: 600; line-
 .button:after {position: relative; display: inline-block; font-size: 19px; font-family: "Font Awesome 6 Sharp"; font-weight: normal; line-height: 1.6; width: 13px; height: 13px; content: ""; background-image: url("data:image/svg+xml,%3Csvg width='13' height='13' viewBox='0 0 13 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.499992 10.7872L8.36519 2.92213H0.5V0.5H12.5V12.5H10.0779V4.63485L2.21284 12.5L0.499992 10.7872Z' fill='%23152022'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-size: contain; animation: bounceAlpha 2s ease-in-out infinite; }
 .dark-bg.button:hover:after {animation: bounceAlpha 2s ease-in-out infinite; background-image: url("data:image/svg+xml,%3Csvg width='13' height='13' viewBox='0 0 13 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.499992 10.7872L8.36519 2.92213H0.5V0.5H12.5V12.5H10.0779V4.63485L2.21284 12.5L0.499992 10.7872Z' fill='%23152022'/%3E%3C/svg%3E");}
 
+.button.trans{border: 2px solid var(--signal); background: transparent; color: var(--white);padding:10px 20px 10px 24px;}
+.button.trans:hover{background-color: var(--signal); color: var(--dark-forest);}
+
+
 button:hover, .button:hover {color: var(--btn-txt-hover); background-color: var(--btn-bg-hover);}
 .button:hover:after {animation: bounceAlpha 2s ease-in-out infinite; background-image: url("data:image/svg+xml,%3Csvg width='13' height='13' viewBox='0 0 13 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.499992 10.7872L8.36519 2.92213H0.5V0.5H12.5V12.5H10.0779V4.63485L2.21284 12.5L0.499992 10.7872Z' fill='white'/%3E%3C/svg%3E"); }
 button:focus, .button:focus, button:active, .button:active {background-color: var(--btn-bg); color: var(--btn-txt);} 
@@ -155,5 +159,8 @@ img.alignnone {margin:27px 0 24px; display: block; clear: both;}
 
 @media only screen and (max-width: 767px) and (min-width:200px) {
     .button {width: 100%;}
+
+    ul > li::before {top: 50%; transform: translate(0, -50%);}
+  ol > li::before {top: 50%; transform: translate(0, -50%);}
   
 }

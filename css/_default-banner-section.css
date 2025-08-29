@@ -14,7 +14,8 @@
 .default-banner-main .banner-wave{position: absolute; right: -516px; left: auto; bottom: 70px; z-index: -1;}
 
 
-
+.default-banner-main.center { text-align: center; justify-content: center; align-items: flex-end; padding: 80px 0 80px;}
+.default-banner-main.center .banner-wave{right: auto}
 
 /*-- media starts here --*/
 
@@ -22,7 +23,7 @@
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
 	.default-banner-main {min-height:576px; align-items: flex-end; padding: 56px 0 115px;}
-	.default-banner-main .default-banner-text p {font-weight: normal!important; font-size: 1.25rem; line-height: 1.4; }
+	.default-banner-main .default-banner-text p {font-weight: normal!important; font-size: 1.125rem; line-height: 1.4; }
 	.default-banner-main .banner-wave {display: none;}
 	.default-banner-main .default-banner-text {text-align: center;}
     .default-banner-main .default-banner-text h1 {font-size: 3rem;}
