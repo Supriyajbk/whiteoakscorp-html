@@ -1,0 +1,23 @@
+@import url("_default-banner-section.css");
+
+
+.default-banner-main{padding: 289px 0 80px;}
+.banner-bg::after{background: linear-gradient(0deg, rgba(21, 32, 34, 0.55) 0%, rgba(21, 32, 34, 0.55) 100%);}
+.default-banner-main .default-banner-text .optional-text{line-height: 1.25; font-weight: 700;}
+
+.careers-content-article > p:first-child{font-size: 24px; line-height: 36px; font-weight: 600;}
+.careers-content-article > hr.small{margin: 0 auto 20px 0;}
+
+.career-details{background: var(--white); padding: 24px; }
+.career-details ul{margin: 0;}
+.career-details ul li::before{display: none;}
+.career-details ul li{gap: 14px;}
+.career-details ul li span:first-child{flex: 0 0 90px; flex-grow: 1; font-weight: 700;}
+.career-details ul li span:not(span:first-child){flex: 0 0 calc(100% - 104px); flex-grow: 1;}
+
+
+@media screen and (min-width:1024px) {
+    .careers-content-main{padding: 80px 0; gap: 104px;}
+    .careers-content-article{flex: 0 0 calc(100% - 439px); flex-grow: 1;}
+    .careers-content-sidebar{flex: 0 0 335px; flex-grow: 1;}
+}
