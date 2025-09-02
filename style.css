@@ -460,7 +460,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     blockquote {padding: 32px 24px;}
     blockquote::before {right: 24px; bottom: 48px; top: inherit;}
     blockquote p {font-size: 1.625rem; line-height: 1.23; letter-spacing: -0.52px;}
-    .banner-bg::after {background: linear-gradient(260deg, var(--banner-shadow) 51.58%, var(--banner-shadow-100) 87.24%), linear-gradient(0deg, var(--banner-shadow-20) 0%, var(--banner-shadow-20) 100%);}
+    /* .banner-bg::after {background: linear-gradient(260deg, var(--banner-shadow) 51.58%, var(--banner-shadow-100) 87.24%), linear-gradient(0deg, var(--banner-shadow-20) 0%, var(--banner-shadow-20) 100%);} */
     
     h1 {font-size: 2.813rem; line-height: 1.11; margin-bottom: 9px; letter-spacing: -0.9px;}
     h2 {font-size: 2.25rem; letter-spacing: -0.64px; line-height: 1.25;}

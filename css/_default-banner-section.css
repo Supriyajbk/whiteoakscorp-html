@@ -28,4 +28,5 @@
 	.default-banner-main .default-banner-text {text-align: center;}
     .default-banner-main .default-banner-text h1 {font-size: 3rem;}
 
+	.page-template-home  .default-banner-main { min-height: 678px;}
 }

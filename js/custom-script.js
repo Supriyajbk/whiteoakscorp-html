@@ -78,7 +78,7 @@ jQuery(document).ready(function () {
   });
 
   /* All in one */
-  if (jQuery(window).width() >= 768) {
+  if (jQuery(window).width() >= 1024) {
     jQuery(".all-in-one-slider-wrap").each(function () {
       const $wrap = jQuery(this);
       $wrap
@@ -108,31 +108,42 @@ jQuery(document).ready(function () {
       });
     });
   }
-  // if (jQuery(window).width() <= 767) {
-  //   jQuery(".pb-slider-nav .pb-bg").css("background", "");
-  //   jQuery(".pb-slider-nav .pb-thumb-nav").css("color", "");
+  if (jQuery(window).width() <= 1023) {
 
-  //   jQuery(".pb-slider-for").slick({
-  //     slidesToShow: 1,
-  //     slidesToScroll: 1,
-  //     arrows: false,
-  //     fade: true,
-  //     asNavFor: ".pb-slider-nav",
-  //   });
-  //   jQuery(".pb-slider-nav").slick({
-  //     slidesToShow: 1,
-  //     slidesToScroll: 1,
-  //     asNavFor: ".pb-slider-for",
-  //     dots: false,
-  //     arrows: true,
-  //     variableWidth: true,
-  //     centerMode: true,
-  //     appendArrows: ".custom-arrows",
-  //     prevArrow: '<div class="slick-arrow slick-prev flex flex-center" aria-label="Previous Arrow" role="button"><span><i class="fa-sharp fa-regular fa-arrow-left"></i></span></div>',
-  //     nextArrow: '<div class="slick-arrow slick-next flex flex-center" aria-label="Next Arrow" role="button"><span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></div>',
-  //     focusOnSelect: true,
-  //   });
-  // }
+    jQuery(".all-in-one-for").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: ".all-in-one-nav",
+    });
+    jQuery(".all-in-one-nav").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      asNavFor: ".all-in-one-for",
+      dots: false,
+      arrows: true,
+      variableWidth: true,
+      centerMode: true,
+      appendArrows: ".custom-arrows",
+      prevArrow: '<div class="slick-arrow slick-prev flex flex-center" aria-label="Previous Arrow" role="button"><span><i class="fa-sharp fa-regular fa-arrow-left"></i></span></div>',
+      nextArrow: '<div class="slick-arrow slick-next flex flex-center" aria-label="Next Arrow" role="button"><span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></div>',
+      focusOnSelect: true,
+      responsive: [
+          
+      {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          rows: 2,
+          centerPadding: 0,
+          variableWidth: false,
+        }
+      }
+    ]
+    });
+  }
 
 
   /* Product Features */
