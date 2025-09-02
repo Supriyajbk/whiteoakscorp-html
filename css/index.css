@@ -3,3 +3,12 @@
 @import url("_repeater-section.css");
 @import url("_cta-module.css");
 @import url("_all-in-one-section.css");
+@import url("_counter-section.css");
+
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+  .default-banner-main .banner-wave { display: block; }
+  .default-banner-main .banner-wave {bottom: 109px;}
+}

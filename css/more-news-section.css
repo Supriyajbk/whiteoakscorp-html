@@ -17,7 +17,9 @@ h2.canopy span{color: var(--canopy);}
     .more-news-slider .more-news-slide:not(.slick-active){opacity: 0.4; transform: translateY(15px);}
     .more-news-image img{min-height: 380px;}
 
-    .more-news-slider .slick-arrow{display: none !important;}
+    .more-news-slider .slick-arrow{top: 166px;}
+    .more-news-slider .slick-arrow.slick-next { right: -25px}
+    .more-news-slider .slick-arrow.slick-prev{left: -25px}
     .more-news-slider ul.slick-dots{display: none !important;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
