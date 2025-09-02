@@ -5,3 +5,5 @@
 
 
 .default-banner-main {min-height: 648px;}
+.default-banner-section .banner-bg:after{background: var(--sherwood-green); opacity: 0.7}
+.default-banner-main .banner-wave {bottom: 58px;}
