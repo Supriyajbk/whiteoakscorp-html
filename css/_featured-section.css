@@ -1,5 +1,5 @@
 .featured-section{position: relative; width: 100% ; clear: both; display: block;}
-.featured-main{padding: 40px 0;}
+.featured-main{padding: 80px 0 80px;}
 
 .featured-lists{gap: 32px}
 .featured-list{flex: 0 0 calc(25% - 24px);}
@@ -24,7 +24,7 @@
 .featured-list { flex:  0 0 100% }
 .featured-list h2 {font-size: 1.5rem;}
 .featured-lists ul.slick-dots{padding-bottom: 10px;}
-
-
+.featured-lists .slick-track{display: flex!important; }
+.featured-lists .slick-track .featured-list{flex: 0 0 343px}
 
 }
