@@ -285,6 +285,8 @@ jQuery(document).ready(function () {
     });
   });
 
+  /* more news slider */
+
   jQuery(".more-news-slider").slick({
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -312,5 +314,77 @@ jQuery(document).ready(function () {
         },
       },
     ],
+  });
+
+  /* history slider */
+
+  // jQuery(".history-slider-wrap").slick({
+  //   slidesToShow: 4,
+  //   slidesToScroll: 1,
+  //   draggable: true,
+  //   swipeToSlide: true,
+  //   touchThreshold: 100,
+  //   speed: 1000,
+  //   dots: false,
+  //   arrows: true,
+  //   adaptiveHeight: true,
+  //   infinite: false,
+  //   variableWidth: true,
+  //   prevArrow:
+  //     '<div class="slick-arrow slick-prev flex flex-center" aria-label="Previous Arrow" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18.2741 10.7888L7.15118 10.7889L12.7127 5.22735L11 3.51465L2.51472 11.9999L11 20.4852L12.7127 18.7725L7.1512 13.211L18.2741 13.2111L18.2741 10.7888Z" fill="#152022"/></svg></div>',
+  //   nextArrow:
+  //     '<div class="slick-arrow slick-next flex flex-center" aria-label="Next Arrow" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5.72588 10.7888L16.8488 10.7889L11.2873 5.22735L13 3.51465L21.4853 11.9999L13 20.4852L11.2873 18.7725L16.8488 13.211L5.72588 13.2111L5.72588 10.7888Z" fill="#152022"/></svg></div>',
+
+  //   responsive: [
+  //     {
+  //       breakpoint: 767,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //         variableWidth: false,
+  //       },
+  //     },
+  //   ],
+  // });
+
+  $(".timeline-slider-for").slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    speed: 1000,
+    infinite: false,
+    arrows: true,
+    prevArrow:
+      '<div class="slick-arrow slick-prev flex flex-center" aria-label="Previous Arrow" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18.2741 10.7888L7.15118 10.7889L12.7127 5.22735L11 3.51465L2.51472 11.9999L11 20.4852L12.7127 18.7725L7.1512 13.211L18.2741 13.2111L18.2741 10.7888Z" fill="#152022"/></svg></div>',
+    nextArrow:
+      '<div class="slick-arrow slick-next flex flex-center" aria-label="Next Arrow" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5.72588 10.7888L16.8488 10.7889L11.2873 5.22735L13 3.51465L21.4853 11.9999L13 20.4852L11.2873 18.7725L16.8488 13.211L5.72588 13.2111L5.72588 10.7888Z" fill="#152022"/></svg></div>',
+    dots: false,
+    variableWidth: true,
+    asNavFor: ".timeline-slider-nav",
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          arrows: false,
+          dots: true,
+        },
+      },
+    ],
+  });
+  $(".timeline-slider-nav").slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    variableWidth: true,
+    asNavFor: ".timeline-slider-for",
+    focusOnSelect: true,
+    arrows: false,
+    dots: false,
+    speed: 1000,
+    infinite: false,
+  });
+  $(".timeline-slider-for").on("setPosition", function (event, slick) {
+    $(".timeline-for-slide").removeAttr("style");
+  });
+  $(".timeline-slider-nav").on("setPosition", function (event, slick) {
+    $(".timeline-nav-slide").removeAttr("style");
   });
 });
