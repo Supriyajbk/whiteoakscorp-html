@@ -29,7 +29,7 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width:200px) {
-.featured-section{margin-bottom: 80px;}
+.featured-section{margin-bottom: 100px;}
 
 .default-banner-main.center{padding: 120px 0 30px;}
 .default-banner-text{margin-bottom: 38px;}

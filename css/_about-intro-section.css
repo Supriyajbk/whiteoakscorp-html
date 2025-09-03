@@ -30,4 +30,12 @@
 .about-block-text{padding: 24px 24px 24px;}
 .about-block-text .h3 {font-size: 1.5rem;}
 .about-block-text p{font-size: 1rem;}
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+.about-intro-wrap{display: block;}
+.about-block-main {display: block;}
+.about-block-list{margin-bottom: 20px;}
+
 }
