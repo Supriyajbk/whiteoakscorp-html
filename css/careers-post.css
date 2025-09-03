@@ -9,7 +9,7 @@
 .careers-content-article > p:first-child{font-size: 24px; line-height: 36px; font-weight: 600;}
 .careers-content-article > hr.small{margin: 0 auto 20px 0;}
 
-.career-details{background: var(--white); padding: 24px; }
+.career-details{background: var(--white); padding: 24px; border-bottom: 1px solid var(--dark-mist); margin-bottom: 32px;}
 .career-details ul{margin: 0;}
 .career-details ul li::before{display: none;}
 .career-details ul li{gap: 14px;}
@@ -17,13 +17,28 @@
 .career-details ul li span:first-child{flex: 0 0 90px; flex-grow: 1; font-weight: 700;}
 .career-details ul li span:not(span:first-child){flex: 0 0 calc(100% - 104px); flex-grow: 1;}
 
-.application-form-main{background: var(--deep-moss); padding: 24px; }
-.application-form-main .optional-text{color: var(--signal);}
-.application-form-main .optional-text::after{background-color: var(--signal);}
+.application-form-main{background: var(--deep-moss); padding: 24px; gap: 40px;}
+.application-form-title .optional-text{color: var(--signal); margin: 0 0 13px 0;}
+.application-form-title .optional-text::after{background-color: var(--signal);}
+.application-form-title h2{line-height: 35.2px; color: var(--white); letter-spacing: -0.64px; margin-bottom: 0;}
+.application-form-title h2 span{display: inline;}
+.application-form .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 8px;}
+.application-form .frm_forms .frm_form_fields .frm_form_field:last-child{margin-bottom:0;}
+.application-form .frm_forms .frm_form_fields input{font-weight: 600; font-size: 0.875rem; line-height: 18px;}
+.application-form .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder{font-size: 0.875rem!important;}
+.application-form .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder{font-size: 0.875rem!important;}
+.application-form .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder{font-size: 0.875rem!important;}
+.application-form .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder{font-size: 0.875rem!important;}
+.application-form .frm_forms .frm_form_fields .frm_form_field button.frm_button_submit{width: 100%; justify-content: center;}
+.application-form .frm_forms .frm_form_fields input[type="file"]{background-image: url("../images/upload-icon.svg"); background-repeat: no-repeat; background-position: right 22px center; background-size: 20px 14px; padding-right: 56px; cursor: pointer;}
 
 
 @media screen and (min-width:1024px) {
     .careers-content-main{padding: 80px 0; gap: 104px;}
     .careers-content-article{flex: 0 0 calc(100% - 439px); flex-grow: 1;}
     .careers-content-sidebar{flex: 0 0 335px; flex-grow: 1;}
+}
+
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .default-banner-main{padding: 160px 0 40px; min-height: 416px;}
 }

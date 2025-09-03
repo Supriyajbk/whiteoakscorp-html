@@ -28,7 +28,7 @@
 
 </head>
 
-<body class="page-template-home trans-header">
+<body class="trans-header">
   <div id="main">
     <header id="main_header" class="main_header">
       <div class="container">
@@ -133,9 +133,11 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="application-form-main">
+                    <div class="application-form-main flex">
+                      <div class="application-form-title">
                         <span class="optional-text">Apply now</span>
                         <h2 class="h3">A short headline driving <span>more user applications.</span></h2>
+                      </div>
                         <div class="application-form">
                           <div class="frm_forms  with_frm_style frm_style_formidable-style" id="frm_form_1_container">
                             <form enctype="multipart/form-data" method="post"
@@ -184,7 +186,7 @@
                                             </div>
                                             <div id="frm_field_2_container"
                                                 class="frm_form_field form-field  frm_required_field frm_top_container">
-                                                <input type="text" id="field_qh4icy" name="item_meta[1]" value=""
+                                                <input type="file" id="field_qh4icy" name="item_meta[1]" value=""
                                                     data-reqmsg="Please enter the first name" placeholder="Attach your CV"
                                                     aria-required="true" data-invmsg="Name is invalid"
                                                     aria-invalid="false" />
@@ -282,7 +284,14 @@
                     </div>
                 </form>
               </div>
-              <span>We will never share your email, or use it for any other purpose.</span>
+              <div class="careers-notification-note flex flex-vcenter flex-center">
+                  <div class="careers-notification-shield">
+                    <figure class="object-fit">
+                      <img src="images/shield-icon.svg" alt="shield-icon">
+                    </figure>
+                  </div>
+                  <span>We will never share your email, or use it for any other purpose.</span>
+              </div>
             </div>
           </div>
         </div>
