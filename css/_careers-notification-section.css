@@ -1,0 +1,18 @@
+
+
+.careers-notification-section{background: var(--deep-moss);}
+.careers-notification-text .optional-text{color: var(--signal);}
+.careers-notification-text .optional-text::after{background-color: var(--signal);}
+.careers-notification-title{gap: 40px; align-items: end;}
+.careers-notification-icon{animation: floatingScale 1s infinite ease-in-out;}
+
+
+@media screen and (min-width:1024px) {
+    .careers-notification-main{padding: 80px 0; gap: 64px;}
+    .careers-notification-lt{flex: 0 0 calc(100% - 499px); flex-grow: 1;}
+    .careers-notification-text{flex: 0 0 520px; }
+    .careers-notification-text h2{margin-bottom: 0; color: var(--white); letter-spacing: -0.64px; line-height: 40px;}
+    .careers-notification-bg{left: 412px; bottom: -11px; z-index: -1;}
+    .careers-notification-rt{flex: 0 0 435px; flex-grow: 1;}
+    
+}

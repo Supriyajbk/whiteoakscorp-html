@@ -1,4 +1,5 @@
 @import url("_default-banner-section.css");
+@import url("_careers-notification-section.css");
 
 
 .default-banner-main{padding: 289px 0 80px;}
@@ -12,8 +13,13 @@
 .career-details ul{margin: 0;}
 .career-details ul li::before{display: none;}
 .career-details ul li{gap: 14px;}
+.career-details ul li:last-child{margin-bottom: 0;}
 .career-details ul li span:first-child{flex: 0 0 90px; flex-grow: 1; font-weight: 700;}
 .career-details ul li span:not(span:first-child){flex: 0 0 calc(100% - 104px); flex-grow: 1;}
+
+.application-form-main{background: var(--deep-moss); padding: 24px; }
+.application-form-main .optional-text{color: var(--signal);}
+.application-form-main .optional-text::after{background-color: var(--signal);}
 
 
 @media screen and (min-width:1024px) {
