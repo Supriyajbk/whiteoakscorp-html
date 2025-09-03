@@ -18,14 +18,19 @@
 
 @media only screen and (max-width:1023px) and (min-width:200px) {
   .intro-module{padding: 40px 0;}
-  .intro-main { gap:26px; }
+  .intro-main { gap:36px; }
 }
 @media only screen and (max-width:1023px) and (min-width:768px) {
   .intro-lt { max-width:100%; }
   .intro-lt .button { margin-top:40px; }
 }
 @media only screen and (max-width:767px) and (min-width:200px) {
-  .intro-module { padding:30px 0; } 
+  .intro-module { padding:30px 0 38px; } 
   .intro-lt { max-width:100%; }
   .intro-rt { font-size:1rem; line-height:1.5; font-weight:bold; }
+  .intro-module h2{font-size: 2.125rem;}
+  .intro-rt-wave { left: auto; top: auto; right: 0; bottom: 85px; }
+  .intro-rt p{margin-bottom: 40px;}
+
+
 }
