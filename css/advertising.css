@@ -1,0 +1,8 @@
+@import url("_default-banner-section.css");
+@import url("_repeater-section.css");
+@import url("_cta-module.css");
+@import url("_counter-section.css");
+
+.default-banner-main.center {align-items: center; padding: 207px 0 134px;}
+.default-banner-text .small{background-color: var(--signal); margin-bottom: 17px;}
+.default-banner-text p{margin-bottom: 24px;}

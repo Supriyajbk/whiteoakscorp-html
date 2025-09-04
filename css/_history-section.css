@@ -42,4 +42,6 @@
 .timeline-wave{left: 0;}
 
 
+ .history-slider-wrap ul.slick-dots li.slick-active { background-color: var(--signal); width: 8px; height: 8px; margin: 0 4px 15px; }
+
 }

@@ -33,7 +33,9 @@
 
 .default-banner-main.center{padding: 120px 0 30px;}
 .default-banner-text{margin-bottom: 38px;}
-.default-banner-main .banner-wave { bottom: 215px; }
+.default-banner-main .banner-wave { bottom: 197px; }
 
+.counter-stats{justify-content: inherit!important; gap: 8px 32px;}
+.counter-list{margin-bottom: 0;}
 
 }
