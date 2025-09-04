@@ -1,6 +1,6 @@
 .repeater-section{clear: both; width: 100%; overflow: hidden;}
 .repeater-main{padding: 40px 0 40px 0; display: flex; flex-wrap:wrap; gap:80px;}
-.repeater-list {justify-content: space-between; gap:6.25%; line-height: 1.5; font-size: 1rem; align-items: center; position: relative;}
+.repeater-list {justify-content: space-between; gap:7%; line-height: 1.5; font-size: 1rem; align-items: center; position: relative;}
 .repeater-list:nth-child(2n) {flex-direction: row-reverse;}
 
 .repeater-text{width: 51%; flex-grow: 1; color: var(--dark-forest);}

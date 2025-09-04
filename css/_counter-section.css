@@ -1,7 +1,7 @@
 .counter-section{padding: 77px 0 80px; clear: both; display: block; position: relative; background-color: var(--sherwood-green)}
 .counter-main-wrap{z-index: 1;}
-.counter-intro { gap: 60px; margin-bottom: 27px;}
-.counter-lt {flex: 0 0 calc(100% - 745px); }   
+.counter-intro { gap: 185px; margin-bottom: 23px;}
+.counter-lt {flex: 0 0 calc(100% - 870px); }   
 .counter-rt { flex: 0 0 685px; color: var(--white)}
 .counter-lt:only-child{flex-grow: 1}
 .counter-rt:only-child{flex-grow: 1}
@@ -16,8 +16,13 @@ span.counter{font-size: 4rem; font-weight: 800; color: var(--white); line-height
 .counter-symmblo{color: var(--signal); display: inline-block; font-size: 2rem; top: 11px; position: relative; font-weight: 700;}
 
 .counter-lt hr{margin: 0 0 15px; color: var(--signal);}
-.counter-wave{position: absolute; left: 0px; right: auto; top: 0px;}
+.counter-wave{position: absolute; left: -80px; right: auto; top: -76px; z-index: -1;}
 .counter-rt .intersect-line{position: absolute; right: auto; top: -40px; width: 196px; display: block; z-index: -1; left: -100px; }
+
+@media only screen and (min-width: 1024px){
+.counter-rt p{margin-bottom: 0;}
+
+}
 
 @media only screen and (max-width: 1150px) and (min-width: 1024px) {
 .counter-intro { gap: 40px;}
