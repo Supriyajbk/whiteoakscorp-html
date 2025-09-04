@@ -10,6 +10,7 @@
 .careers-content-article > hr.small{margin: 0 auto 20px 0;}
 
 .career-details{background: var(--white); padding: 24px; border-bottom: 1px solid var(--dark-mist); margin-bottom: 32px;}
+.career-details .optional-text{margin: 0 0 32px 0;}
 .career-details ul{margin: 0;}
 .career-details ul li::before{display: none;}
 .career-details ul li{gap: 14px;}
@@ -22,6 +23,7 @@
 .application-form-title .optional-text::after{background-color: var(--signal);}
 .application-form-title h2{line-height: 35.2px; color: var(--white); letter-spacing: -0.64px; margin-bottom: 0;}
 .application-form-title h2 span{display: inline;}
+.application-form{width: 100%; }
 .application-form .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 8px;}
 .application-form .frm_forms .frm_form_fields .frm_form_field:last-child{margin-bottom:0;}
 .application-form .frm_forms .frm_form_fields input{font-weight: 600; font-size: 0.875rem; line-height: 18px;}
@@ -32,6 +34,10 @@
 .application-form .frm_forms .frm_form_fields .frm_form_field button.frm_button_submit{width: 100%; justify-content: center;}
 .application-form .frm_forms .frm_form_fields input[type="file"]{background-image: url("../images/upload-icon.svg"); background-repeat: no-repeat; background-position: right 22px center; background-size: 20px 14px; padding-right: 56px; cursor: pointer;}
 
+.careers-content-sidebar .share-icons{margin-top: 32px; }
+.careers-content-sidebar .sharethis-inline-share-buttons{flex-direction: row; gap: 15px;}
+.careers-content-sidebar .sharethis-inline-share-buttons .st-btn[data-network="sharethis"]{order: unset !important; }
+
 
 @media screen and (min-width:1024px) {
     .careers-content-main{padding: 80px 0; gap: 104px;}
@@ -39,6 +45,16 @@
     .careers-content-sidebar{flex: 0 0 335px; flex-grow: 1;}
 }
 
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .careers-content-main{padding: 80px 0; gap: 60px;}
+
+}
 @media screen and (max-width: 767px) and (min-width: 200px){
-    .default-banner-main{padding: 160px 0 40px; min-height: 416px;}
+    .default-banner-main{padding: 156px 0 40px; min-height: 412px;}
+    .default-banner-main .default-banner-text{margin: 0 auto;}
+    .careers-content-main{padding: 40px 0; gap: 40px;}
+    .careers-content-article > p:first-child{font-size: 20px; line-height: 30px; margin-bottom: 37px;}
+    .careers-content-article .h3{font-size: 28px; line-height: 39.2px; letter-spacing: normal; margin-bottom: 20px;}
+    .careers-content-article .readmore-left{margin-top: 28px; }
+    
 }

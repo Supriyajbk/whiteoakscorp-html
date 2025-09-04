@@ -4,6 +4,7 @@
 .careers-notification-text .optional-text{color: var(--signal); margin: 0 0 13px 0;}
 .careers-notification-text .optional-text::after{background-color: var(--signal);}
 .careers-notification-title{gap: 45px; align-items: end;}
+.careers-notification-text h2{margin-bottom: 0; color: var(--white); letter-spacing: -0.64px; line-height: 40px;}
 .careers-notification-icon{animation: floatingScale 1s infinite ease-in-out;}
 .careers-notification-bg{width: 196px; height: 103px;}
 
@@ -25,7 +26,7 @@
     .careers-notification-main{padding: 64px 0; gap: 64px; align-items: end;}
     .careers-notification-lt{flex: 0 0 calc(100% - 499px); flex-grow: 1;}
     .careers-notification-text{flex: 0 0 calc(100% - 69px); max-width: 520px;}
-    .careers-notification-text h2{margin-bottom: 0; color: var(--white); letter-spacing: -0.64px; line-height: 40px;}
+
     .careers-notification-icon{flex: 0 0 24px; }
     .careers-notification-bg{left: 412px; bottom: -11px; z-index: -1;}
     .careers-notification-rt{flex: 0 0 435px; flex-grow: 1;}
@@ -35,4 +36,20 @@
 @media screen and (max-width: 1199px) and (min-width:1024px) {
     .careers-notification-bg{left: auto; right: 0;}
     
+}
+@media screen and (max-width: 1023px) and (min-width:200px) {
+    .careers-notification-main{padding: 40px 0; gap: 40px;}
+    .careers-notification-lt, .careers-notification-rt{flex: 100%}
+    .careers-notification-title{gap: 0; align-items: flex-start; }
+    .careers-notification-text{flex: 100%; max-width: 100%;}
+    .careers-notification-text h2 span{display: inline;}
+    .careers-notification-icon{position: absolute; top: 0; right: 0; width: 24px; }
+    .careers-notification-bg{left: auto; bottom: -16px; z-index: -1; right: 7px; }
+    .careers-notification-note{align-items: flex-start; margin-top: 16px; }
+    .careers-notification-note span{width: calc(100% - 24px); line-height: 14.4px; }
+    
+}
+@media screen and (max-width: 767px) and (min-width:200px) {
+    .careers-notification-form .frm_forms .frm_form_fields .frm_submit_flex.frm_form_field{position: relative; top: 0; left: 0;}
+    .careers-notification-form .frm_forms .frm_form_fields input{padding: 15px 32px; }
 }
