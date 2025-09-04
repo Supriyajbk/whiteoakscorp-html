@@ -13,6 +13,7 @@
 .default-banner-main .default-banner-text .cat-date:before {content: "\f133"; font-family: "Font Awesome 6 Sharp"; font-weight: normal; position:absolute; left: 0; top: 0; display: block; font-weight: 900;}
 .default-banner-main .banner-wave{position: absolute; right: -516px; left: auto; bottom: 70px; z-index: -1;}
 
+.default-banner-text .button{padding: 12px 23px 12px 24px;}
 
 .default-banner-main.center { text-align: center; justify-content: center; align-items: flex-end; padding: 80px 0 80px;}
 .default-banner-main.center .banner-wave{right: auto}

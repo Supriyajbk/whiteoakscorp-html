@@ -11,9 +11,9 @@
 .counter-stats{justify-content: space-between;}
 .counter-stats:only-child{padding-bottom: 16px;}
 .counter-list{flex: 0 0 200px;}
-.counter-list p{font-size: 1.125rem; font-weight: 500; line-height: 1.33; color: var(--white);}
+.counter-list p{font-size: 1.125rem; font-weight: 500; line-height: 1.33; color: var(--white); text-align: left;}
 span.counter{font-size: 4rem; font-weight: 800; color: var(--white); line-height: 1.5; margin-bottom: 2px; display: block;   letter-spacing: -1.92px; position: relative; }
-.counter-symmblo{color: var(--signal); display: inline-block; font-size: 2rem; top: 11px; position: relative;}
+.counter-symmblo{color: var(--signal); display: inline-block; font-size: 2rem; top: 11px; position: relative; font-weight: 700;}
 
 .counter-lt hr{margin: 0 0 15px; color: var(--signal);}
 .counter-wave{position: absolute; left: 0px; right: auto; top: 0px;}
@@ -33,6 +33,7 @@ span.counter{font-size: 4rem; font-weight: 800; color: var(--white); line-height
 .counter-rt p{font-size: 1rem;}
 .counter-stats{ gap: 20px 40px}
  .counter { font-size: 2.25rem;}
+ .counter-list p{text-align: center;}
 }
 
 
@@ -43,12 +44,12 @@ span.counter{font-size: 4rem; font-weight: 800; color: var(--white); line-height
 .counter-intro{gap: 50px; margin-bottom: 17px;}
 .counter-lt { flex: 0 0 100% }   
 .counter-rt { flex: 0 0 100% }
-.counter-list{flex: 0 0 calc(50% - 16px); text-align: center; margin-bottom: 10px;}
+.counter-list{flex: 0 0 calc(50% - 24px); text-align: center; margin-bottom: 10px;}
 .counter-top{justify-content: center;}
     /* .counter-stats{justify-content: inherit;} */
 .counter-wave{right: auto; bottom: -8px; top: auto; left: -29px; bottom: 0;}
 .counter-list span {  margin-bottom: 0; display: block; }
-.counter-list p { font-size: 1rem; margin-bottom: 0; line-height: 1.5;}
+.counter-list p { font-size: 1rem; margin-bottom: 0; line-height: 1.5; text-align: center;}
 
 .intersect-line{width: 196px; height: 103px; right: 0; position: absolute; z-index: -1;}
 .intersect-line.hide-in-mobile{display: none;}

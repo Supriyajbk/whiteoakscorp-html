@@ -9,7 +9,7 @@
 .about-intro-rt p{max-width: 650px; line-height: 1.7;}
 .about-intro-lt hr.small{margin: 0 0 24px;}
 
-.about-intro-wave{position: absolute; right: auto; top: -51px; width: 196px; display: block; z-index: -1; left: -98px;}
+.about-intro-wave{position: absolute; right: auto; top: -51px; width: 196px; display: block; z-index: -1; left: -98px; height: 103px}
 .about-intro-lt .h2{margin-bottom: 0;}
 
 .about-block-wrap { margin: 0 0 40px; clear:both; width:100%; margin-bottom: 40px; }
@@ -37,5 +37,6 @@
 .about-intro-wrap{display: block;}
 .about-block-main {display: block;}
 .about-block-list{margin-bottom: 20px;}
+.about-intro-wave{ bottom: 0; top: auto; right: 0; left: auto;}
 
 }
