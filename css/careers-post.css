@@ -5,7 +5,7 @@
 .default-banner-main{padding: 289px 0 80px;}
 .banner-bg::after{background: linear-gradient(0deg, rgba(21, 32, 34, 0.55) 0%, rgba(21, 32, 34, 0.55) 100%);}
 .default-banner-main .default-banner-text .optional-text{line-height: 1.25; font-weight: 700; margin: 0 0 22px 0;}
-.default-banner-main .default-banner-text .optional-text::after{bottom: -7px; }
+.default-banner-main .default-banner-text .optional-text::after{bottom: -7px;}
 
 .careers-content-article > p:first-child{font-size: 24px; line-height: 36px; font-weight: 600;}
 .careers-content-article > hr.small{margin: 0 auto 20px 0;}
@@ -24,7 +24,7 @@
 .application-form-title .optional-text::after{background-color: var(--signal);}
 .application-form-title h2{line-height: 35.2px; color: var(--white); letter-spacing: -0.64px; margin-bottom: 0;}
 .application-form-title h2 span{display: inline;}
-.application-form{width: 100%; }
+.application-form{width: 100%;}
 .application-form .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 8px;}
 .application-form .frm_forms .frm_form_fields .frm_form_field:last-child{margin-bottom:0;}
 .application-form .frm_forms .frm_form_fields input{font-weight: 600; font-size: 0.875rem; line-height: 18px;}
