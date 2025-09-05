@@ -227,13 +227,14 @@ ul.slick-dots li.slick-active{background-color: var(--sherwood-green);}
 .default-thumb-two .default-thumb-flex {flex: 1 1 auto; height: 100%;}
 
 /* Custom Selectbox */
-select.selectBox {display:none!important;}
+/* select.selectBox {display:none!important;} */
+.frm_forms .frm_form_fields select {padding: 17px 16px!important;}
 body .selectBox-dropdown {outline: 0; width: 100% !important; font-size: 1rem; line-height: normal; background:transparent; color: var(--brand-green); box-shadow: none; border-radius: 0; padding: 15px 46px 16px 16px; border: 1px solid var(--brand-green); vertical-align: middle; height: auto; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; cursor: pointer; font-weight: bold;}
 body .selectBox-dropdown:hover, body .selectBox-dropdown:focus {border-color: var(--brand-mint);}
 body .selectBox-dropdown:focus, body .selectBox-dropdown:focus .selectBox-arrow {border-color: var(--brand-green);} 
 body .selectBox-dropdown .selectBox-label {padding:0; display:block; width: 100% !important; text-overflow: ellipsis; font-weight: bold;}
 body .selectBox-dropdown .selectBox-label a {color:inherit;}
-body .selectBox-dropdown .selectBox-arrow {width:auto; right:16px; top:24px; transform:translateY(-50%); font-size:1rem; color: var(--brand-blue); border:none; font-family: "Font Awesome 6 Sharp"; font-weight: normal; position:absolute; display:flex; align-items:center; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; background:none; text-shadow: 2px 2px 0 var(--brand-mint);}
+body .selectBox-dropdown .selectBox-arrow {width:auto; right:16px; top:48px; transform:translateY(-50%); font-size:1rem; color: var(--brand-blue); border:none; font-family: "Font Awesome 6 Sharp"; font-weight: normal; position:absolute; display:flex; align-items:center; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; background:none; text-shadow: 2px 2px 0 var(--brand-mint);}
 body .selectBox-dropdown .selectBox-arrow::after {content:"\f078";}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow {transform:translateY(-50%) rotate(-180deg);}
 body ul.selectBox-dropdown-menu { background-color: var(--white); border-color:var(--brand-green); padding:0; margin:1px 0 0 0;  box-shadow:0 1px 8px rgba(0, 0, 0, .2) ; -webkit-box-shadow:0 1px 8px rgba(0, 0, 0, .2); -moz-box-shadow:0 1px 8px rgba(0, 0, 0, .2); border-radius: 0!important; z-index: 50; }
