@@ -26,6 +26,7 @@
 @media only screen and (min-width: 1024px){
 .page-template-home .repeater-main {padding: 80px 0 40px;}
 
+body.page-template-careers  .repeater-main{padding: 80px 0;}
 .repeater-list.full-repeater{gap: 80px;}
 .full-repeater .repeater-img, .full-repeater .repeater-text{flex: 1; width: auto;}
 
@@ -51,4 +52,8 @@
 	.repeater-line-thumb {display: none;}
 	.repeater-list:nth-child(2n) .repeater-line-thumb {display: none;}
 	.page-template-default .repeater-main { padding: 135px 0 40px; }
+	.page-template-careers .repeater-main{padding: 40px 0; }
+
+	.full-repeater .repeater-text .h3{font-size: 28px; line-height: 42px; letter-spacing: -0.56px; margin-bottom: 24px;}
+	.repeater-text p{margin-bottom: 16px; }
 }

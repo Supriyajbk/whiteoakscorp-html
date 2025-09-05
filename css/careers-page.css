@@ -6,7 +6,11 @@
 @import url("_stats-section.css");
 @import url("_careers-notification-section.css");
 @import url("_careers-opportunities-section.css");
+@import url("_big-video-section.css");
 
 
 .default-banner-section .banner-bg::after{background: linear-gradient(0deg, rgba(21, 32, 34, 0.55) 0%, rgba(21, 32, 34, 0.55) 100%)};
 
+@media screen and (max-width: 767px) and (min-width: 200px) {
+
+}
