@@ -1,0 +1,12 @@
+
+.careers-opportunities-section{background: var(--sherwood-green)}
+.careers-opportunities-text .optional-text{color: var(--signal); margin: 0 0 13px 0;}
+.careers-opportunities-text .optional-text::after{background-color: var(--signal);}
+
+
+@media screen and (min-width: 1024px){
+    .careers-opportunities-main{padding: 90px 0; gap: 80px;}
+    .careers-opportunities-text{flex: 0 0 352px; flex-grow: 1;}
+    .careers-opportunities-lists{flex: 0 0 calc(100% - 432px); flex-grow: 1;}
+    
+}
