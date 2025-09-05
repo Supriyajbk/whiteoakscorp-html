@@ -1,0 +1,17 @@
+
+.stats-heading hr.small{margin-left: 0; margin-bottom: 16px;}
+.stats-line-shape{top: -50px; left: -98px; z-index: -1; }
+
+.stats-list{flex-direction: column; gap: 16px; font-size: 16px; line-height: 24px; color: var(--dark-forest);}
+.stats-icon{width: 40px; }
+.stats-list h2{line-height: 33.6px; color: var(--deep-moss); letter-spacing: -0.24px; margin-bottom: 0;}
+
+
+@media screen and (min-width: 1024px){
+ .stats-main{padding: 80px 0; gap: 40px;}
+ .stats-intro{gap: 187px;}
+ .stats-heading{flex: 0 0 408px; flex-grow: 1;}
+ .stats-desc{flex: 0 0 calc(100% - 595px); flex-grow: 1;}
+ .stats-lists{gap: 32px;}
+ .stats-list{flex: 0 0 calc(25% - 24px); flex-grow: 1;}
+}

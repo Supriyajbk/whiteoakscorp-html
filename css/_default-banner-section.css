@@ -1,7 +1,7 @@
-.default-banner-section {float: left; width: 100%; position: relative; z-index: 1;}
+.default-banner-section {width: 100%; position: relative; z-index: 1;}
 .default-banner-main {width: 100%; min-height:680px; position: relative; align-items:flex-start; padding: 207px 0 100px;}
 .default-banner-main .default-banner-text {clear: both; max-width: 540px; width: 100%;}
-.default-banner-main .default-banner-text .optional-text {font-size: 0.75rem; line-height: 1.6; color: var(--signal); font-weight:400; letter-spacing: normal; margin: 0 0 18px 0; }
+.default-banner-main .default-banner-text .optional-text {font-size: 0.75rem; line-height: 1.6; color: var(--signal); font-weight:700; letter-spacing: normal; margin: 0 0 18px 0; }
 .default-banner-main .default-banner-text .optional-text::after {background-color: var(--signal); bottom: -4px;}
 .default-banner-main .default-banner-text h1 {color: var(--white); margin-bottom: 23px; font-size: 4rem; line-height: 1;}
 .default-banner-main .default-banner-text p {color: var(--white); font-size: 1.125rem; font-weight: 400; line-height: 1.4;}
@@ -11,7 +11,7 @@
 .default-banner-main .default-banner-text .cat-wrap ul li a:hover {color: var(--yellow);}
 .default-banner-main .default-banner-text .cat-date {font-size: 0.75rem; color: var(--white); font-weight: 500; letter-spacing: normal; padding: 0 0 0 19px;}
 .default-banner-main .default-banner-text .cat-date:before {content: "\f133"; font-family: "Font Awesome 6 Sharp"; font-weight: normal; position:absolute; left: 0; top: 0; display: block; font-weight: 900;}
-.default-banner-main .banner-wave{position: absolute; right: -516px; left: auto; bottom: 70px; z-index: -1;}
+.default-banner-main .banner-wave{position: absolute; right: -517px; left: auto; bottom: 67px; z-index: -1;}
 
 .default-banner-text .button{padding: 12px 23px 12px 24px;}
 

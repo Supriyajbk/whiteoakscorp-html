@@ -1,0 +1,11 @@
+
+@import url("_default-banner-section.css");
+@import url("_request-section.css");
+@import url("_featured-section.css");
+@import url("_repeater-section.css");
+@import url("_stats-section.css");
+@import url("_careers-notification-section.css");
+
+
+.default-banner-section .banner-bg::after{background: linear-gradient(0deg, rgba(21, 32, 34, 0.55) 0%, rgba(21, 32, 34, 0.55) 100%)};
+
