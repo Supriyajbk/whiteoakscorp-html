@@ -229,20 +229,22 @@ ul.slick-dots li.slick-active{background-color: var(--sherwood-green);}
 /* Custom Selectbox */
 /* select.selectBox {display:none!important;} */
 .frm_forms .frm_form_fields select {padding: 17px 16px!important;}
-body .selectBox-dropdown {outline: 0; width: 100% !important; font-size: 1rem; line-height: normal; background:transparent; color: var(--brand-green); box-shadow: none; border-radius: 0; padding: 15px 46px 16px 16px; border: 1px solid var(--brand-green); vertical-align: middle; height: auto; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; cursor: pointer; font-weight: bold;}
+body .selectBox-dropdown {outline: 0; width: 100% !important; font-size: 1rem; line-height: normal; background: var(--dark-forest); color: var(--white); box-shadow: none; border-radius: 50px; padding: 15px  16px; border: 1px solid var(--brand-green); vertical-align: middle; height: auto; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; cursor: pointer; font-weight: bold; display: block}
 body .selectBox-dropdown:hover, body .selectBox-dropdown:focus {border-color: var(--brand-mint);}
 body .selectBox-dropdown:focus, body .selectBox-dropdown:focus .selectBox-arrow {border-color: var(--brand-green);} 
-body .selectBox-dropdown .selectBox-label {padding:0; display:block; width: 100% !important; text-overflow: ellipsis; font-weight: bold;}
+body .selectBox-dropdown .selectBox-label {padding:0; display:block; width: 100% !important; text-overflow: ellipsis; font-size: 14px; font-weight: 400; line-height: 1.28;}
 body .selectBox-dropdown .selectBox-label a {color:inherit;}
-body .selectBox-dropdown .selectBox-arrow {width:auto; right:16px; top:48px; transform:translateY(-50%); font-size:1rem; color: var(--brand-blue); border:none; font-family: "Font Awesome 6 Sharp"; font-weight: normal; position:absolute; display:flex; align-items:center; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; background:none; text-shadow: 2px 2px 0 var(--brand-mint);}
-body .selectBox-dropdown .selectBox-arrow::after {content:"\f078";}
+body .selectBox-dropdown .selectBox-arrow {width:auto; right:16px; top:52px; transform:translateY(-50%); font-size:1rem; color: var(--signal); border:none; font-family: "Font Awesome 6 Sharp"; font-weight: normal; position:absolute; display:flex; align-items:center; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; background:none; text-shadow: 2px 2px 0 var(--brand-mint);}
+body .selectBox-dropdown .selectBox-arrow::after {content: "\f0d7";}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow {transform:translateY(-50%) rotate(-180deg);}
-body ul.selectBox-dropdown-menu { background-color: var(--white); border-color:var(--brand-green); padding:0; margin:1px 0 0 0;  box-shadow:0 1px 8px rgba(0, 0, 0, .2) ; -webkit-box-shadow:0 1px 8px rgba(0, 0, 0, .2); -moz-box-shadow:0 1px 8px rgba(0, 0, 0, .2); border-radius: 0!important; z-index: 50; position: absolute;}
-body ul.selectBox-dropdown-menu li {color: var(--brand-green);}
-body ul.selectBox-dropdown-menu li a {font-size:0.875rem; line-height:1.5; letter-spacing:normal; display:block; padding:5px 16px; white-space:nowrap; text-transform:capitalize; color: var(--light-grey); overflow:hidden; text-overflow:ellipsis; text-decoration: none; font-weight: bold;}
-body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropdown-menu li a:hover {color:var(--white); background-color:var(--brand-blue); cursor:pointer;}
+body ul.selectBox-dropdown-menu { background-color: var(--white); border-color:var(--brand-green); padding:0; margin:1px 0 0 0;  box-shadow:0 1px 8px rgba(0, 0, 0, .2) ; -webkit-box-shadow:0 1px 8px rgba(0, 0, 0, .2); -moz-box-shadow:0 1px 8px rgba(0, 0, 0, .2); border-radius: 20px!important; z-index: 50; position: absolute;}
+body ul.selectBox-dropdown-menu li {color: var(--brand-green); margin-bottom: 0;}
+body ul.selectBox-dropdown-menu li a {font-size:0.875rem; line-height:1.5; letter-spacing:normal; display:block; padding:5px 16px; white-space:nowrap; text-transform:capitalize; color: var(--light-grey); overflow:hidden; text-overflow:ellipsis; text-decoration: none; font-weight: bold; padding: 10px;}
+body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropdown-menu li a:hover {color:var(--dark-forest); background-color:var(--signal); cursor:pointer;  }
 body ul.selectBox-dropdown-menu li.frm-select-placeholder/*, body ul.selectBox-dropdown-menu li.selectBox-selected */{display: none!important;} 
-
+body ul.selectBox-dropdown-menu li.selectBox-selected:first-child a, body ul.selectBox-dropdown-menu li:first-child a:hover {border-radius: 20px 20px 0 0}
+body ul.selectBox-dropdown-menu li.selectBox-selected:last-child a, body ul.selectBox-dropdown-menu li:last-child a:hover {border-radius: 0 0 20px 20px}
+body ul.selectBox-dropdown-menu li:before{display: none;}
 
 /*-- common form css starts here --*/
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_fields_container {display: block;}
@@ -290,7 +292,7 @@ body .frm_style_formidable-style.with_frm_style .frm_submit .button, body .frm_s
  display: block; content: "\e09f"; position: relative; font-size: 19px; font-family: "Font Awesome 6 Sharp"; font-weight: 600; line-height: 1.5; color: var(--dark-forest); width: 24px; height: 24px; right: 6px; top: -3px; animation: bounceAlpha 2s ease-in-out infinite;}
 
 .frm_form_field.form-field.frm_top_container.vertical_radio{flex: 1}
-.frm_forms .frm_filed_wrapper {gap: 16px; justify-content: space-between; display: flex; flex-wrap: wrap; align-items: center;}
+.frm_forms .frm_filed_wrapper {gap: 16px; justify-content: space-between; display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 40px;}
 .frm_forms .frm_filed_wrapper .frm_form_field, .frm_forms .frm_filed_wrapper .frm_checkbox {margin: 0!important;; }
 .frm_forms .frm_filed_wrapper .disclaimer {width: 70%;}
 
