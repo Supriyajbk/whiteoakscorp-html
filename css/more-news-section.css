@@ -1,6 +1,6 @@
 
 h2.canopy span{color: var(--canopy);}
-.more-news-section{clear: both; position: relative; display: block;}
+.more-news-section{clear: both; position: relative; display: block; overflow: hidden;}
 
 
 /*-- media css starts here --*/
