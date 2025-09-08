@@ -1,0 +1,45 @@
+
+.careers-opportunities-section{background: var(--sherwood-green)}
+.careers-opportunities-text {font-size: 16px; line-height: 24px; color: var(--white); flex-direction: column; }
+.careers-opportunities-text .optional-text{color: var(--signal); margin: 0 0 21px 0; width: fit-content; }
+.careers-opportunities-text .optional-text::after{background-color: var(--signal);}
+.careers-opportunities-text .h3{line-height: 38.4px; color: var(--white); letter-spacing: -0.64px; margin-bottom: 16px;}
+.careers-opportunities-text a.button{margin-top: auto; width: fit-content;}
+.careers-bg-wave{bottom: -55px; right: 0; z-index: -1; }
+
+
+.careers-opportunities-lists{align-items: flex-start; }
+.careers-opportunities-list{gap: 16px; background: var(--deep-moss); padding: 16px 16px 16px 48px; border-radius: 80px; justify-content: center; align-items: center; }
+.careers-job-title{gap: 16px; flex: 1; align-items: center; }
+.careers-job-name{flex: 1; font-size: 20px; line-height: 32px; font-weight: 700; }
+.careers-job-name a{color: var(--white); }
+.careers-job-name a:hover{color: var(--signal);}
+.careers-job-time{flex: 0 0 141px; font-size: 14px; line-height: 22px; color: var(--white); text-align: end; }
+.careers-job-btn{width: fit-content; }
+
+
+
+
+@media screen and (min-width: 1024px){
+    .careers-opportunities-main{padding: 90px 0; gap: 80px;}
+    .careers-opportunities-text{flex: 0 0 352px; flex-grow: 1;}
+    .careers-opportunities-lists{flex: 0 0 calc(100% - 432px); flex-grow: 1; gap: 24px;}
+    
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .careers-opportunities-main{padding: 40px 0; gap: 40px;}
+    .careers-opportunities-text{width: 100%;}
+    .careers-opportunities-lists{gap: 32px; width: 100%;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .careers-opportunities-main{padding: 40px 0; gap: 40px;}
+    .careers-bg-wave{bottom: auto; left: -55px; z-index: -1; top: 78px; right: auto;}
+    .careers-opportunities-text{width: 100%;}
+    .careers-opportunities-text a.button{width: 100%;}
+    .careers-opportunities-lists{gap: 24px; width: 100%;}
+    .careers-opportunities-list{gap: 24px; padding: 16px; border-radius: 20px;}
+    .careers-job-title{display: block; width: 100%; }
+    .careers-job-time{text-align: start; }
+    .careers-job-btn{width: 100%; }
+}

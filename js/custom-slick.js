@@ -152,6 +152,10 @@ jQuery(document).ready(function () {
   // });
 
   /* Featured News */
+  if (jQuery('body').hasClass('page-template-careers')) {
+  jQuery('.featured-lists').slick('unslick');
+  }
+
   if (jQuery(window).width() <= 767) {
     jQuery(".featured-lists").slick({
       slidesToShow: 1,
