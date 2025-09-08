@@ -130,7 +130,7 @@ input[type="submit"] {background-image: url("../images/search-icon.svg") !import
 .play-btn-main .play-btn{width: 133px; height: 133px; z-index: 1; border: none; background-color: transparent;}
 .play-btn-main .play-btn:hover{width: 138px; height: 138px;}
 .play-btn > span{font-size: 40px; line-height: 48px; color: var(--white); font-weight: 700; display: block; width: calc(100% + 60px); letter-spacing: -1.2px; left: -30px; position: relative; }
-.play-btn-bg::before { width: 100%; height: 100%; background-image: url("/images/play.svg"); background-size: cover; content: ""; position: absolute; border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 1; z-index: -1; }
+.play-btn-bg::before { width: 100%; height: 100%; background-image: url("../images/play.svg"); background-size: cover; content: ""; position: absolute; border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 1; z-index: -1; }
 .play-btn-bg{width: 100%; height: 100%; color: var(--white); font-size: 0; line-height: 0; font-weight: 700; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 .play-btn-bg:hover{transform: scale(1.1);}
 /* .play-btn-bg i{font-size: 1.5rem; line-height: 100%; margin-left: 0; background: var(--Blue-Gradient3); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 400;}
