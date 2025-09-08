@@ -119,8 +119,7 @@ button:focus, .button:focus, button:active, .button:active {background-color: va
 .button.normal-btn:after {display: none;}
 
 input[type="search"] {padding:16px 50px 18px 32px; font-size: 0.75rem ; color: var(--white); font-weight: bold;}
-input[type="submit"] {background-image: url("../images/search-icon.svg") !important; background-repeat: no-repeat !important; position: absolute; right:32px; top:0; bottom: 0; padding: 0 !important; width: 16px; height: 16px; margin: auto; background-color: transparent !important; border: 0 none; border-radius: 0; z-index: 1;}
-
+input[type="submit"] {background-image: url("../images/search-icon.svg") !important; background-repeat: no-repeat !important; position: absolute; right: 16px; top: 0; bottom: 0; padding: 0 !important; width: 32px; height: 32px; margin: auto; background-color: transparent !important; border: 0 none; border-radius: 0; z-index: 1;}
 
 ::-webkit-input-placeholder {color: var(--placeholder)!important; font-family: "Inter", sans-serif; opacity: 1!important; font-size: 0.75rem!important; overflow: visible;}
 :-moz-placeholder {color: var(--placeholder)!important; font-family: "Inter", sans-serif; opacity: 1!important; font-size: 0.75rem!important; overflow: visible;}

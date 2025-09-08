@@ -184,7 +184,7 @@ body .mfp-close:after {display: none;}
 /* Cat Wrap */
 .cat-wrap {clear: both; margin: 0 0 12px 0; justify-content: space-between; display: flex; flex-wrap: wrap; width: 100%;}
 .cat-wrap ul {margin: 0; font-size: 0; display: flex; flex-wrap: wrap; gap:8px;}
-.cat-wrap ul li {margin: 0; display: inline-block; background-color: var(--signal); padding: 8px 16px;}
+.cat-wrap ul li {margin: 0; display: inline-block; background-color: var(--signal); padding: 6px 16px 8px;}
 .cat-wrap ul li:before {display: none;}
 .cat-wrap ul li {display: inline-flex; color: var(--dark-forest); font-size: 0.75rem; font-weight: 600; line-height: 1; text-decoration: none; position: relative; z-index: 1; border-radius: 40px; gap: 8px; align-items: center;}
 .cat-wrap ul li a{color: var(--dark-forest);}

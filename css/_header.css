@@ -135,7 +135,7 @@ body.trans-header .main_header.fixed-header  .normal-logo{opacity: 0; visibility
 @media only screen and (max-width:1023px) and (min-width:200px) {
     .main_header .header {padding: 16px 0 16px; min-height: 80px; align-items: center;}
     .main_header .header .toggle_button {margin: 16px 0;}
-    .main_header .logo {width: 135px;}
+    /* .main_header .logo {width: 135px;} */
     
 /*     
     
