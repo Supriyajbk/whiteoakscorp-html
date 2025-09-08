@@ -38,7 +38,14 @@ img.fixed-logo{ position: absolute; top: 0; left: 0; opacity: 0; visibility: hid
 .main_header.fixed-header  .fixed-logo{opacity: 1; visibility: visible;}
 .main_header.fixed-header  .normal-logo{opacity: 0; visibility: hidden;}
 
+.main_header .normal-logo{visibility: hidden; opacity: 0;}
+.main_header .fixed-logo{visibility: visible; opacity: 1;}
 
+body.trans-header .main_header .normal-logo{visibility: visible; opacity: 1;}
+body.trans-header .main_header .fixed-logo{visibility: hidden; opacity: 0;}
+
+body.trans-header .main_header.fixed-header  .fixed-logo{opacity: 1; visibility: visible;}
+body.trans-header .main_header.fixed-header  .normal-logo{opacity: 0; visibility: hidden;}
 
 .main_header .header .toggle_button {position: absolute; flex-direction: column; width: 48px; right: 0px; height: 48px; cursor: pointer; top: 0; bottom: 0; margin: 47px auto 20px; display: block; background-color: var(--theme); border-radius: 50%; transition: 0.5s ease;} 
     .main_header .header .toggle_button span.line {width: 20px; height: 3px; margin: 0 auto; background-color: var(--dark-forest); display: block; position: absolute; top: 50%; transform: translateY(-50%); transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; margin-left: 14px; border-radius: 2px;} 
