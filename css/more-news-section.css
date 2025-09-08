@@ -9,6 +9,8 @@ h2.canopy span{color: var(--canopy);}
     .more-news-slider .more-news-slide{width: 600px; margin-right: 40px;}
     .more-news-text{max-width: 450px; padding: 32px; transform: translateX(29px); margin-top: -60px; border-top: 4px solid var(--Signal); background: var(--beach); }
     .more-news-text h2{font-size: 32px; font-weight: 700; line-height: 140%; letter-spacing: -1.6px; }
+    .more-news-title h2{margin-bottom: 0;}
+    
 }
 @media only screen and (min-width: 768px) {
     .more-news-head{padding-bottom: 40px;}
