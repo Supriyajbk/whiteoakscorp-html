@@ -2,7 +2,7 @@
 @import url("_signup-module.css");
 
 
-.contact-section {clear: both; color: var(--white);  width: 100%; padding: 38px 0 80px; position: relative; z-index: 1; background: var(--theme-bg);}
+.contact-section {clear: both; color: var(--white);  width: 100%; padding: 38px 0 0; position: relative; z-index: 1; background: var(--theme-bg);}
 .contact-main {gap: 6.21%;position: relative;  padding: 120px 0 0 0;}
 .contact-main h1 {margin: 0 0 32px 0; font-size: 2.5rem; line-height: 1.2; letter-spacing: -1.2px; color: var(--white);}
 .contact-main .contact-left {width: 350px;}
