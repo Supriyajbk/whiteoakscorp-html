@@ -20,11 +20,11 @@
 .all-in-one-rt-text .btn-shadow-wrp{gap: 24px; display: flex;}
 .all-in-one-rt-text .btn-shadow-wrp .button.trans{ border-radius: 50px; padding: 10px 16px 10px 16px;}
 .all-in-one-rt-text .btn-shadow-wrp .button.trans:after{display: none;}
-/* .all-in-one-rt-text .btn-shadow-wrp .button.trans:hover{background-color: var(--signal); color: var(--dark-forest); } */
 .all-in-one-rt-text .btn-shadow-wrp .button.trans:hover .bar{background-color: var(--dark-forest)}
 
 
-.all-in-one-thumb {clear: both;  transition: all 0.5s ease-in-out; width: 200px}
+.all-in-one-thumb[data-name] {border-top: 2px solid transparent; clear: both; cursor: pointer;  transition: all 0.5s ease-in-out; width: calc(50% - 5px)}
+.all-in-one-thumb[data-name].active{border-top-color: #d7fc00;}
 .all-in-one-thumb .h4 {margin: 0; color: var(--brand-mint); padding:9px 24px 7px 0; cursor:pointer; }
 .all-in-one-thumb.active .h4 {padding:9px 24px 7px 2px;}
 
@@ -76,13 +76,12 @@
     .all-in-one h1 {font-size: 3rem;}
     .all-in-one-slider-wrap {gap: 72px;}
     .all-in-one-slide .all-in-one-rt-shadow {width: calc(100% + 64px); height: calc(100% + 64px); bottom: -64px; right: -65px; clip-path: var(--path-64);}
-    /* .all-in-one-slide .all-in-one-rt-cnt {padding: 48px;} */
     .all-in-one-slide .all-in-one-rt-thumb {height: 293px; margin: 0 0 32px 0;}
     .all-in-one-slide .kisp-type {margin: 0 0 31px 0;}
     
     .all-in-one-slide p {margin: 0 0 31px 0;}
-    .all-in-one-lt .all-in-one-nav {display: block; max-width: 100%; margin: 32px 0 0 0;}
-    .all-in-one-thumb {width: 23.75366568914956%; text-align: center; margin: 0;}
+    .all-in-one-lt .all-in-one-nav {max-width: 100%; margin: 32px 0 0 0;}
+
     .all-in-one-thumb.active {margin: 0;}
     .all-in-one-thumb .h4 {font-size: 1.75rem; letter-spacing: 0.56px; line-height: 1; padding: 10px 6px 6px;}
     .all-in-one-thumb.active .h4 {padding: 10px 6px 6px;}
@@ -98,10 +97,9 @@
     .all-in-one h1 {font-size: 2.5rem; line-height: 1; letter-spacing: 0.8px;}
     .all-in-one-slider-wrap{display: block}
     .all-in-one-rt{display: block; width: 100%}
-    .all-in-one-rt .slick-list {overflow: visible;}
     .all-in-one-lt{display: block; width: 100%; }
     
-        .all-in-one-rt-text {padding: 40px 20px; }
+    .all-in-one-rt-text {padding: 40px 20px; }
     .all-in-one-rt-text .h3 { font-size: 2.5rem; margin-bottom: 28px;}
     .all-in-one-txt p {font-size: 1.125rem;}
     .logo-brand { width: 48px; margin-bottom: 24px; }
@@ -114,8 +112,7 @@
     .all-in-one-rt-text .btn-shadow-wrp .button {width: 100%; margin-bottom: 24px;}
     
  
-    .all-in-one-nav .all-in-one-thumb{ width: 100px; }
-    .all-in-one-nav .slick-slide{margin: 0 4px;}
+    .all-in-one-thumb[data-name]{ width: calc(33.33333% - 8px); }
     .all-in-one-lt .all-in-one-nav {max-width: 100%; margin: 0;}
     
 
