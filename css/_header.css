@@ -104,17 +104,6 @@ body.trans-header .main_header.fixed-header  .normal-logo{opacity: 0; visibility
     ul.main_menu > li.current-page-ancestor > a:after, 
     ul.main_menu > li.current_page_item > a:after{bottom: -3px;  height: 2px;}
 
-    /* ul.main_menu > li.current-menu-item > a:before, 
-    ul.main_menu > li.current-menu-parent > a:before, 
-    ul.main_menu > li.current-page-ancestor > a:before, 
-    ul.main_menu > li.current_page_item > a:before{background-color: var(--menu-bg); padding: 14px 8px 30px; content: '';
-    position: absolute;
-    display: block;
-    margin: auto;
-    height: 2px;
-    transition: width .5s ease, background-color .5s ease;
-    left: 50%;
-    transform: translate(-50%, 0); width: 100%; z-index: -1; top: -18px; height: 37px } */
 
 }
 
@@ -137,45 +126,19 @@ body.trans-header .main_header.fixed-header  .normal-logo{opacity: 0; visibility
     .main_header .header .toggle_button {margin: 16px 0;}
     /* .main_header .logo {width: 135px;} */
     
-/*     
-    
-    
-    .mobile_menu {width: 100%; display: block; order: 2;} 
-    .mobile_menu ul.main_menu {margin: 0; padding:0; padding-bottom: 90px;} 
-    .mobile_menu ul.main_menu > li {display: block; margin:0;} 
-    
-    .mobile_menu ul.main_menu li.menu-item-has-children > a.active:after {transform: rotate(-180deg)}
-    .mobile_menu ul.main_menu li.menu-item-has-children > a.active {font-weight: bold;}
-    
-    .mobile_menu ul.main_menu li:before {display: none;} 
-    .mobile_menu ul.main_menu > li >a {font-size: 1.125rem; padding:14px 20px 14px 24px; cursor: pointer; color: var(--heading); position: relative; display:block; font-weight: bold; border-left: 16px solid transparent; letter-spacing: -0.36px;} 
-    .mobile_menu ul.main_menu > li a:hover, .mobile_menu ul.main_menu > li a:active  {background-color: var(--menu-hover-bg);  border-left: 16px solid var(--menu-line); padding-left: 24px;}
 
 
 
-    .mobile_menu ul.main_menu > li > ul {display: none; margin: 0; position: relative; padding: 0; background: var(--input); border-top: 1px solid var(--green); border-bottom: 1px solid var(--green);} 
-    .mobile_menu ul.main_menu li ul li {margin-bottom: 0; font-weight: 500; border-top: 1px solid var(--white);} 
-    .mobile_menu ul.main_menu li ul li:first-child{border: 0 none;}
-    .mobile_menu ul.main_menu li ul li a {color: var(--blacktext); position: relative; padding:13px 20px 13px 20px; display: block; font-size: 1.125rem;} 
-    .mobile_menu ul.main_menu li ul li ul {margin: 0 !important; padding:0; top: inherit; display: none;}
-    .mobile_menu ul.main_menu li.flex-menu .menu-1-of-4 > ul {display: block!important;}
-    .mobile_menu ul.main_menu li.menu-btn a {font-size: 1.125rem; font-weight: bold; color: var(--heading);}
-    .mobile_menu ul.main_menu li.menu-btn a:hover {color: var(--green);}
 
-    html.no-scroll {overflow: hidden;}
-    .main_header .header .toggle_button {margin: 16px 0 16px;} */
-
-
-   
 }
+@media only screen and (max-width:767px) and (min-width:200px) {
+.main_header .header_right {width: 375px; padding: 24px 24px 40px;}
+.toggle_close {top: -30px; right: 16px;}
+ ul.main_menu > li > a { z-index: 11;padding: 0 24px; font-size: 2rem; font-weight: 700; line-height: 1.4; display: block; position: relative; letter-spacing: -1.6px;}
+ul.main_menu {margin: 0;}
 
 
-@media only screen and (max-width:1023px)and (min-width:720px) {
-
-    /* .main_header .header_right.mobile_menu {top: 68px;} */
-    
 }
-
 
 @media only screen and (max-width:385px) and (min-width:200px) {
         .hdr-sm ul li { margin: 0 0 0 10px;}
