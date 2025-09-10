@@ -112,10 +112,10 @@
     .all-in-one-rt-text .btn-shadow-wrp .button {width: 100%; margin-bottom: 24px;}
     
  
-    .all-in-one-thumb[data-name]{ width: calc(33.33333% - 8px); }
+    .all-in-one-thumb[data-name]{ width: calc(33.33333% - 7px); }
     .all-in-one-lt .all-in-one-nav {max-width: 100%; margin: 0;}
     
-
+    .all-in-one-lt-inner{padding: 0 11px;}
 }
 
 

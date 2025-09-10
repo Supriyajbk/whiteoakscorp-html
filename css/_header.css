@@ -1,7 +1,7 @@
 .main_header {width: 100%; top: 0; left: 0; right: 0; position: fixed; z-index: 999; transition: all .5s ease; background: transparent;}
 .main_header .container {position: relative;}
 .main_header .header {padding: 52px 0 28px; position: relative;}
-.main_header .logo {width: 157px; position: relative;}
+.main_header .logo {width: 157px; position: relative; z-index: 1000;}
 
 
 .main_header .logo a {width: 100%; height: 100%; display: block;}
@@ -73,8 +73,13 @@ body.trans-header .main_header.fixed-header  .normal-logo{opacity: 0; visibility
  .toggle_close span.line1 {margin-top: 0; transform: translate(-50%, -50%) rotate(45deg); background-color: var(--signal);} 
  .toggle_close span.line3 {margin-top: 0; transform: translate(-50%, -50%) rotate(-45deg); background-color: var(--signal)} 
     
-   
-
+ ul.main_menu > li >a::before {content: "\e09f"; display: inline-block; font-size: 19px; font-family: "Font Awesome 6 Sharp"; line-height: 1.5; right: 8px; left: auto; position: absolute; top: 50%; transform: translate(-50%, -50%); width: 24px; height: 24px; font-weight: 700; }
+ ul.main_menu > li.current-menu-parent > a:after, 
+ ul.main_menu > li.current-page-ancestor > a:after, 
+ ul.main_menu > li.current_page_item > a:after  {width: 100%; background: var(--anchor-hover);}
+ ul.main_menu > li >a:hover{color: var(--anchor);}
+ ul.main_menu > li >a::after {content: ''; position: absolute; display: block; margin: auto; height: 2px; width: 0; bottom: -4px; transition: width .5s ease, background-color .5s ease; left: 50%; transform: translate(-50%, 0);}
+ 
 /*** Responsive ***/
 @media only screen and (min-width:1401px) {
 .main_header .container {padding: 0 80px 0 80px; max-width: 1440px;}
@@ -134,10 +139,16 @@ body.trans-header .main_header.fixed-header  .normal-logo{opacity: 0; visibility
 @media only screen and (max-width:767px) and (min-width:200px) {
 .main_header .header_right {width: 375px; padding: 24px 24px 40px;}
 .toggle_close {top: -30px; right: 16px;}
- ul.main_menu > li > a { z-index: 11;padding: 0 24px; font-size: 2rem; font-weight: 700; line-height: 1.4; display: block; position: relative; letter-spacing: -1.6px;}
+ ul.main_menu > li > a { z-index: 11;padding: 5px 0; font-size: 2rem; font-weight: 700; line-height: 1.4; display: block; position: relative; letter-spacing: -1.6px;}
 ul.main_menu {margin: 0;}
 
+.main_header .logo .normal-logo{opacity: 0; }
+.main_header.menu-open .logo img:not(img.mobile-logo){ opacity: 0; display: none;}
+.main_header .logo .mobile-logo{display: none;}
+ .main_header.menu-open .logo .mobile-logo {display: block;}
+.main_header .header-btm{margin: 96px 0 0;}
 
+ul.main_menu > li > a::before {right: -14px;}
 }
 
 @media only screen and (max-width:385px) and (min-width:200px) {
