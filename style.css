@@ -253,7 +253,7 @@ body ul.selectBox-dropdown-menu li:before{display: none;}
 .frm_forms .frm_form_fields .frm_form_field{margin-bottom:24px; position: relative; clear: both;}
 .frm_forms .frm_form_fields .frm_form_field.frm_full {clear:both; width: 100%;}
 
-.frm_forms .frm_form_fields .frm_form_field label, .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label {display: block; font-size: 1rem; line-height: 1.5; padding: 0 0 4px 0; margin: 0; text-indent: inherit; font-weight: normal; color: var(--frm-txt); z-index: 1; position: relative;}
+.frm_forms .frm_form_fields .frm_form_field label, .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label {display: block; font-size: 1rem; line-height: 1.5; padding: 0 0 4px 0; margin: 0; text-indent: inherit; font-weight: normal; color: var(--frm-txt); z-index: 1; position: relative; visibility: visible!important;}
 .frm_forms .frm_form_fields .frm_form_field label span.frm_optional, .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label span.frm_optional {color: var(--signal); right: 0; position: absolute; font-size: 14px;}
 
 /* Radio */
