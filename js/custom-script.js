@@ -20,10 +20,10 @@ jQuery(document).ready(function () {
 
   jQuery(".toggle_button").on("click", function (event) {
     event.preventDefault();
-    jQuery(this).addClass("active");
-    jQuery(".mobile_menu").addClass("navOpen");
-    jQuery(".main_header").addClass("menu-open");
-    jQuery("html").addClass("no-scroll");
+    jQuery(this).toggleClass("active");
+    jQuery(".mobile_menu").toggleClass("navOpen");
+    jQuery(".main_header").toggleClass("menu-open");
+    jQuery("html").toggleClass("no-scroll");
   });
   jQuery(".toggle_close").on("click", function (e) {
     e.preventDefault();

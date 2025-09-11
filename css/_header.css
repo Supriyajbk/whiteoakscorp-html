@@ -137,15 +137,17 @@ body.trans-header .main_header.fixed-header  .normal-logo{opacity: 0; visibility
 
 }
 @media only screen and (max-width:767px) and (min-width:200px) {
-.main_header .header_right {width: 375px; padding: 24px 24px 40px;}
+    .main_header .header .toggle_button.active{opacity: 1; visibility: visible;}
+    .toggle_close{display: none;}
+.main_header .header_right {width: 100%; padding: 24px 24px 40px;}
 .toggle_close {top: -30px; right: 16px;}
  ul.main_menu > li > a { z-index: 11;padding: 5px 0; font-size: 2rem; font-weight: 700; line-height: 1.4; display: block; position: relative; letter-spacing: -1.6px;}
 ul.main_menu {margin: 0;}
 
 .main_header .logo .normal-logo{opacity: 0; }
-.main_header.menu-open .logo img:not(img.mobile-logo){ opacity: 0; display: none;}
-.main_header .logo .mobile-logo{display: none;}
- .main_header.menu-open .logo .mobile-logo {display: block;}
+.main_header.menu-open .logo img:not(img.mobile-logo){ opacity: 0; visibility: hidden;}
+.main_header .logo .mobile-logo{visibility: hidden; opacity: 1; top: 0; left: 0; position: absolute;}
+ .main_header.menu-open .logo .mobile-logo {visibility: visible; opacity: 1;}
 .main_header .header-btm{margin: 96px 0 0;}
 
 ul.main_menu > li > a::before {right: -14px;}
