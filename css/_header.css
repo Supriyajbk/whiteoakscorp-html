@@ -139,7 +139,7 @@ body.trans-header .main_header.fixed-header  .normal-logo{opacity: 0; visibility
 @media only screen and (max-width:767px) and (min-width:200px) {
     .main_header .header .toggle_button.active{opacity: 1; visibility: visible;}
     .toggle_close{display: none;}
-.main_header .header_right {width: 100%; padding: 24px 24px 40px;}
+.main_header .header_right {width: 100%; right: -100%; padding: 24px 24px 40px;}
 .toggle_close {top: -30px; right: 16px;}
  ul.main_menu > li > a { z-index: 11;padding: 5px 0; font-size: 2rem; font-weight: 700; line-height: 1.4; display: block; position: relative; letter-spacing: -1.6px;}
 ul.main_menu {margin: 0;}
