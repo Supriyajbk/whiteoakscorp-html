@@ -10,6 +10,7 @@
 .all-in-one-rt {flex: 0 0 calc(100% - 473px);}
 .all-in-one-lt {flex: 0 0 410px;  display: flex; flex-wrap: wrap;  flex-grow: 1; color: var(--mist)}
 .all-in-one-lt .all-in-one-nav {margin: 62px 0 0 0; clear: both; width: 100%; max-width: 420px; display: flex; gap: 10px 10px; flex-wrap: wrap;}
+.all-in-one-lt .all-in-one-nav:nth-child(2){margin: 0}
 .all-in-one-rt-text{position: absolute; top: auto; bottom: 0; padding: 40px 80px; color: var(--white); z-index: 1;}
 .all-in-one-txt p {color: var(--mist); line-height: 1.7; font-weight: 300;}
 .all-in-one-slide {position: relative; display: none;}

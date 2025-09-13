@@ -11,14 +11,14 @@
 .featured-list.intro-list-3{flex: 0 0 calc(33.33% - 22px); }
 .featured-list.intro-list-2{flex: 0 0 calc(50% - 16px); }
 
-body.careers  .featured-list p:last-of-type {
+body.page-template-career  .featured-list p:last-of-type {
   margin-bottom: 0;
 }
 
 
 @media only screen and (min-width: 1024px) {
-    body.page-template-careers .featured-section:nth-child(4) .featured-main{padding-top: 0;}
-    body.page-template-careers .featured-section:nth-child(6) .featured-main{padding-bottom: 40px;}
+    body.page-template-career .featured-section:nth-child(4) .featured-main{padding-top: 0;}
+    body.page-template-career .featured-section:nth-child(6) .featured-main{padding-bottom: 40px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
 .featured-main{padding: 60px 0;}

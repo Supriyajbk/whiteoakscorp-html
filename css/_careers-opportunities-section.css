@@ -8,7 +8,7 @@
 .careers-bg-wave{bottom: -55px; right: 0; z-index: -1; }
 
 
-.careers-opportunities-lists{align-items: flex-start; }
+.careers-opportunities-lists{align-items: flex-start; flex-direction:  column; }
 .careers-opportunities-list{gap: 16px; background: var(--deep-moss); padding: 16px 16px 16px 48px; border-radius: 80px; justify-content: center; align-items: center; }
 .careers-job-title{gap: 16px; flex: 1; align-items: center; }
 .careers-job-name{flex: 1; font-size: 20px; line-height: 32px; font-weight: 700; }

@@ -16,6 +16,9 @@
 .careers-notification-form .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder{font-size: 0.875rem!important;}
 .careers-notification-form .frm_forms .frm_form_fields .frm_submit_flex.frm_form_field{position: absolute; top: 0; right: 0;}
 
+.frm_form_field_wrapper .frm_form_field.form-field.frm12.frm_first{position: absolute; right: 0; top: 4px; margin: 0;}
+.frm_form_field_wrapper .frm_form_field.form-field.frm12.frm_first  .frm_submit.frm_flex { position: absolute; right: 0; top: 0; margin: 0; width: auto;}
+
 .careers-notification-note{gap: 8px;}
 .careers-notification-shield{width: 16px; height: 16px;}
 .careers-notification-shield figure{display: flex;}

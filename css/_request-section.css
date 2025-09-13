@@ -7,7 +7,7 @@
 .request-rt figure, .request-rt svg{position: absolute; right: 196px;   }
 .request-rt .button:hover{background-color: var(--white); color: var(--dark-forest);}
 
-body.page-template-careers .default-banner-section + .request-section{padding: 0; position: relative; margin-top: -55px;  z-index: 1;}
+body.page-template-career .default-banner-section + .request-section{padding: 0; position: relative; margin-top: -55px;  z-index: 1;}
 
 /*-- media starts here --*/
 @media only screen and (max-width: 1100px) and (min-width: 1024px) {

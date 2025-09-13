@@ -176,7 +176,7 @@ img.mobile {display:none;}
 .iframe-container {overflow: hidden; padding-top: 56.25%; /* 16:9*/ position: relative;}
 .iframe-container iframe {border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;}
 
-body .mfp-image-holder .mfp-close, body .mfp-iframe-holder .mfp-close {padding-right: 9px; width: 40px;height: 40px; opacity: 1;line-height: 40px; top: -45px; background-color: transparent; right: -45px;}
+body .mfp-image-holder .mfp-close, body .mfp-iframe-holder .mfp-close {padding-right: 11px; width: 40px;height: 40px; opacity: 1;line-height: 40px; top: -45px; background-color: var(--canopy); right: -45px;}
 body .mfp-image-holder .mfp-close:hover, body .mfp-iframe-holder .mfp-close:hover {opacity: 0.8}
 body .mfp-close:after {display: none;}
 
@@ -441,6 +441,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
 @media only screen and (max-width:1023px) and (min-width:768px) {
     .hide-in-tab, .hide-in-tablet {display:none;}
+   
 }
 
 @media only screen and (max-width:1023px) and (min-width:200px) {
@@ -453,6 +454,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     
     .btn-full .btn-wrap {justify-content: center; gap: 28px;}
     .btn-center {padding: 0 16px;}
+     body .mfp-image-holder .mfp-close, body .mfp-iframe-holder .mfp-close{right: 0;}
     
 }
 
