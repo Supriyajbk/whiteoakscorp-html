@@ -10,7 +10,7 @@
 .all-in-one-rt {flex: 0 0 calc(100% - 473px);}
 .all-in-one-lt {flex: 0 0 410px;  display: flex; flex-wrap: wrap;  flex-grow: 1; color: var(--mist)}
 .all-in-one-lt .all-in-one-nav {margin: 62px 0 0 0; clear: both; width: 100%; max-width: 420px; display: flex; gap: 10px 10px; flex-wrap: wrap;}
-.all-in-one-lt .all-in-one-nav:nth-child(2){margin: 0}
+.all-in-one-lt .all-in-one-nav:only-child{margin: 0}
 .all-in-one-rt-text{position: absolute; top: auto; bottom: 0; padding: 40px 80px; color: var(--white); z-index: 1;}
 .all-in-one-txt p {color: var(--mist); line-height: 1.7; font-weight: 300;}
 .all-in-one-slide {position: relative; display: none;}
@@ -47,6 +47,11 @@
   50% { height: 4px; }
 }
 
+
+.all-in-one-section.no-counter {padding: 80px 0 80px;}
+
+
+
 /*-- media css starts here --*/
 @media only screen and (max-width: 1280px) and (min-width:1024px){
     /* .all-in-one-slide .all-in-one-rt-thumb {height: 260px;} */
@@ -60,7 +65,7 @@
     .all-in-one-rt-text {padding: 40px;}
 }
 
-@media (min-width:768px) {}
+
 
 
 
@@ -69,7 +74,7 @@
      .all-in-one-lt {width: 100%; padding: 0;}
     .all-in-one-rt {width: 100%;}
     .all-in-one-txt {font-size: 1rem; line-height: 1.5;}
-    
+    .all-in-one-section.no-counter {padding: 80px 0 40px;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width:768px){
@@ -103,7 +108,7 @@
     .all-in-one-rt-text {padding: 40px 20px; }
     .all-in-one-rt-text .h3 { font-size: 2.5rem; margin-bottom: 28px;}
     .all-in-one-txt p {font-size: 1.125rem;}
-    .logo-brand { width: 48px; margin-bottom: 24px; }
+    .logo-brand { width: 48px; margin-bottom: 26px; }
 
     .all-in-one-thumb .h4 {background: var(--brand-blue); padding:13px 12px 11px; text-align: center; font-size: 1.5rem; letter-spacing: 0.48px;}
     .all-in-one-slide p { line-height: 1.4; margin: 0 0 24px 0;}
@@ -111,12 +116,19 @@
     .all-in-one-slide .all-in-one-rt-thumb {height: 518px; margin: 0 0 20px 0;}
     .all-in-one-rt-text .btn-shadow-wrp {width: 100%; display: block;}
     .all-in-one-rt-text .btn-shadow-wrp .button {width: 100%; margin-bottom: 24px;}
-    
+    .all-in-one-rt-text .btn-shadow-wrp .button:last-child{margin-bottom: 0;}
  
     .all-in-one-thumb[data-name]{ width: calc(33.33333% - 7px); }
     .all-in-one-lt .all-in-one-nav {max-width: 100%; margin: 0;}
     
     .all-in-one-lt-inner{padding: 0 11px;}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px){
+    .gradient-overlay {background-color: var(--black); opacity: 0.8;}
+
+
+
 }
 
 

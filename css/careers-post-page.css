@@ -25,7 +25,7 @@
 .application-form-title h2{line-height: 35.2px; color: var(--white); letter-spacing: -0.64px; margin-bottom: 0;}
 .application-form-title h2 span{display: inline;}
 .application-form{width: 100%;}
-.application-form .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 8px;}
+.application-form .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 8px; margin-right: inherit;}
 .application-form .frm_forms .frm_form_fields .frm_form_field:last-child{margin-bottom:0;}
 .application-form .frm_forms .frm_form_fields input{font-weight: 600; font-size: 0.875rem; line-height: 18px;}
 .application-form .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder{font-size: 0.875rem!important;}
@@ -33,17 +33,38 @@
 .application-form .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder{font-size: 0.875rem!important;}
 .application-form .frm_forms .frm_form_fields .frm_form_field input:-ms-input-placeholder{font-size: 0.875rem!important;}
 .application-form .frm_forms .frm_form_fields .frm_form_field button.frm_button_submit{width: 100%; justify-content: center;}
-.application-form .frm_forms .frm_form_fields input[type="file"]{background-image: url("../images/upload-icon.svg"); background-repeat: no-repeat; background-position: right 22px center; background-size: 20px 14px; padding-right: 56px; cursor: pointer;}
+/* .application-form .frm_forms .frm_form_fields input[type="file"]{background-image: url("../images/upload-icon.svg"); background-repeat: no-repeat; background-position: right 22px center; background-size: 20px 14px; padding-right: 56px; cursor: pointer;} */
 
 .careers-content-sidebar .share-icons{margin-top: 32px; }
 .careers-content-sidebar .sharethis-inline-share-buttons{flex-direction: row; gap: 15px;}
 .careers-content-sidebar .sharethis-inline-share-buttons .st-btn[data-network="sharethis"]{order: unset !important; }
 
+.application-form .with_frm_style .frm_form_field:not(.frm_compact) .frm_dropzone .frmsvg { display: none !important; }
+.application-form .frm_dropzone.frm_single_upload.frm_clearfix.dz-clickable .frm_upload_text { display: none; }
+.application-form .frm_dropzone.frm_single_upload.frm_clearfix.dz-clickable .frm_small_text p { font-weight: 600; font-size: 0.875rem; line-height: 18px; opacity: 1; margin-right: 10px; text-align: start; color: var(--white); margin-right: 40px; }
+.application-form .frm_dropzone.frm_single_upload.frm_clearfix.dz-clickable .dz-message { border: none; color: var(--bg-color); background-color: var(--text-color); border-radius: 50px;padding: 15px 16px; margin-top: 0;}
+ .with_frm_style .frm_dropzone {background-color: none!important;}
+.application-form .with_frm_style .frm_form_field:not(.frm_compact) .frm_dropzone{margin-right: inherit; margin-bottom: 15px; margin-top: 0; background: transparent;}
+ .dz-message.needsclick::before {
+  position: absolute;
+  background-image: url("../images/upload-icon.svg");
+  width: 30px;
+  height: 30px;
+  display: block;
+  top: 23px;
+  right: 10px;
+  content: "";
+  background-repeat: no-repeat;
+}
 
-@media screen and (min-width:1024px) {
+.frm-g-recaptcha{transform: scale(0.77); transform-origin: 0 0; margin-top: 20px;}
+.frm-g-recaptcha > div{width: inherit!important; margin-top: 20px;}
+
+
+  @media screen and (min-width:1024px) {
     .careers-content-main{padding: 80px 0; gap: 104px;}
     .careers-content-article{flex: 0 0 calc(100% - 439px); flex-grow: 1;}
-    .careers-content-sidebar{flex: 0 0 335px; flex-grow: 1;}
+    .careers-content-sidebar{flex: 0 0 335px; }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px){

@@ -80,13 +80,27 @@ body.trans-header .main_header.fixed-header  .normal-logo{opacity: 0; visibility
  ul.main_menu > li >a:hover{color: var(--anchor);}
  ul.main_menu > li >a::after {content: ''; position: absolute; display: block; margin: auto; height: 2px; width: 0; bottom: -4px; transition: width .5s ease, background-color .5s ease; left: 50%; transform: translate(-50%, 0);}
  
+
+
 /*** Responsive ***/
 @media only screen and (min-width:1401px) {
 .main_header .container {padding: 0 80px 0 80px; max-width: 1440px;}
   
 }
 
+
+@media only screen and (min-width: 1024px) {
+.main_header.fixed-header .header {padding: 28px 0;}
+.main_header.fixed-header .toggle_button {margin: 24px auto 20px;}
+
+
+
+}
+
+
+
 @media only screen and (min-width:768px) {
+    
     
     ul.main_menu {  margin: 0; font-size: 0;}
  ul.main_menu > li > a { z-index: 11;padding: 5px 24px; font-size: 2rem; font-weight: 700; line-height: 1.4; display: block; position: relative; letter-spacing: -1.6px;}

@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // ScrollTrigger animation
     ScrollTrigger.create({
       trigger: section,
-      start: "top 50%",
+      start: "top 90%",
       toggleActions: "play none none reverse",
       onEnter: () => {
         gsap.to(elems, {
@@ -42,8 +42,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     ScrollTrigger.create({
       trigger: section,
-      start: "top 50%",
-      end: "bottom 30%",
+      start: "top 90%",
+      // end: "bottom 30%",
       onEnter: () =>
         gsap.to(elems, {
           y: 0,
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // ScrollTrigger animation
     ScrollTrigger.create({
       trigger: section,
-      start: "top 100%",
+      start: "top 90%",
       toggleActions: "play none none reverse",
       onEnter: () => {
         gsap.to(elems, {

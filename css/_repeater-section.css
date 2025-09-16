@@ -1,4 +1,4 @@
-.repeater-section{clear: both; width: 100%; overflow: hidden;}
+.repeater-section{clear: both; width: 100%; }
 .repeater-main{padding: 40px 0 40px 0; display: flex; flex-wrap:wrap; gap:80px;}
 .repeater-list {justify-content: space-between; gap:7%; line-height: 1.5; font-size: 1rem; align-items: center; position: relative;}
 .repeater-list:nth-child(2n), .repeater-list.reverse{flex-direction: row-reverse;}
@@ -24,7 +24,7 @@
 .full-repeater .repeater-text .h3 span{color: var(--deep-moss);}
 
 @media only screen and (min-width: 1024px){
-.page-template-home .repeater-main {padding: 80px 0 40px;}
+.page-template-home .repeater-main {padding: 80px 0 80px;}
 
 body.page-template-career  .repeater-main{padding: 80px 0;}
 .repeater-list.full-repeater{gap: 80px;}
@@ -56,4 +56,6 @@ body.page-template-career  .repeater-main{padding: 80px 0;}
 
 	.full-repeater .repeater-text .h3{font-size: 28px; line-height: 42px; letter-spacing: -0.56px; margin-bottom: 24px;}
 	.repeater-text p{margin-bottom: 16px; }
+
+	.page-template-home .repeater-main{padding: 40px 0 40px;}
 }

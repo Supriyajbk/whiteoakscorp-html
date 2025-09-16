@@ -356,7 +356,7 @@ position: relative; z-index: 1; text-decoration: none; border-radius: 50%!import
 .sharethis-inline-share-buttons .st-btn[data-network=sharethis]:after {content: "\f1e0"; font-family: "Font Awesome 6 Pro"; font-weight: 900;}
 
 .sharethis-inline-share-buttons .st-btn[data-network=sharethis]{order: 1!important}
-.sharethis-inline-share-buttons .st-btn.st-last:hover{background-color: var(--sharebtn-bg)!important; color: var(--canopy)!important;}
+/* .sharethis-inline-share-buttons .st-btn.st-last:hover{background-color: var(--sharebtn-bg)!important; color: var(--canopy)!important;} */
 .sharethis-inline-share-buttons .st-btn:hover {color: var(--dark-forest); background: var(--sharebtn-hoverbg)!important; opacity: 1 !important; top: 0!important; border: none!important}
 .sharethis-inline-share-buttons .st-btn span, .sharethis-inline-share-buttons .st-btn img {display: none!important;}
 .at4-visually-hidden {display: none;}
@@ -383,7 +383,7 @@ body .cky-btn.cky-btn-accept:hover {background-color: var(--btn-bg) !important;
   color: var(--btn-txt) !important;}
 /* body .cky-btn.cky-btn-accept:after {color: var(--blacktext);} */
 
-body .cky-btn-revisit-wrapper.cky-revisit-bottom-left{ animation:floating 3s infinite; background-color: var(--theme)!important;}
+body .cky-btn-revisit-wrapper.cky-revisit-bottom-left{ animation:floating 3s infinite; background-color: var(--canopy)!important;}
 @keyframes floating {
   0% {
     transform:translateY(-6%)

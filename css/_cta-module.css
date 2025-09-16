@@ -7,7 +7,7 @@
 
 .cta-main .cta-text {flex: 0 0 518px; clear: both;  position: relative; width: 100%; font-size: 1rem;}
 .cta-main .cta-text .optional-text { letter-spacing: normal; margin: 0 0 27px 0;}
-.cta-main .cta-text p {margin-bottom:23px; color: var(--white);}
+.cta-main .cta-text p {margin-bottom:25px; color: var(--white);}
 
 .cta-img{flex: 0 0 calc(100% - 649px)}
 .cta-wave{position: absolute; z-index: -1; left: -80px; right: auto; top: 20px}

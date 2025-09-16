@@ -68,7 +68,7 @@
         <div class="banner-bg">
           <picture class="object-fit">
             <source srcset="images/home-banner@2x.jpg" media="(min-width:768px)">
-            <img src="images/home-banner-mob@2x.jpg" alt="Default Banner" title="Default Banner">
+            <img  data-js-animation="fade-in-up" src="images/home-banner-mob@2x.jpg" alt="Default Banner" title="Default Banner">
           </picture>
         </div>
         <div class="container">
@@ -96,12 +96,12 @@
         <div class="container">
           <div class="more-news-main">
 
-            <div class="more-news-slider">
-              <div class="more-news-slide">
+            <div class="more-news-slider js-website-section">
+              <div class="more-news-slide js-content-opacity">
                 <div class="more-news-image">
 
                   <figure class="object-fit">
-                    <img src="images/big-post1@2x.jpg" alt="">
+                    <img  src="images/big-post1@2x.jpg" alt="">
                   </figure>
                 </div>
                 <div class="more-news-text">
@@ -109,24 +109,11 @@
                   <a href="" class="readmore" tabindex="0"><span class="hide">Readmore</span></a>
                 </div>
               </div>
-              <div class="more-news-slide">
+              <div class="more-news-slide js-content-opacity">
                 <div class="more-news-image">
 
                   <figure class="object-fit">
-                    <img src="images/big-post2@2x.jpg" alt="">
-                  </figure>
-                </div>
-                <div class="more-news-text">
-                  <h2><a href="">Large media post title appears here on a few lines as needed to fit properly</a></h2>
-                  <a href="" class="readmore" tabindex="0"><span class="hide">Readmore</span></a>
-
-                </div>
-              </div>
-              <div class="more-news-slide">
-                <div class="more-news-image">
-
-                  <figure class="object-fit">
-                    <img src="images/big-post3@2x.jpg" alt="">
+                    <img  src="images/big-post2@2x.jpg" alt="">
                   </figure>
                 </div>
                 <div class="more-news-text">
@@ -135,11 +122,24 @@
 
                 </div>
               </div>
-              <div class="more-news-slide">
+              <div class="more-news-slide js-content-opacity">
                 <div class="more-news-image">
 
                   <figure class="object-fit">
-                    <img src="images/big-post1@2x.jpg" alt="">
+                    <img  src="images/big-post3@2x.jpg" alt="">
+                  </figure>
+                </div>
+                <div class="more-news-text">
+                  <h2><a href="">Large media post title appears here on a few lines as needed to fit properly</a></h2>
+                  <a href="" class="readmore" tabindex="0"><span class="hide">Readmore</span></a>
+
+                </div>
+              </div>
+              <div class="more-news-slide js-content-opacity">
+                <div class="more-news-image">
+
+                  <figure class="object-fit">
+                    <img  src="images/big-post1@2x.jpg" alt="">
                   </figure>
                 </div>
                 <div class="more-news-text">
@@ -167,7 +167,7 @@
                 <div class="all-in-one-slide" data-image="1">
                   <div class="all-in-one-rt-cnt">
                     <div class="all-in-one-rt-thumb pos-relative">
-                      <figure class="object-fit" role="none"> <img src="images/our-brands-thumb@2x.jpg"
+                      <figure class="object-fit" role="none"> <img  data-js-animation="fade-in-right" src="images/our-brands-thumb@2x.jpg"
                           alt="Product Thumb" title="Product Thumb"> </figure>
                       <div class="gradient-overlay"></div>
                     </div>
@@ -384,7 +384,7 @@
                     <div class="all-in-one-thumb pos-relative " data-name="1">
                       <div class="all-in-one-thumb">
                         <figure class="object-fit">
-                          <img src="images/htz.svg" alt="htz logo">
+                          <img  src="images/htz.svg" alt="htz logo">
                         </figure>
                       </div>
                     </div>
@@ -509,7 +509,7 @@
               <div class="repeater-img">
                 <picture class="object-fit">
                   <source srcset="images/services-thumb1@2x.jpg" media="(min-width: 768px)">
-                  <img src="images/services-thumb1-mob@2x.jpg" alt="media thumb">
+                  <img data-js-animation="fade-in-up" src="images/services-thumb1-mob@2x.jpg" alt="media thumb">
                 </picture>
                 <div class="repeater-line-thumb">
                   <figure class="object-fit">
@@ -533,11 +533,11 @@
                 <div class="btn"> <a href="#" class="button">Learn more</a></div>
               </div>
             </div>
-            <div class="repeater-list flex ">
+            <div class="repeater-list flex">
               <div class="repeater-img">
                 <picture class="object-fit">
                   <source srcset="images/services-thumb2@2x.jpg" media="(min-width: 768px)">
-                  <img src="images/services-thumb2-mob@2x.jpg" alt="media thumb">
+                  <img data-js-animation="fade-in-up" src="images/services-thumb2-mob@2x.jpg" alt="media thumb">
                 </picture>
                 <div class="repeater-line-thumb">
                   <figure class="object-fit">
@@ -588,7 +588,7 @@
             <div class="cta-img pos-relative">
               <picture class="object-fit">
                 <source srcset="images/cta-thumb@2x.jpg" media="(min-width:768px)">
-                <img src="images/cta-thumb-mob@2x.jpg" alt="default-banner-mobile@2x">
+                <img data-js-animation="fade-in-right" src="images/cta-thumb-mob@2x.jpg" alt="default-banner-mobile@2x">
               </picture>
 
               <div class="cta-line hide-in-mobile">
@@ -668,7 +668,15 @@
   <!-- end of main -->
   <script src="js/jquery-3.7.1.min.js"></script>
   <link rel="stylesheet" href="css/slick.css" media="all" />
+  <link rel="stylesheet" href="css/animation.css" media="all" />
   <script src="js/slick.min.js"></script>
+  
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/is-in-viewport@3.0.4/lib/isInViewport.min.js"></script>
+
+<script src="js/gsap.js"></script>
+  <script src="js/animation.js"></script>
   <script src="js/counter.js"></script>
   <script src="js/custom-slick.js?v=11"></script>
   <script src="js/custom-script.js?v=11"></script>
