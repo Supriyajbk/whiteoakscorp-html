@@ -69,7 +69,7 @@
             <div class="banner-bg">
             <picture class="object-fit">
                 <source srcset="images/media-post-banner@2x.jpg" media="(min-width:768px)">
-                <img src="images/media-post-banner-mob@2x.jpg" alt="general-banner-mob" title="general-banner-mob@2x">
+                <img data-js-animation="fade-in-up" src="images/media-post-banner-mob@2x.jpg" alt="general-banner-mob" title="general-banner-mob@2x">
             </picture>
         </div>
             <!-- <div data-ytbg-fade-in="true" data-vbg="https://www.youtube.com/watch?v=LXb3EKWsInQ" data-vbg-uid="vbg-LXb3EKWsInQ-9456" style="height: 100%; width: 100%; z-index: 0; position: absolute; overflow: hidden; inset: 0px; pointer-events: none;" class="banner-bg background-bg home-banner-iframe youtube-background video-background"><iframe title="COSTA RICA IN 4K 60fps HDR (ULTRA HD)" frameborder="0" allow="autoplay; mute" src="https://www.youtube-nocookie.com/embed/LXb3EKWsInQ?&amp;enablejsapi=1&amp;disablekb=1&amp;controls=0&amp;rel=0&amp;iv_load_policy=3&amp;cc_load_policy=0&amp;playsinline=1&amp;showinfo=0&amp;modestbranding=1&amp;fs=0&amp;mute=1&amp;loop=1" id="vbg-LXb3EKWsInQ-9456" style="top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); position: absolute; opacity: 1; width: 1952px; height: 1098px;"></iframe></div> -->
@@ -205,13 +205,13 @@
                   <div class="default-thumb-flex">
                     <picture class="object-fit" role="none">
                       <source srcset="images/frame-thumb@2x.jpg" alt="thumb">
-                      <img decoding="async" src="images/frame-thumb-mob@2x.jpg" alt="default-thumb@2x">
+                      <img data-js-animation="fade-in-up" decoding="async" src="images/frame-thumb-mob@2x.jpg" alt="default-thumb@2x">
                     </picture>
                   </div>
                   <div class="default-thumb-flex">
                     <picture class="object-fit" role="none">
                       <source srcset="images/frame-thumb2@2x.jpg" alt="thumb">
-                      <img decoding="async" src="images/frame-thumb2-mob@2x.jpg" alt="default-thumb@2x">
+                      <img data-js-animation="fade-in-down" decoding="async" src="images/frame-thumb2-mob@2x.jpg" alt="default-thumb@2x">
                     </picture>
                   </div>
                 </div>
@@ -465,8 +465,8 @@
                 <a href="#" class="readmore-left">View All News & Press</a>
               </div>
             </div>
-            <div class="more-news-slider">
-              <div class="more-news-slide">
+            <div class="more-news-slider js-website-section">
+              <div class="more-news-slide js-content-opacity">
                 <div class="more-news-image">
 
                   <figure class="object-fit">
@@ -478,7 +478,7 @@
                   <a href="" class="readmore" tabindex="0"><span class="hide">Readmore</span></a>
                 </div>
               </div>
-              <div class="more-news-slide">
+              <div class="more-news-slide js-content-opacity">
                 <div class="more-news-image">
 
                   <figure class="object-fit">
@@ -491,7 +491,7 @@
 
                 </div>
               </div>
-              <div class="more-news-slide">
+              <div class="more-news-slide js-content-opacity">
                 <div class="more-news-image">
 
                   <figure class="object-fit">
@@ -504,7 +504,7 @@
 
                 </div>
               </div>
-              <div class="more-news-slide">
+              <div class="more-news-slide js-content-opacity">
                 <div class="more-news-image">
 
                   <figure class="object-fit">
@@ -583,8 +583,17 @@
   <!-- end of main -->
   <script src="js/jquery-3.7.1.min.js"></script>
   <link rel="stylesheet" href="css/slick.css" media="all" />
+  <link rel="stylesheet" href="css/animation.css" media="all" />
   <script src="js/slick.min.js"></script>
-  <script src="js/custom-slick.js"></script>
-  <script src="js/custom-script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/is-in-viewport@3.0.4/lib/isInViewport.min.js"></script>
+
+  <script src="js/gsap.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/counter.js"></script>
+  <script src="js/custom-slick.js?v=11"></script>
+  <script src="js/custom-script.js?v=11"></script>
 
 </body>

@@ -1,6 +1,6 @@
 .default-banner-section {width: 100%; position: relative; z-index: 1; overflow: hidden;}
 .default-banner-main {width: 100%; min-height:680px; position: relative; align-items:flex-start; padding: 207px 0 100px;}
-.default-banner-main .default-banner-text {clear: both; max-width: 566px; width: 100%; text-align: center; justify-content: center; display: flex; flex-wrap: wrap;}
+.default-banner-main .default-banner-text {clear: both; max-width: 566px; width: 100%;  display: flex; flex-wrap: wrap;}
 .default-banner-main .default-banner-text .optional-text {font-size: 0.75rem; line-height: 1.6; color: var(--signal); font-weight:700; letter-spacing: normal; margin: 0 0 18px 0; }
 .default-banner-main .default-banner-text .optional-text::after {background-color: var(--signal); bottom: -4px;}
 .default-banner-main .default-banner-text h1 {color: var(--white); margin-bottom: 23px; font-size: 4rem; line-height: 1;}
@@ -17,7 +17,7 @@
 
 .default-banner-main.center { text-align: center; justify-content: center; align-items: flex-end; padding: 80px 0 80px;}
 .default-banner-main.center .banner-wave{right: auto}
-
+.default-banner-main.center .default-banner-text {text-align: center; justify-content: center;}
 .default-banner-main.no-counter-sec{align-items: center;}
 
 /*-- media starts here --*/

@@ -54,6 +54,10 @@ ul.default-banner-category li::before{display: none;}
 .sharethis-inline-share-buttons .st-btn[data-network="facebook"]{order: 4 !important;}
 .sharethis-inline-share-buttons .st-btn[data-network="twitter"]{order: 5 !important;}
 
+
+.default-thumb .fluid-width-wrapper img{animation: floatingScale 3s infinite;}
+
+
 @media screen and (min-width: 1024px) {
     aside.sidebar{right: 0;}
 }

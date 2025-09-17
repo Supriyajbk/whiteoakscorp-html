@@ -28,6 +28,8 @@
 
 .sec-wave{position: absolute; z-index: -1; left: -207px; right: auto; top: -80px; opacity: 0.4;}
 
+.sf-video-slide .video-img img{animation: floatingScale 3s infinite;}
+
 
 /* Responsive */
 @media only screen and (min-width:1024px){
