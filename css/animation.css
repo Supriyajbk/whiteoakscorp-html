@@ -12,6 +12,7 @@
             animation-fill-mode: both;
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
+            transition: visibility 0.75s ease-out;
   }
   *[data-js-animation].visible {
     visibility: visible;
@@ -245,3 +246,12 @@
       transform: translateY(-6%);
     }
   }
+
+                /* .banner-wave svg {
+                clip-path: inset(0 0 0 0 round 0 0 0 0);
+                transition: clip-path 0.5s ease-in-out;
+              }
+
+              .banner-wave.animate svg {
+                clip-path: inset(0 5% 0 5%);
+              } */

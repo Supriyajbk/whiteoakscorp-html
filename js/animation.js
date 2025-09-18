@@ -1,24 +1,29 @@
-jQuery(function () {
-  // Initial animation on page load
-  jQuery(document).ready(function () {
-    jQuery("[data-js-animation]").each(function () {
-      let $el = jQuery(this);
-      let attrname = $el.attr("data-js-animation");
+import { waves } from "./waves.js";
 
-      if ($el.is(":in-viewport") && !$el.hasClass("visible")) {
-        $el.addClass(attrname + " visible");
+jQuery(function () {
+  jQuery("[data-js-animation]").each(function (i) {
+    const $el = jQuery(this);
+    const attrname = $el.attr("data-js-animation");
+
+    if ($el.is(":in-viewport") && !$el.hasClass("visible")) {
+      $el.addClass(attrname + " visible");
+      // play the timeline for this element
+      if (attrname == "wave") {
+        waves.play($el.get(0));
       }
-    });
+    }
   });
 
-  // Animation on scroll with offset
   jQuery(window).on("scroll", function () {
     jQuery("[data-js-animation]").each(function () {
-      let $el = jQuery(this);
-      let attrname = $el.attr("data-js-animation");
+      const $el = jQuery(this);
+      const attrname = $el.attr("data-js-animation");
 
       if ($el.is(":in-viewport(-120)") && !$el.hasClass("visible")) {
         $el.addClass(attrname + " visible");
+        if (attrname == "wave") {
+          waves.play($el.get(0));
+        }
       }
     });
   });

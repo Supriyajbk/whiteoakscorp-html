@@ -15,7 +15,6 @@ Text Domain:Whiteoaks
 @import url("css/_reset.css");
 @import url("css/_header.css?v=6211");
 @import url("css/_footer.css");
-@import url("css/_animation.css?v==1146");
 
 
 
@@ -139,7 +138,8 @@ section ol:last-child, section ul:last-child {margin-bottom: 0;}
 .banner-bg {top:0; left:0; right:0; bottom:0; width:100%; height:100%; position:absolute; z-index:-1;}
 .banner-bg:after {background: linear-gradient(240deg, var(--banner-shadow) 7.58%, var(--banner-shadow-100) 100.24%), linear-gradient(0deg, var(--banner-shadow-20) 0%, var(--banner-shadow-20) 80%); content: ""; width: 100%; height:100%; position: absolute; left: 0; top: 0; display: block;}
 .banner-bg img {width:100%; height:100%; font-family:"object-fit:cover"; object-fit:cover; -o-object-fit:cover; object-position:50% 50%; -o-object-position:50% 50%;}
-
+.banner-bg video{ width: 100%; height: 100%; top: 0; left: 0; object-fit: cover; object-position: 50% 50%; margin: 0; }
+.z-1, .background-bg.z-1{z-index: 1;}
 
 /* Background Bg */
 .background-bg {width: 100%; height: 100%; top: 0; left: 0; position: absolute;  z-index: -1;}
@@ -229,16 +229,16 @@ ul.slick-dots li.slick-active{background-color: var(--sherwood-green);}
 /* Custom Selectbox */
 /* select.selectBox {display:none!important;} */
 .frm_forms .frm_form_fields select {padding: 17px 16px!important;}
-body .selectBox-dropdown {outline: 0; width: 100% !important; font-size: 1rem; line-height: normal; background: var(--dark-forest); color: var(--white); box-shadow: none; border-radius: 50px; padding: 15px  16px; border: 1px solid var(--brand-green); vertical-align: middle; height: auto; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; cursor: pointer; font-weight: bold; display: block}
+body .selectBox-dropdown {outline: 0; width: 100% !important; font-size: 1rem; line-height: normal; background: var(--dark-forest); color: var(--white); box-shadow: none; border-radius: 50px; padding: 15px  16px; border: 1px solid var(--sherwood-green); vertical-align: middle; height: auto; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; cursor: pointer; font-weight: bold; display: block}
 body .selectBox-dropdown:hover, body .selectBox-dropdown:focus {border-color: var(--brand-mint);}
-body .selectBox-dropdown:focus, body .selectBox-dropdown:focus .selectBox-arrow {border-color: var(--brand-green);} 
+body .selectBox-dropdown:focus, body .selectBox-dropdown:focus .selectBox-arrow {border-color: var(--sherwood-green);} 
 body .selectBox-dropdown .selectBox-label {padding:0; display:block; width: 100% !important; text-overflow: ellipsis; font-size: 14px; font-weight: 400; line-height: 1.28;}
 body .selectBox-dropdown .selectBox-label a {color:inherit;}
 body .selectBox-dropdown .selectBox-arrow {width:auto; right:16px; top:52px; transform:translateY(-50%); font-size:1rem; color: var(--signal); border:none; font-family: "Font Awesome 6 Sharp"; font-weight: normal; position:absolute; display:flex; align-items:center; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; background:none; text-shadow: 2px 2px 0 var(--brand-mint);}
 body .selectBox-dropdown .selectBox-arrow::after {content: "\f0d7";}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow {transform:translateY(-50%) rotate(-180deg);}
-body ul.selectBox-dropdown-menu { background-color: var(--white); border-color:var(--brand-green); padding:0; margin:1px 0 0 0;  box-shadow:0 1px 8px rgba(0, 0, 0, .2) ; -webkit-box-shadow:0 1px 8px rgba(0, 0, 0, .2); -moz-box-shadow:0 1px 8px rgba(0, 0, 0, .2); border-radius: 20px!important; z-index: 50; position: absolute;}
-body ul.selectBox-dropdown-menu li {color: var(--brand-green); margin-bottom: 0;}
+body ul.selectBox-dropdown-menu { background-color: var(--white); border-color:var(--sherwood-green); padding:0; margin:1px 0 0 0;  box-shadow:0 1px 8px rgba(0, 0, 0, .2) ; -webkit-box-shadow:0 1px 8px rgba(0, 0, 0, .2); -moz-box-shadow:0 1px 8px rgba(0, 0, 0, .2); border-radius: 20px!important; z-index: 50; position: absolute;}
+body ul.selectBox-dropdown-menu li {color: var(--sherwood-green); margin-bottom: 0;}
 body ul.selectBox-dropdown-menu li a {font-size:0.875rem; line-height:1.5; letter-spacing:normal; display:block; padding:5px 16px; white-space:nowrap; text-transform:capitalize; color: var(--light-grey); overflow:hidden; text-overflow:ellipsis; text-decoration: none; font-weight: bold; padding: 10px;}
 body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropdown-menu li a:hover {color:var(--dark-forest); background-color:var(--signal); cursor:pointer;  }
 body ul.selectBox-dropdown-menu li.frm-select-placeholder/*, body ul.selectBox-dropdown-menu li.selectBox-selected */{display: none!important;} 
