@@ -50,7 +50,7 @@
 
 .all-in-one-section.no-counter {padding: 80px 0 80px;}
 
-
+.all-in-one-section .all-in-one-rt-text:only-child{position: relative; padding-top: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1280px) and (min-width:1024px){
