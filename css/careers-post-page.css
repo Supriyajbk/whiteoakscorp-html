@@ -7,7 +7,7 @@
 .default-banner-main .default-banner-text .optional-text{line-height: 1.25;  margin: 0 0 22px 0;}
 .default-banner-main .default-banner-text .optional-text::after{bottom: -7px;}
 
-.careers-content-article > p:first-child{font-size: 24px; line-height: 36px; font-weight: 600;}
+.careers-content-article > p:first-child{font-size: 24px; line-height: 46px; font-weight: 600;}
 .careers-content-article > hr.small{margin: 0 auto 20px 0;}
 
 .career-details{background: var(--white); padding: 24px; border-bottom: 1px solid var(--dark-mist); margin-bottom: 32px;}
@@ -45,26 +45,18 @@
 .application-form .frm_dropzone.frm_single_upload.frm_clearfix.dz-clickable .dz-message { border: none; color: var(--bg-color); background-color: var(--text-color); border-radius: 50px;padding: 15px 16px; margin-top: 0;}
  .with_frm_style .frm_dropzone {background-color: none!important;}
 .application-form .with_frm_style .frm_form_field:not(.frm_compact) .frm_dropzone{margin-right: inherit; margin-bottom: 15px; margin-top: 0; background: transparent;}
- .dz-message.needsclick::before {
-  position: absolute;
-  background-image: url("../images/upload-icon.svg");
-  width: 30px;
-  height: 30px;
-  display: block;
-  top: 23px;
-  right: 10px;
-  content: "";
-  background-repeat: no-repeat;
-}
+ .dz-message.needsclick::before { position: absolute; background-image: url("../images/upload-icon.svg"); width: 30px; height: 30px; display: block; top: 23px; right: 10px; content: ""; background-repeat: no-repeat; }
 
 .frm-g-recaptcha{transform: scale(0.77); transform-origin: 0 0; margin-top: 20px;}
 .frm-g-recaptcha > div{width: inherit!important; margin-top: 20px;}
 
+.careers-content-article ol+.readmore{margin: 30px 0 5px;}
 
-  @media screen and (min-width:1024px) {
-    .careers-content-main{padding: 80px 0; gap: 104px;}
-    .careers-content-article{flex: 0 0 calc(100% - 439px); flex-grow: 1;}
-    .careers-content-sidebar{flex: 0 0 335px; }
+@media screen and (min-width:1024px) {
+  .careers-content-main{padding: 80px 0; gap: 104px;}
+  .careers-content-article{flex: 0 0 calc(100% - 439px); flex-grow: 1;}
+  .careers-content-sidebar{flex: 0 0 335px; }
+  .careers-content-main .careers-content-sidebar:only-child {justify-content: flex-end; display: flex; flex-direction: column; margin-left: auto;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px){

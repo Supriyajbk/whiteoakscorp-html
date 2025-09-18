@@ -248,7 +248,7 @@ body ul.selectBox-dropdown-menu li:before{display: none;}
 
 /*-- common form css starts here --*/
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_fields_container {display: block;}
-.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field .frm_error {right:0 !important; width:100%; display:block; font-size:12px !important; color:#f00 !important; background:transparent; padding:0; margin:0; border-radius:0; text-align:right !important; line-height:normal !important; font-weight:400; top: auto; bottom: -17px; position:absolute;}
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field .frm_error {right:0 !important; width:100%; display:block; font-size:12px !important; color:#f00 !important; background:transparent; padding:0; margin:0; border-radius:0; text-align:right !important; line-height:normal !important; font-weight:400; top: auto; bottom: -15px; position:absolute;}
 .frm_forms .frm_form_fields fieldset {margin:0; padding:0; border:0;}
 .frm_forms .frm_form_fields .frm_form_field{margin-bottom:24px; position: relative; clear: both;}
 .frm_forms .frm_form_fields .frm_form_field.frm_full {clear:both; width: 100%;}

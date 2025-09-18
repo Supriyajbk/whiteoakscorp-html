@@ -14,8 +14,14 @@
 .default-banner-section .banner-bg::after{background: linear-gradient(0deg, rgba(21, 32, 34, 0.55) 0%, rgba(21, 32, 34, 0.55) 100%)};
 
 
-.page-template-career .gradient-overlay{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: var(--black);opacity: 0.6;z-index: 1;}
+.page-template-career .big-video-main .gradient-overlay{position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: var(--black);opacity: 0.6;z-index: 1;}
 
+.stats-icon { width: 48px; }
+
+@media screen and (min-width: 1024px){
+ body.page-template-career .stats-section.no-cta .stats-main{padding: 80px 0 0px;}
+
+}
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
 

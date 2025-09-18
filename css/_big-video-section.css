@@ -2,7 +2,7 @@
 
 
 @media screen and (min-width: 1024px){
- .big-video-main img{min-height: 750px; max-height: 720px;}  
+ .big-video-main img{min-height: 720px; max-height: 720px;}  
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px) {

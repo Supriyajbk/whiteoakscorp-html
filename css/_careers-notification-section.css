@@ -24,13 +24,14 @@
 .careers-notification-shield figure{display: flex;}
 .careers-notification-shield img{object-fit: contain;}
 .careers-notification-note span{width: fit-content; color: var(--white-75); font-size: 12px; line-height: 22px;}
+.careers-notification-form body .frm_style_formidable-style.with_frm_style .frm_submit .button, body .frm_style_formidable-style.with_frm_style .frm_submit button {padding: 12px 13px 12px 21px;}
 
 @media screen and (min-width:1024px) {
     .careers-notification-main{padding: 64px 0; gap: 64px; align-items: end;}
     .careers-notification-lt{flex: 0 0 calc(100% - 499px); flex-grow: 1;}
     .careers-notification-text{flex: 0 0 calc(100% - 69px); max-width: 520px;}
 
-    .careers-notification-icon{flex: 0 0 24px; }
+    .careers-notification-icon{flex: 0 0 30px; }
     .careers-notification-bg{left: 412px; bottom: -11px; z-index: -1;}
     .careers-notification-rt{flex: 0 0 435px; flex-grow: 1;}
     

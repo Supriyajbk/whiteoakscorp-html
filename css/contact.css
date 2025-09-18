@@ -12,7 +12,7 @@
 
  .contact-links {clear: both; width: 100%; margin:0; padding: 0 }
  .contact-links li{margin-bottom: 8px;}
- .contact-links li a {  letter-spacing: -0.48px; font-weight: 700; line-height: 0.75;  color: var(--cd-a); display: inline-flex; gap: 8px; align-items: center;}
+ .contact-links li a {  letter-spacing: -0.48px; font-weight: 700; line-height: 1;  color: var(--cd-a); display: inline-flex; gap: 8px; align-items: center; word-wrap:anywhere; }
  .contact-links li a span{color: var(--signal)}
  .contact-links li::before{display: none;}
  .contact-links li a svg{border: 1px solid var(--canopy); font-size: 1.25rem; width: 48px; height: 48px; position: relative; z-index: 1; line-height: 1; border-radius: 50%; padding: 11px }
