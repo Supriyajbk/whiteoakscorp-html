@@ -14,22 +14,14 @@ class Waves {
     const tl = gsap.timeline({ paused: true });
 
     tl.to(paths, {
-      opacity: 0.5,
-      scaleY: (i) => [0.7, 1, 1.2, 0.8][i % 4],
-      rotation: () => gsap.utils.random(-1, 2, true),
+      scaleY: (i) => [0.95, 1, 1.05, 1][i % 5], // very small vertical scaling
+      rotation: () => gsap.utils.random(-0.5, 0.5, true), // tiny tilt
       transformOrigin: "center bottom",
-      stagger: { each: 0.06 },
-      duration: 0.6,
+      duration: 1, // long, slow cycle
+      repeat: -1, // infinite loop
+      yoyo: true, // back and forth, smooth
       ease: "sine.inOut",
-    });
-
-    tl.to(paths, {
-      opacity: 1,
-      scaleY: 1,
-      rotation: 0,
-      transformOrigin: "center bottom",
-      duration: 0.45,
-      ease: "sine.out",
+      stagger: { each: 10 }, // slight ripple across paths
     });
 
     this.timelines.set(ele, tl);
@@ -52,7 +44,7 @@ class Waves {
     if (!ele) return;
     const tl = this.createTimeline(ele);
     if (!tl) return;
-    tl.restart(); // ensures it plays from start
+    tl.restart();
   }
 
   pause(eleOrIndex) {
