@@ -152,8 +152,8 @@ jQuery(document).ready(function () {
   // });
 
   /* Featured News */
-  if (jQuery('body').hasClass('page-template-careers')) {
-  jQuery('.featured-lists').slick('unslick');
+  if (jQuery("body").hasClass("page-template-careers")) {
+    jQuery(".featured-lists").slick("unslick");
   }
 
   if (jQuery(window).width() <= 767) {
@@ -352,7 +352,7 @@ jQuery(document).ready(function () {
   // });
 
   $(".timeline-slider-for").slick({
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     speed: 1000,
     infinite: false,
