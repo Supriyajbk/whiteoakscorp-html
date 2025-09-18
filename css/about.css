@@ -40,4 +40,7 @@
 .counter-list{margin-bottom: 0;}
 
 .intro-module { padding: 38px 0 38px; }
+.featured-lists ul.slick-dots {
+    padding-bottom: 0;
+  }
 }
