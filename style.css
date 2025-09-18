@@ -138,7 +138,8 @@ section ol:last-child, section ul:last-child {margin-bottom: 0;}
 .banner-bg {top:0; left:0; right:0; bottom:0; width:100%; height:100%; position:absolute; z-index:-1;}
 .banner-bg:after {background: linear-gradient(240deg, var(--banner-shadow) 7.58%, var(--banner-shadow-100) 100.24%), linear-gradient(0deg, var(--banner-shadow-20) 0%, var(--banner-shadow-20) 80%); content: ""; width: 100%; height:100%; position: absolute; left: 0; top: 0; display: block;}
 .banner-bg img {width:100%; height:100%; font-family:"object-fit:cover"; object-fit:cover; -o-object-fit:cover; object-position:50% 50%; -o-object-position:50% 50%;}
-
+.banner-bg video{ width: 100%; height: 100%; top: 0; left: 0; object-fit: cover; object-position: 50% 50%; margin: 0; }
+.z-1, .background-bg.z-1{z-index: 1;}
 
 /* Background Bg */
 .background-bg {width: 100%; height: 100%; top: 0; left: 0; position: absolute;  z-index: -1;}
