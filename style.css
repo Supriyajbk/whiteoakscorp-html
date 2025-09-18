@@ -34,7 +34,8 @@ body {font-family: "Inter", sans-serif; color:var(--body-text); font-size:1.125r
 .btn-wrap {width:100%; clear:both; display: flex; flex-wrap: wrap; gap: 17px;}
 .btn {display:block;}
 
-hr.small{width: 48px; height: 3px; background-color: var(--canopy); margin: 0 auto 24px;}
+hr.small{ width: 48px; height: 3px; background-color: var(--canopy); margin: 0 auto 24px;}
+
 
 .container .container { padding: 0; }
 
