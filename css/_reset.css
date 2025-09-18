@@ -86,8 +86,8 @@ tr:last-child td{border-bottom: 0;}
 caption, th, td {text-align: center;}
 del {color: #231f20;}
 hr {display: block;  height: 2px; width: 100%; vertical-align: middle; margin:40px 0 30px;  color: var(--light-blue)}
-::selection {background-color: var(--brand-green); color: #fff;}
-::-moz-selection {background-color: var(--brand-green); color: #fff;}
+::selection {background-color: var(--sherwood-green); color: #fff;}
+::-moz-selection {background-color: var(--sherwood-green); color: #fff;}
 
 
 input, textarea, select {outline: 0; width: 100%; font-size: 1rem; line-height: 1; background:var(--input); box-shadow: none; padding:14px 32px 15px; vertical-align: middle; font-weight: bold; height: auto; transition: all .5s ease-in-out; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1); border: 0 none; border-radius:40px;}
