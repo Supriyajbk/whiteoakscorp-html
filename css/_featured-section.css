@@ -31,7 +31,7 @@ body.page-template-career  .featured-list p:last-of-type {
 .featured-list{flex:  0 0 100%;}
 .featured-list.intro-list-3, .featured-list.intro-list-2{flex: 0 0 100%;}
 .featured-list h2 {font-size: 1.5rem;}
-.featured-list p{margin-bottom: 0;}
+/* .featured-list p{margin-bottom: 0;} */
 .featured-lists ul.slick-dots{padding-bottom: 10px;}
 .featured-lists .slick-track{display: flex!important; }
 .featured-lists .slick-track .featured-list{flex: 0 0 343px}
