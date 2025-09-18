@@ -19,9 +19,10 @@
 /*-- media starts here --*/
 @media only screen and (min-width: 1024px) {
 .repeater-main{padding: 80px 0 80px;}
-
-
+.default-banner-main.center {padding: 88px 0 80px;}
+.featured-main { padding: 80px 0 72px;}
 }
+
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
 .featured-main{padding: 40px 0;}
 
@@ -38,4 +39,5 @@
 .counter-stats{justify-content: inherit!important; gap: 8px 32px;}
 .counter-list{margin-bottom: 0;}
 
+.intro-module { padding: 38px 0 38px; }
 }

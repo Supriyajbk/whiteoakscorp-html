@@ -8,6 +8,7 @@
 .stats-icon{width: 40px; }
 .stats-list h2{line-height: 33.6px; color: var(--deep-moss); letter-spacing: -0.24px; margin-bottom: 0;}
 
+.stats-list p:only-child{margin-top: auto;}
 
 @media screen and (min-width: 1024px){
  .stats-main{padding: 80px 0; gap: 40px;}

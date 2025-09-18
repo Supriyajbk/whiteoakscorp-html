@@ -7,6 +7,10 @@
 .request-rt figure, .request-rt svg{position: absolute; right: 196px;   }
 .request-rt .button:hover{background-color: var(--white); color: var(--dark-forest);}
 
+.request-lt.no_btn{flex-grow: 1;}
+.request-lt.no_btn h4{flex: 1}
+
+
 body.page-template-career .default-banner-section + .request-section{padding: 0; position: relative; margin-top: -55px;  z-index: 1;}
 
 /*-- media starts here --*/
