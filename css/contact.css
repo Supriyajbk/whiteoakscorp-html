@@ -17,13 +17,13 @@
  .contact-links li::before{display: none;}
  .contact-links li a svg{border: 1px solid var(--canopy); font-size: 1.25rem; width: 48px; height: 48px; position: relative; z-index: 1; line-height: 1; border-radius: 50%; padding: 11px }
  .contact-right {flex: 1; padding: 40px ;}
- .contact-links li:nth-child(2) a{ font-weight: 600;}
+ .contact-links li a .address-bl-2{ font-weight: 600;}
 .contact-links li a:hover{color: var(--signal);}
 .contact-links li a:hover svg{background-color: var(--signal); transition: 0.5s ease-in-out; transform: rotateY(360deg);}
 .contact-links li a:hover svg path{fill: var(--canopy);}
 
 .frm_forms.with_frm_style .frm_checkbox label span a{color: var(--signal);}
-.frm_forms.with_frm_style .frm_checkbox label span a:hover{color: var(--canopy)}
+.frm_forms.with_frm_style .frm_checkbox label span a:hover{color: var(--white)}
 
 .customer-support-section{position: relative; display: block; width: 100%; clear: both; background-color: var(--theme-bg);}
 .customer-support-main{gap: 32px; padding: 40px 0; z-index: 11; position: relative;}
@@ -35,13 +35,13 @@
 
 
 .waveform-con{position: absolute; z-index: -1; display: block; left: -464px; right: auto; top: 370px; opacity: 0.3; width: 873px}
-
+.frm-g-recaptcha > div > div{border-right: none!important}
 
 /*-- media css starts here --*/
 @media only screen and (min-width:1280px) {
     .customer-support-list p{ width: 336px;}
     .contact-links li a { font-size: 2rem;}
-    .contact-links li:nth-child(2) a{font-size: 1.5rem;}
+    .contact-links li a .address-bl-2{font-size: 1.5rem;}
 
 }
 
@@ -49,7 +49,7 @@
     .contact-main {gap:2.25%;}
     .contact-main .contact-right{padding: 30px;}
     .contact-links li a { font-size: 1.5rem;}
-    .contact-links li:nth-child(2) a { font-size: 1.25rem;} }
+    .contact-links li a .address-bl-2 { font-size: 1.25rem;} }
 
     .customer-support-main { gap: 28px;}
 
@@ -59,7 +59,7 @@
     .contact-main .contact-right {width: 100%; padding: 0;}
     
      .contact-links li a { font-size: 2rem;}
-    .contact-links li:nth-child(2) a { font-size: 1.25rem;} 
+    .contact-links li a .address-bl-2 { font-size: 1.25rem;} 
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
@@ -68,15 +68,18 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){ 
+    .page-template-contact .contact-section { padding: 80px 0 0px; }
+    .page-template-contact .contact-main{padding: 40px 0 0 ;}
+
     .contact-main{display: block;}
     .contact-main .contact-left {font-size: 1rem; line-height: 1.5; margin-bottom: 14px;}
-    .contact-main h1 { font-size: 2.25rem; letter-spacing: -1.08px; line-height: 1.2; width: 320px; }
+    .contact-main h1 { font-size: 2.25rem; letter-spacing: -1.08px; line-height: 1.2; }
     
     .contact-main .contact-right {margin: 16px 0 0 0;}
 
     .waveform-con{left: -482px; right: auto; top: 306px;}
    
-    .customer-support-main{display: block; padding: 40px 0 20px;}
+    .customer-support-main{display: block; padding: 8px 0 20px;}
     .customer-support-list{border-bottom: 1px solid var(--canopy); padding: 22px 0 8px;}
     .customer-support-list:last-child{border-bottom: none;}
 }

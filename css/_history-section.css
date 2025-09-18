@@ -1,5 +1,5 @@
-.history-section{padding: 77px 0 80px; clear: both; position: relative; background-color: var(--sherwood-green);}
-.history-heading{margin:  0 0 40px; position: relative; z-index: 1;;}
+.history-section{padding: 83px 0 70px; clear: both; position: relative; background-color: var(--sherwood-green);}
+.history-heading{margin:  0 0 37px; position: relative; z-index: 1;;}
 .history-heading hr{background-color: var(--signal); top: -6px; position: relative; margin: 0 0 18px;}
 .history-heading .h2{color: var(--white); line-height: 1.2;}
 .history-slider-wrap{ gap: 20px;}
@@ -33,15 +33,24 @@
   .history-slider-wrap .slick-list { overflow: inherit; }
   .slick-arrow.slick-prev {left: auto; right: 60px; top: -192px}
   .slick-arrow.slick-next { right: 0; left: auto; top: -192px }
+  .history-main-wrap.no-heading {padding: 110px 0 0;}
 }
 
 
-.history-slider-wrap .slick-track{display: flex; gap:20px;}
+ .history-slider-wrap .slick-track{display: flex; gap:20px;}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+ .history-slider-wrap ul.slick-dots li.slick-active { background-color: var(--signal);}
+
+}
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
-.timeline-wave{left: 0;}
+ .timeline-wave{left: 0; top: -45px}
 
 
  .history-slider-wrap ul.slick-dots li.slick-active { background-color: var(--signal); width: 8px; height: 8px; margin: 0 4px 15px; }
 
+ .history-section { padding: 45px 0 93px;}
+ .history-list {margin-bottom: 20px;}
 }

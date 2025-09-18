@@ -272,7 +272,7 @@ body ul.selectBox-dropdown-menu li:before{display: none;}
 .frm_forms.with_frm_style .frm_checkbox label {padding-left:40px; display:block; cursor: pointer; padding-bottom: 0;}
 .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type="checkbox"]:not([disabled]):checked {background: var(--signal)!important; border: 0 none !important;}
 .frm_forms.with_frm_style .frm_checkbox label  span{font-weight: 700; color: var(--signal); border-bottom:1px solid var(--signal);}
-.frm_forms.with_frm_style .frm_checkbox label span:hover {border-bottom: 1px solid var(--canopy);}
+.frm_forms.with_frm_style .frm_checkbox label span:hover {border-bottom: 1px solid var(--white);}
 
 
 /* Input */

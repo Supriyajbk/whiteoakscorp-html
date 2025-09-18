@@ -10,7 +10,7 @@
 
 
 .counter-stats:only-child{padding-bottom: 16px;}
-.counter-list{flex: 0 0 200px; }
+.counter-list{flex: 0 0 200px; flex-grow: 1; }
 .counter-list p{font-size: 1.125rem; font-weight: 500; line-height: 1.33; color: var(--white); text-align: left;}
 span.counter{font-size: 4rem; font-weight: 800; color: var(--white); line-height: 1.5; margin-bottom: 2px; display: block;   letter-spacing: -1.92px; position: relative; }
 .counter-symmblo{color: var(--signal); display: inline-block; font-size: 2rem; top: 11px; position: relative; font-weight: 700;}

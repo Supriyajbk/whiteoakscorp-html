@@ -34,9 +34,11 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
-.about-intro-wrap{display: block;}
+.about-intro-wrap{display: block; margin-bottom: 20px;}
 .about-block-main {display: block;}
 .about-block-list{margin-bottom: 20px;}
 .about-intro-wave{ bottom: 0; top: auto; right: 0; left: auto;}
+
+.about-intro-lt .h2{margin-bottom: 40px; font-size: 2.25rem; line-height: -1.08px;}
 
 }
