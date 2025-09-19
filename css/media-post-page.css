@@ -65,7 +65,6 @@ ul.default-banner-category li a{color: var(--dark-forest);}
 }
 
 @media only screen and (max-width: 1359px) and (min-width: 1024px) {
-  .media-post-inner .media-post-lt{padding-right: 46px;}
   .media-post-inner  aside.sidebar{right: 32px;}
 }
 @media only screen and (max-width: 1120px) and (min-width: 768px) {

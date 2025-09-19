@@ -41,7 +41,6 @@
 .default-thumb .fluid-width-wrapper img{animation: floatingScale 3s infinite;}
 
 @media only screen and (max-width: 1359px) and (min-width: 1024px) {
-  .general-default-inner .default-lt{padding-right: 46px;}
   .general-default-inner  aside.sidebar{right: 32px;}
 }
 @media only screen and (max-width: 1120px) and (min-width: 768px) {
