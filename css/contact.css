@@ -34,7 +34,7 @@
 .customer-support-list-2 p{width: inherit}
 
 
-.waveform-con{position: absolute; z-index: -1; display: block; left: -464px; right: auto; top: 370px; opacity: 0.3; width: 873px}
+.waveform-con{position: absolute; z-index: -1; display: block; left: -464px; right: auto; top: 370px; opacity: 0.5; width: 873px}
 .frm-g-recaptcha > div > div{border-right: none!important}
 
 /*-- media css starts here --*/
