@@ -17,7 +17,7 @@
 .careers-job-time{flex: 0 0 141px; font-size: 14px; line-height: 22px; color: var(--white); text-align: end; }
 .careers-job-btn{width: fit-content; }
 .careers-opportunities-text .button.trans::after{display: none;}
-
+.careers-opportunities-text .button.trans:hover svg path{fill: var(--dark-forest);}
 
 
 @media screen and (min-width: 1024px){
