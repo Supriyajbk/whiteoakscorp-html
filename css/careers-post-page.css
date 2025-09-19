@@ -40,20 +40,19 @@
 .careers-content-sidebar .sharethis-inline-share-buttons .st-btn[data-network="sharethis"]{order: unset !important; }
 
 .application-form .with_frm_style .frm_form_field:not(.frm_compact) .frm_dropzone .frmsvg { display: none !important; }
-.application-form .frm_dropzone.frm_single_upload.frm_clearfix.dz-clickable .frm_upload_text { display: none; }
+.application-form .frm_dropzone.frm_single_upload.frm_clearfix.dz-clickable .frm_small_text { display: none; }
 .application-form .frm_dropzone.frm_single_upload.frm_clearfix.dz-clickable .frm_small_text p { font-weight: 600; font-size: 0.875rem; line-height: 18px; opacity: 1; margin-right: 10px; text-align: start; color: var(--white); margin-right: 40px; }
-.application-form .frm_dropzone.frm_single_upload.frm_clearfix.dz-clickable .dz-message { border: none; color: var(--bg-color); background-color: var(--text-color); border-radius: 50px;padding: 15px 16px; margin-top: 0;}
+.application-form .frm_dropzone.frm_single_upload.frm_clearfix.dz-clickable .dz-message { border: none; color: var(--bg-color); background-color: var(--text-color); border-radius: 50px;padding: 15px 16px; margin-top: 0; text-align: left;}
  .with_frm_style .frm_dropzone {background-color: none!important;}
 .application-form .with_frm_style .frm_form_field:not(.frm_compact) .frm_dropzone{margin-right: inherit; margin-bottom: 15px; margin-top: 0; background: transparent;}
  .dz-message.needsclick::before { position: absolute; background-image: url("../images/upload-icon.svg"); width: 30px; height: 30px; display: block; top: 23px; right: 10px; content: ""; background-repeat: no-repeat; }
 .application-form .frm_form_field:not(.frm_compact) .frm_dropzone { max-width: inherit; }
-
-.frm-g-recaptcha{transform: scale(0.77); transform-origin: 0 0; margin-top: 20px;}
 .frm-g-recaptcha > div{width: inherit!important; margin-top: 20px;}
 
-.careers-content-article ol>.readmore-left{margin: 30px 0 5px;}
+.careers-content-article .readmore-left{margin: 30px 0 5px;}
 .application-form .with_frm_style .frm-g-recaptcha > div > div{border-right: none;}
 
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field .frm_error {bottom:-14px;}
 
 
 @media screen and (min-width:1024px) {
@@ -74,5 +73,7 @@
     .careers-content-article > p:first-child{font-size: 20px; line-height: 30px; margin-bottom: 37px;}
     .careers-content-article .h3{font-size: 28px; line-height: 39.2px; letter-spacing: normal; margin-bottom: 20px;}
     .careers-content-article .readmore-left{margin-top: 28px; }
-    
+
+    .frm_form_field.form-field.frm6.frm_first{margin-bottom: 13px;}
+  
 }

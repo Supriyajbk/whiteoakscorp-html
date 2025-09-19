@@ -49,11 +49,16 @@
     .careers-notification-text h2 span{display: inline;}
     .careers-notification-icon{position: absolute; top: 0; right: 0; width: 24px; }
     .careers-notification-bg{left: auto; bottom: -16px; z-index: -1; right: 7px; }
-    .careers-notification-note{align-items: flex-start; margin-top: 16px; }
+    .careers-notification-note{align-items: flex-start; margin-top: 22px; }
     .careers-notification-note span{width: calc(100% - 24px); line-height: 14.4px; }
     
 }
 @media screen and (max-width: 767px) and (min-width:200px) {
     .careers-notification-form .frm_forms .frm_form_fields .frm_submit_flex.frm_form_field{position: relative; top: 0; left: 0;}
     .careers-notification-form .frm_forms .frm_form_fields input{padding: 15px 32px; }
+
+      .frm_form_field_wrapper{gap: 5px}
+    .frm_form_field_wrapper .frm_form_field.form-field.frm12.frm_first {position: relative;}
+    .frm_form_field_wrapper .frm_form_field.form-field.frm12.frm_first .frm_submit.frm_flex {position: relative;}
+
 }
