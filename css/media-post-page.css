@@ -13,7 +13,7 @@
 @import url("_single-testimonial-module.css");
 @import url("_media-download-section.css");
 @import url("_cta-module.css");
-@import url("more-news-section.css");
+@import url("more-news-section.css?v=66");
 
 .default-banner-section .banner-bg::after{background: linear-gradient(0deg, rgba(21, 32, 34, 0.55) 0%, rgba(21, 32, 34, 0.55) 100%); }
 .default-banner-wrap{gap: 36px; margin-bottom: 16px;}

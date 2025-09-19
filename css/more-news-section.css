@@ -15,7 +15,7 @@ h2.canopy span{color: var(--canopy);}
 @media only screen and (min-width: 768px) {
     .more-news-head{padding-bottom: 45px;}
     .more-news-title{flex: 1;}
-    .more-news-slider .slick-list{overflow: inherit;}
+    .more-news-slider .slick-list{width: 100vw;}
     .more-news-slider .more-news-slide:not(.slick-active){opacity: 0.4; transform: translateY(15px);}
     .more-news-image img{min-height: 380px;}
 

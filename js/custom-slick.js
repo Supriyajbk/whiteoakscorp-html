@@ -251,13 +251,6 @@ jQuery(document).ready(function () {
       let totalSlides = slick.slideCount;
       let visibleSlideIndex = currentSlide + slidesToShow;
 
-      console.log(
-        "visibleSlideIndex:",
-        visibleSlideIndex,
-        "totalSlides:",
-        totalSlides
-      );
-
       // Hide Load More when last slide is visible
       if (visibleSlideIndex >= totalSlides) {
         jQuery(".slick-next")
@@ -292,7 +285,7 @@ jQuery(document).ready(function () {
   /* more news slider */
 
   jQuery(".more-news-slider").slick({
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
     draggable: true,
     swipeToSlide: true,
@@ -351,7 +344,7 @@ jQuery(document).ready(function () {
   //   ],
   // });
 
-  $(".timeline-slider-for").slick({
+  jQuery(".timeline-slider-for").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     speed: 1000,
@@ -374,7 +367,7 @@ jQuery(document).ready(function () {
       },
     ],
   });
-  $(".timeline-slider-nav").slick({
+  jQuery(".timeline-slider-nav").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     variableWidth: true,
@@ -385,10 +378,10 @@ jQuery(document).ready(function () {
     speed: 1000,
     infinite: false,
   });
-  $(".timeline-slider-for").on("setPosition", function (event, slick) {
-    $(".timeline-for-slide").removeAttr("style");
+  jQuery(".timeline-slider-for").on("setPosition", function (event, slick) {
+    jQuery(".timeline-for-slide").removeAttr("style");
   });
-  $(".timeline-slider-nav").on("setPosition", function (event, slick) {
-    $(".timeline-nav-slide").removeAttr("style");
+  jQuery(".timeline-slider-nav").on("setPosition", function (event, slick) {
+    jQuery(".timeline-nav-slide").removeAttr("style");
   });
 });

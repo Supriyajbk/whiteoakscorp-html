@@ -21,12 +21,10 @@ export default class Waves {
     if (!ele) return null;
 
     if (this.timelines.has(ele)) {
-      console.debug("[Waves] timeline already exists for", ele);
       return this.timelines.get(ele);
     }
 
     const paths = Array.from(ele.querySelectorAll("svg path"));
-    console.debug("[Waves] createTimeline for", ele, "paths:", paths.length);
 
     if (!paths.length) return null;
 
@@ -71,7 +69,6 @@ export default class Waves {
 
     const tl = this.createTimeline(ele);
     if (!tl) {
-      console.warn("[Waves] no timeline for element", ele);
       return this;
     }
 
