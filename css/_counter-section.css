@@ -16,7 +16,7 @@ span.counter{font-size: 4rem; font-weight: 800; color: var(--white); line-height
 .counter-symmblo{color: var(--signal); display: inline-block; font-size: 2rem; top: 11px; position: relative; font-weight: 700;}
 
 .counter-lt hr{margin: 0 0 15px; background-color: var(--signal);}
-.counter-wave{position: absolute; left: -80px; right: auto; top: -76px; z-index: -1;}
+.counter-wave{position: absolute; left: -80px; right: auto; top: -76px; z-index: 0;}
 .counter-rt .intersect-line{position: absolute; right: auto; top: -40px; width: 196px; display: block; z-index: -1; left: -100px; }
 
 .counter-list p:only-child{height: 100%; display: flex; flex-direction: column; justify-content: flex-end;}

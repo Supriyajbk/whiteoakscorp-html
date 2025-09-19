@@ -10,7 +10,7 @@ content: "";
   height: 4px;
   display: block;
   position: absolute;
-  top: 13px;
+  top: 11px;
   left: -27px;
   background-color: var(--signal);
   border-radius: 50%;}

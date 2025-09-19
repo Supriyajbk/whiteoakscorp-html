@@ -482,7 +482,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     .container {padding:0 16px; max-width:100%;}
     .hide-in-mobile {display:none;}
     
-    .frm_forms .frm_filed_wrapper {padding: 4px 0 0 0; gap: 32px;}
+    .frm_forms .frm_filed_wrapper {padding: 4px 0 0 0; gap: 32px; margin-bottom: 34px;}
     .frm_forms .frm_submit {width: 100%;}
     .frm_half {width:100%; margin-left: 0; margin-right: 0;} 
     .frm_forms .frm_filed_wrapper .disclaimer {width: 100%;}
@@ -491,7 +491,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
     .frm_forms.with_frm_style .frm_checkbox label {padding-left: 40px;}
     .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"], .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field input[type="checkbox"] {width: 32px!important; height: 32px!important; -moz-border-radius: 8px !important; -webkit-border-radius: 8px !important;
-  border-radius: 8px !important; top: 7px}
+  border-radius: 8px !important; top: 50%; transform: translateY(-50%);}
     .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:checked::before {font-size: 20px; }
     
     
@@ -517,7 +517,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     .fluid-width {width: 100%!important; left: 0; margin-left: 0;}
     .btn-full {width: 100%;}
     .btn-full button {width: 100%!important;}
-
+      .btn-center {padding: 0 ;}
     
 }
 
