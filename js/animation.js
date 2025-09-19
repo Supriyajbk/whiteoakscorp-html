@@ -1,15 +1,15 @@
-import { waves } from "./waves.js";
-
+import Waves from "./waves.js";
 jQuery(function () {
-  jQuery("[data-js-animation]").each(function (i) {
+  const waves = new Waves('[data-js-animation="wave"]');
+
+  jQuery("[data-js-animation]").each(function () {
     const $el = jQuery(this);
     const attrname = $el.attr("data-js-animation");
 
     if ($el.is(":in-viewport") && !$el.hasClass("visible")) {
       $el.addClass(attrname + " visible");
-      // play the timeline for this element
-      if (attrname == "wave") {
-        waves.play($el.get(0));
+      if (attrname === "wave") {
+        waves.play($el);
       }
     }
   });
@@ -21,8 +21,21 @@ jQuery(function () {
 
       if ($el.is(":in-viewport(-120)") && !$el.hasClass("visible")) {
         $el.addClass(attrname + " visible");
-        if (attrname == "wave") {
-          waves.play($el.get(0));
+        if (attrname === "wave") {
+          waves.play($el);
+        }
+      }
+    });
+  });
+  jQuery(window).on("load", function () {
+    jQuery("[data-js-animation]").each(function () {
+      const $el = jQuery(this);
+      const attrname = $el.attr("data-js-animation");
+
+      if ($el.is(":in-viewport(-120)") && !$el.hasClass("visible")) {
+        $el.addClass(attrname + " visible");
+        if (attrname === "wave") {
+          waves.play($el);
         }
       }
     });
