@@ -3,7 +3,7 @@
 .accordion-main .accordion:last-child {margin: 0;}
 
 .accordion-item .accordion-heading { display: block; line-height:1.5; font-size: 1.25rem; color: var(--dark-forest); text-decoration: none; font-weight:700; padding:26px 82px 24px 22px; position: relative; background-color: var(--brandbook-gray-light); letter-spacing: normal; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; border-bottom: 1px solid var(--dark-mist);}
-.accordion-item.active .accordion-heading {background: var(--white); padding: 26px 22px 28px 22px; border-bottom-left-radius: 0; border-bottom-right-radius: 0; color: var(--canopy); border-bottom: none;}
+.accordion-item.active .accordion-heading {background: var(--white); padding: 26px 82px 28px 22px; border-bottom-left-radius: 0; border-bottom-right-radius: 0; color: var(--canopy); border-bottom: none;}
 
 .accordion-item .accordion-heading::after { content: "\f078"; font-family: "Font Awesome 6 Sharp"; font-style: normal; font-weight: 900; font-size: 16px; line-height: 32px; color: var(--dark-forest); right: 26px; top: 0; position: absolute; transition: all 0.8s ease-in-out; -webkit-transition: all 0.8s ease-in-out; -moz-transition: all 0.8s ease-in-out; bottom: 0; background: var(--signal); width: 48px; height: 48px; border-radius: 50px; align-items: center; display: flex; justify-content: center; position: absolute; top: 50%; transform: translate(0, -50%);}
 .accordion-item.active .accordion-heading::after {background-color: var(--canopy); color: var(--signal); content: "\f077";}

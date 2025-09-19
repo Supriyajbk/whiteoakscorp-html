@@ -8,6 +8,11 @@
 .single-line-thumb{position: absolute; left: auto; top: -40px; width: 196px; display: block; z-index: -1; right: 363px; height: 103px;}
 
 /*-- media starts here --*/
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+.single-cta-inner .h5 a { font-size: 1.35rem;}
+
+}
+
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .single-cta {margin: 40px 0 50px;}
     .single-cta-inner {height: 152px;}
