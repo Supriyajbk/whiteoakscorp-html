@@ -8,7 +8,7 @@ h2.canopy span{color: var(--canopy);}
     .more-news-main{padding: 80px 0 0;}
     .more-news-slider .more-news-slide{width: 600px; margin-right: 40px;}
     .more-news-text{max-width: 450px; padding: 28px 24px; transform: translateX(29px); margin-top: -72px; border-top: 4px solid var(--Signal); background: var(--beach); }
-    .more-news-text h2{font-size: 32px; font-weight: 700; line-height: 140%; letter-spacing: -1.6px; }
+    .more-news-text h2{font-size: 32px; font-weight: 700; line-height: 140%; letter-spacing: -1.6px; margin-bottom: 15px;}
     .more-news-title h2{margin-bottom: 0; letter-spacing: -0.8px;}
     
 }
@@ -30,12 +30,17 @@ h2.canopy span{color: var(--canopy);}
     .more-news-text{max-width: 340px; padding: 32px; transform: translateX(29px); margin-top: -60px; border-top: 4px solid var(--Signal); background: var(--beach); }
     .more-news-text h2{ font-size: 28px; font-weight: 700; line-height: 140%; letter-spacing: -1.6px; }
 }
+
+
+
+
+
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .more-news-main{padding: 40px 0 0;}
     .more-news-head{display: block; padding-bottom: 42px;}
     .more-news-image img{min-height: 380px;}
     .more-news-text{width: calc(100% - 32px); transform: translateX(16px); padding: 32px; margin-top: -60px; border-top: 4px solid var(--Signal); background: var(--beach); }
-    .more-news-text h2{ font-size: 24px; font-weight: 700; line-height: 140%; letter-spacing: -1.2px; }
+    .more-news-text h2{ font-size: 24px; font-weight: 700; line-height: 140%; letter-spacing: -1.2px; margin-bottom: 10px; }
     .more-news-slider ul.slick-dots{position: static; padding-top: 5px; padding-bottom: 25px;}
     .more-news-slider ul.slick-dots li{background: var(--dark-mist);}
     .more-news-slider ul.slick-dots li.slick-active{background: var(--sherwood-green);}
@@ -43,8 +48,14 @@ h2.canopy span{color: var(--canopy);}
     .more-news-slider .slick-arrow{top: 168px; bottom: auto;}
     .more-news-slider .slick-arrow.slick-prev{left: -16px;}
     .more-news-slider .slick-arrow.slick-next{right: -16px;}
-    h2.canopy span {display: block;}
+    .more-news-title h2{line-height: 1.5;}
+  
 }   
+
+@media only screen and (max-width: 400px) and (min-width: 200px){
+h2.canopy span {display: block;}
+
+}
 
 
 

@@ -20,6 +20,7 @@
 ul.default-banner-category{margin: 0; gap: 10px; width: fit-content;}
 ul.default-banner-category li{margin: 0; border-radius: 40px; background: var(--Signal); padding: 8px 16px; font-size: 12px; line-height: 12px; font-weight: 600; }
 ul.default-banner-category li::before{display: none;}
+ul.default-banner-category li a{color: var(--dark-forest);}
 .default-banner-main{align-items: flex-end;}
 .default-banner-main .default-banner-text .default-banner-wrap span.optional-text{margin-bottom: 0; line-height: 20px; padding: 4px 0;}
 .default-banner-main .default-banner-text .default-banner-wrap span.optional-text::after{bottom: 0;}
@@ -60,6 +61,7 @@ ul.default-banner-category li::before{display: none;}
 
 @media screen and (min-width: 1024px) {
     aside.sidebar{right: 0;}
+    .default-banner-main {padding: 207px 0 60px;}
 }
 
 @media only screen and (max-width: 1359px) and (min-width: 1024px) {
